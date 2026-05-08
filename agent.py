@@ -89,18 +89,7 @@ class Agent():
         try:
             ner_result = output_parser.parse(result)
         except Exception as e:
-            print(f"NER解析失败: {e}，使用默认空实体")
-            # LLM 可能返回了格式不对但包含有效信息的内容，尝试手动提取
             ner_result = {"disease": [], "symptom": [], "drug": []}
-
-            # 简单正则兜底：从 query 中提取可能的疾病名
-            import re
-            if '肾病' in query:
-                ner_result['disease'] = ['肾病综合征']
-            elif '感冒' in query:
-                ner_result['disease'] = ['感冒']
-            elif '高血压' in query:
-                ner_result['disease'] = ['高血压']
 
         # 命名实体识别结果，填充模板
         graph_templates = []
@@ -196,7 +185,7 @@ class Agent():
             Tool(
                 name='search_func',
                 func=self.search_func,
-                description='其他工具没有正确答案时，通过搜索引擎，回答通用类问题',
+                description='其他工具没有正确答案时，通过搜索引擎，回答通用类问题，例如现在几点了？蔡徐坤是谁',
             ),
         ]
 
