@@ -1,5 +1,11 @@
 import gradio as gr
 from service import Service
+from file_watcher import start_file_watcher
+import threading
+
+# 在后台线程中启动监控
+watcher_thread = threading.Thread(target=start_file_watcher, daemon=True)
+watcher_thread.start()
 
 def doctor_bot(message, history):
     service = Service()
@@ -13,4 +19,4 @@ demo = gr.ChatInterface(
 )
 
 if __name__ == '__main__':
-    demo.launch(share=True)
+    demo.launch(share=False)
