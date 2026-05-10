@@ -1,37 +1,47 @@
 import os
 from dotenv import load_dotenv
-from langchain_openai import OpenAIEmbeddings
 from langchain_community.chat_models import ChatOpenAI
-from config import *
 from py2neo import Graph
-
-
+from langchain_community.embeddings import HuggingFaceEmbeddings
+#加载环境变量
 load_dotenv()
 
 def get_embedding_model():
     """获取词嵌入模型"""
+    model_path = os.getenv('BGE_MODEL_PATH')
+    # 如果 .env 里有路径就用，否则回退到在线模型名
+    if model_path:
+        model_name = model_path
+    else:
+        model_name = os.getenv('BGE_EMBEDDING_MODEL', 'BAAI/bge-small-zh-v1.5')
+
     model_map = {
-        'openai': OpenAIEmbeddings(
-            model = os.getenv('OPENAI_EMBEDDINGS_MODEL'),
-            openai_api_key = os.getenv('Open_Router_Key'),  # 使用 OpenRouter API Key
-            openai_api_base = os.getenv('Base_Url'),  # 指向 OpenRouter 端点
+        'bge': HuggingFaceEmbeddings(
+            model_name = model_name,
+            model_kwargs={
+                'device': os.getenv('EMBEDDING_DEVICE')  # GPU:'cuda'
+            },
+            encode_kwargs={
+                'normalize_embeddings': True
+            }
         )
     }
-    model_type = os.getenv('EMBEDDINGS_MODEL', 'openai')
+    model_type = os.getenv('EMBEDDING_MODEL', 'bge')
     return model_map.get(model_type)
+
 
 def get_llm_model():
     """获取大语言模型"""
     model_map = {
-        'openai': ChatOpenAI(
-            model = os.getenv('OPENAI_LLM_MODEL'),
-            temperature = float(os.getenv('TEMPERATURE', 0)),  # 转换为浮点数
-            max_tokens = int(os.getenv('MAX_TOKENS', 1000)),  # 转换为整数
-            openai_api_key = os.getenv('Open_Router_Key'),  # 使用 OpenRouter API Key
-            openai_api_base = os.getenv('Base_Url'),  # 指向 OpenRouter 端点
+        'deepseek': ChatOpenAI(
+            model=os.getenv('DEEPSEEK_LLM_MODEL'),
+            temperature=float(os.getenv('TEMPERATURE', 0)),
+            max_tokens=int(os.getenv('MAX_TOKENS', 1000)),
+            openai_api_key=os.getenv('DEEPSEEK_API_KEY'),
+            openai_api_base=os.getenv('DEEPSEEK_BASE_URL'),
         )
     }
-    model_type = os.getenv('LLM_MODEL', 'openai')
+    model_type = os.getenv('LLM_MODEL', 'deepseek')
     return model_map.get(model_type)
 
 #json输出格式化函数
