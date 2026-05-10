@@ -2,7 +2,8 @@ import prompt
 from utils import *
 from config import *
 from prompt import *
-
+import requests
+import json
 import os
 from langchain.chains import LLMChain, LLMRequestsChain
 from langchain_core.prompts import PromptTemplate
@@ -18,8 +19,8 @@ class Agent():
     def __init__(self):
         #加载文档
         self.vdb = Chroma(
-            persist_directory=os.path.join(os.path.dirname(__file__),'./data/db'),
-            embedding_function=get_embedding_model()
+            persist_directory = os.path.join(os.path.dirname(__file__),'./data/db'),
+            embedding_function = get_embedding_model()
         )
 
     #通用对话，大模型自身知识
@@ -50,7 +51,7 @@ class Agent():
         return retrival_chain.run(inputs)
 
     #疾病相关内容，查询知识图谱Neo4j
-    def graph_func(self, x, query):
+    def graph_func(self, query):
         # 命名实体识别
         response_schemas = [
             ResponseSchema(type='list', name='disease', description='疾病名称实体'),
@@ -145,27 +146,52 @@ class Agent():
 
     #以上方法都没有答案时，调用搜索引擎查询答案
     def search_func(self, query):
+        search_url = os.getenv('SEARCH_URL')
+        search_api_key = os.getenv('SEARCH_API_KEY')
         prompt = PromptTemplate.from_template(SEARCH_PROMPT_TPL)
         llm_chain = LLMChain(
             llm=get_llm_model(),
             prompt=prompt,
             verbose=os.getenv('VERBOSE')
         )
-        llm_request_chain = LLMRequestsChain(
-            llm_chain=llm_chain,
-            requests_key='query_result'
-        )
+
+        payload = {
+            "query": query,
+            "summary": True,
+            "count": 10
+        }
+        headers = {
+            'Authorization': 'Bearer ' + search_api_key,
+            'Content-Type': 'application/json'
+        }
+
+        response = requests.post(search_url, headers=headers, json=payload, timeout=10)
+        search_result = response.json()
+
+        # 提取搜索结果文本
+        query_result = ""
+        if search_result.get('code') == 200:
+            data = search_result.get('data', {})
+            if data:
+                web_pages = data.get('webPages', {})
+                if web_pages and 'value' in web_pages:
+                    for item in web_pages['value']:
+                        query_result += f"标题：{item.get('name', '')}\n"
+                        query_result += f"摘要：{item.get('snippet', '')}\n"
+                        query_result += f"链接：{item.get('url', '')}\n\n"
+
+        if not query_result.strip():
+            return "未找到相关信息"
+
         inputs = {
             'query': query,
-            'url': 'https://www.bing.com/search?q=' + query.replace(' ', '+')
+            'query_result': query_result
         }
-        return llm_request_chain.invoke(inputs)['output']
+
+        return llm_chain.invoke(inputs)['text']
+
 
     def query(self, query):
-        # 快速判断：包含医疗关键词直接查图谱
-        medical_keywords = ['病', '症状', '药', '治疗', '检查', '科室', '吃什么', '怎么治']
-        if any(kw in query for kw in medical_keywords):
-            return self.graph_func(query, query)
         tools = [
             Tool.from_function(
                 name='generic_func',
@@ -179,7 +205,7 @@ class Agent():
             ),
             Tool(
                 name='graph_func',
-                func=lambda x: self.graph_func(x, query),
+                func=lambda x: self.graph_func(query),
                 description='用于回答疾病、症状、药物等医疗相关问题',
             ),
             Tool(
