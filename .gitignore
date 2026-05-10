@@ -1,3 +1,67 @@
+# 环境变量文件
 .env
+.env.local
+.env.*.local
+
+# 密钥和证书
 *.key
+*.pem
+*.crt
+*.p12
+
+# 模型文件（大文件）
 models/
+*.pkl
+*.h5
+*.pb
+*.pt
+*.pth
+
+# 数据文件（精确控制）
+# 方式1：只忽略 data 下的特定数据文件
+/data/*.txt
+/data/*.csv
+/data/*.pdf
+/data/*.xlsx
+/data/*.db
+
+# 方式2：如果 data 有子目录
+/data/**/*.txt
+/data/**/*.csv
+/data/**/*.pdf
+
+# 但不忽略目录本身
+!data/
+!data/inputs/
+!data/outputs/
+
+# 临时文件和缓存
+*.log
+*.tmp
+*.swp
+*.cache
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+
+# IDE 配置
+.vscode/
+.idea/
+*.iml
+.DS_Store
+
+# 日志文件
+logs/
+*.log
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 压缩文件（通常不提交源码）
+*.zip
+*.tar.gz
+*.rar
+*.7z
