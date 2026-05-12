@@ -5,44 +5,44 @@ from prompt import *
 import requests
 import json
 import os
-from langchain.chains import LLMChain, LLMRequestsChain
-from langchain_core.prompts import PromptTemplate
+from langchain_classic.chains import LLMChain, LLMRequestsChain
+from langchain_core.prompts import PromptTemplate, ChatPromptTemplate, MessagesPlaceholder
 from langchain_community.vectorstores import Chroma
 from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
-from langchain.agents import ZeroShotAgent, AgentExecutor, Tool, create_react_agent
-from langchain.memory import ConversationBufferMemory
-from langchain.output_parsers import ResponseSchema, StructuredOutputParser
-from langchain import hub
+from langchain_classic.agents import ZeroShotAgent, AgentExecutor, Tool
+from langchain_classic.memory import ConversationBufferMemory
+from langchain_classic.output_parsers import ResponseSchema, StructuredOutputParser
+
 
 class Agent():
     def __init__(self):
-        #加载文档
+        # 加载文档
         self.vdb = Chroma(
-            persist_directory = os.path.join(os.path.dirname(__file__),'./data/db'),
-            embedding_function = get_embedding_model()
+            persist_directory=os.path.join(os.path.dirname(__file__), './data/db'),
+            embedding_function=get_embedding_model()
         )
 
-    #通用对话，大模型自身知识
+    # 通用对话，大模型自身知识
     def generic_func(self, query):
         prompt = PromptTemplate.from_template(GENERIC_PROMPT_TPL)
         llm_chain = LLMChain(
-            llm = get_llm_model(),
-            prompt = prompt,
-            verbose = os.getenv('VERBOSE')
+            llm=get_llm_model(),
+            prompt=prompt,
+            verbose=os.getenv('VERBOSE')
         )
         return llm_chain.run(query)
 
-    #公司相关内容，Chroma 向量数据库
+    # 公司相关内容，Chroma 向量数据库
     def retrival_func(self, query):
         documents = self.vdb.similarity_search_with_relevance_scores(query, k=5)
-        query_result = [doc[0].page_content for doc in documents if doc[1]>0.5]
+        query_result = [doc[0].page_content for doc in documents if doc[1] > 0.5]
         prompt = PromptTemplate.from_template(RETRIVAL_PROMPT_TPL)
-        #填充提示词并总结答案
+        # 填充提示词并总结答案
         retrival_chain = LLMChain(
-            llm = get_llm_model(),
-            prompt = prompt,
-            verbose = os.getenv('VERBOSE')
+            llm=get_llm_model(),
+            prompt=prompt,
+            verbose=os.getenv('VERBOSE')
         )
         inputs = {
             'query': query,
@@ -50,7 +50,7 @@ class Agent():
         }
         return retrival_chain.run(inputs)
 
-    #疾病相关内容，查询知识图谱Neo4j
+    # 疾病相关内容，查询知识图谱Neo4j
     def graph_func(self, query):
         # 命名实体识别
         response_schemas = [
@@ -74,11 +74,6 @@ class Agent():
             verbose=os.getenv('VERBOSE')
         )
 
-        # result = ner_chain.invoke({
-        #     'query': query
-        # })['text']
-        #
-        # ner_result = output_parser.parse(result)
         result = ner_chain.invoke({
             'query': query
         })['text']
@@ -90,30 +85,31 @@ class Agent():
         try:
             ner_result = output_parser.parse(result)
         except Exception as e:
+            print(f"NER解析错误: {e}")
             ner_result = {"disease": [], "symptom": [], "drug": []}
 
         # 命名实体识别结果，填充模板
         graph_templates = []
         for key, template in GRAPH_TEMPLATE.items():
             slot = template['slots'][0]
-            slot_values = ner_result[slot]
+            slot_values = ner_result.get(slot, [])
             for value in slot_values:
                 graph_templates.append({
                     'question': replace_token_in_string(template['question'], [[slot, value]]),
                     'cypher': replace_token_in_string(template['cypher'], [[slot, value]]),
                     'answer': replace_token_in_string(template['answer'], [[slot, value]]),
                 })
-        if not graph_templates:
-            return
 
-            # 计算问题相似度，筛选最相关问题
+        if not graph_templates:
+            return "未找到相关医疗信息"
+
+        # 计算问题相似度，筛选最相关问题
         graph_documents = [
             Document(page_content=template['question'], metadata=template)
             for template in graph_templates
         ]
         db = FAISS.from_documents(graph_documents, get_embedding_model())
         graph_documents_filter = db.similarity_search_with_relevance_scores(query, k=3)
-        # print(graph_documents_filter)
 
         # 执行CQL，拿到结果
         query_result = []
@@ -127,9 +123,9 @@ class Agent():
                 if result and any(value for value in result[0].values()):
                     answer_str = replace_token_in_string(answer, list(result[0].items()))
                     query_result.append(f'问题：{question}\n答案：{answer_str}')
-            except:
+            except Exception as e:
+                print(f"Neo4j查询错误: {e}")
                 pass
-        # print(query_result)
 
         # 总结答案
         prompt = PromptTemplate.from_template(GRAPH_PROMPT_TPL)
@@ -144,7 +140,7 @@ class Agent():
         }
         return graph_chain.invoke(inputs)['text']
 
-    #以上方法都没有答案时，调用搜索引擎查询答案
+    # 以上方法都没有答案时，调用搜索引擎查询答案
     def search_func(self, query):
         search_url = os.getenv('SEARCH_URL')
         search_api_key = os.getenv('SEARCH_API_KEY')
@@ -165,31 +161,34 @@ class Agent():
             'Content-Type': 'application/json'
         }
 
-        response = requests.post(search_url, headers=headers, json=payload, timeout=10)
-        search_result = response.json()
+        try:
+            response = requests.post(search_url, headers=headers, json=payload, timeout=10)
+            search_result = response.json()
 
-        # 提取搜索结果文本
-        query_result = ""
-        if search_result.get('code') == 200:
-            data = search_result.get('data', {})
-            if data:
-                web_pages = data.get('webPages', {})
-                if web_pages and 'value' in web_pages:
-                    for item in web_pages['value']:
-                        query_result += f"标题：{item.get('name', '')}\n"
-                        query_result += f"摘要：{item.get('snippet', '')}\n"
-                        query_result += f"链接：{item.get('url', '')}\n\n"
+            # 提取搜索结果文本
+            query_result = ""
+            if search_result.get('code') == 200:
+                data = search_result.get('data', {})
+                if data:
+                    web_pages = data.get('webPages', {})
+                    if web_pages and 'value' in web_pages:
+                        for item in web_pages['value']:
+                            query_result += f"标题：{item.get('name', '')}\n"
+                            query_result += f"摘要：{item.get('snippet', '')}\n"
+                            query_result += f"链接：{item.get('url', '')}\n\n"
 
-        if not query_result.strip():
-            return "未找到相关信息"
+            if not query_result.strip():
+                return "未找到相关信息"
 
-        inputs = {
-            'query': query,
-            'query_result': query_result
-        }
+            inputs = {
+                'query': query,
+                'query_result': query_result
+            }
 
-        return llm_chain.invoke(inputs)['text']
-
+            return llm_chain.invoke(inputs)['text']
+        except Exception as e:
+            print(f"搜索错误: {e}")
+            return "搜索功能暂时不可用"
 
     def query(self, query):
         tools = [
@@ -215,45 +214,40 @@ class Agent():
             ),
         ]
 
-        # prefix = """请用中文，尽你所能回答以下问题。您可以使用以下工具："""
-        # suffix = """Begin!
+        # 使用稳定的 ZeroShotAgent API
+        prefix = """你是一个医疗问诊机器人。
+            重要规则：
+            1. Final Answer 必须原封不动使用 Observation 的内容，禁止自己重新回答。
+            2. 如果 Observation 中包含"我是ZDQNFU打造的医疗问诊机器人"，Final Answer 也必须说这句话。
+            3. 请用中文回答。
+            
+            请用中文，尽你所能回答以下问题。您可以使用以下工具："""
 
-        # History: {chat_history}
-        # Question: {input}
-        # Thought:{agent_scratchpad}"""
+        suffix = """Begin!
 
-        # agent_prompt = ZeroShotAgent.create_prompt(
-        #     tools=tools,
-        #     prefix=prefix,
-        #     suffix=suffix,
-        #     input_variables=['input', 'agent_scratchpad', 'chat_history']
-        # )
-        # llm_chain = LLMChain(llm=get_llm_model(), prompt=agent_prompt)
-        # agent = ZeroShotAgent(llm_chain=llm_chain)
+            History: {chat_history}
+            Question: {input}
+            Thought:{agent_scratchpad}"""
 
-        # memory = ConversationBufferMemory(memory_key='chat_history')
-        # agent_chain = AgentExecutor.from_agent_and_tools(
-        #     agent = agent,
-        #     tools = tools,
-        #     memory = memory,
-        #     verbose = os.getenv('VERBOSE')
-        # )
-        # return agent_chain.run({'input': query})
-        #拉取提示词模版
-        prompt = hub.pull('hwchase17/react-chat')
-        prompt.template = '''你是一个医疗问诊机器人。
-        重要规则：
-        1. Final Answer 必须原封不动使用 Observation 的内容，禁止自己重新回答。
-        2. 如果 Observation 中包含"我是ZDQNFU打造的医疗问诊机器人"，Final Answer 也必须说这句话。
-        3. 请用中文回答。
-        ''' + prompt.template
-        agent = create_react_agent(llm=get_llm_model(), tools=tools, prompt=prompt)
+        agent_prompt = ZeroShotAgent.create_prompt(
+            tools=tools,
+            prefix=prefix,
+            suffix=suffix,
+            input_variables=['input', 'agent_scratchpad', 'chat_history']
+        )
+
+        llm_chain = LLMChain(llm=get_llm_model(), prompt=agent_prompt)
+        agent = ZeroShotAgent(llm_chain=llm_chain)
+
         memory = ConversationBufferMemory(memory_key='chat_history')
-        agent_executor = AgentExecutor.from_agent_and_tools(
+        agent_chain = AgentExecutor.from_agent_and_tools(
             agent=agent,
             tools=tools,
             memory=memory,
+            verbose=os.getenv('VERBOSE'),
             handle_parsing_errors=True,
-            verbose=os.getenv('VERBOSE')
+            max_iterations=4,
+            early_stopping_method="generate"
         )
-        return agent_executor.invoke({"input": query})['output']
+
+        return agent_chain.invoke({'input': query})['output']

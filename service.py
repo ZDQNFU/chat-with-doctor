@@ -2,8 +2,8 @@ from prompt import *
 from utils import *
 from agent import *
 
-from langchain.chains import LLMChain
-from langchain.prompts import Prompt
+from langchain_classic.chains import LLMChain
+from langchain_core.prompts import PromptTemplate
 
 class Service():
     def __init__(self):
@@ -11,7 +11,7 @@ class Service():
 
     def get_summary_message(self, message, history):
         llm = get_llm_model()
-        prompt = Prompt.from_template(SUMMARY_PROMPT_TPL)
+        prompt = PromptTemplate.from_template(SUMMARY_PROMPT_TPL)
         llm_chain = LLMChain(llm=llm, prompt=prompt, verbose=os.getenv('VERBOSE'))
         chat_history = ''
 
@@ -30,11 +30,10 @@ class Service():
 
         return llm_chain.invoke({'query': message, 'chat_history': chat_history})['text']
 
-    def answer(self, message, history):
-        if history:
-            message = self.get_summary_message(message, history)
-        return self.agent.query(message)
+    def answer(self, message, history=""):
+        response = self.agent.query(message)
+        return {"text": response, "role": "assistant"}
 
-# if __name__ == '__main__':
-#     service = Service()
-#     service.answer("肾病综合征有什么症状", "")
+if __name__ == '__main__':
+    service = Service()
+    service.answer("肾病综合征有什么症状", "")

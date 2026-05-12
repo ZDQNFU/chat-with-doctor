@@ -1,7 +1,7 @@
 import os
 from glob import glob
 from langchain_community.document_loaders import CSVLoader, PyMuPDFLoader, TextLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from pathlib import Path
 from utils import *
 
@@ -23,7 +23,7 @@ def get_text_splitter(method='recursive', chunk_size=300, chunk_overlap=50):
 
     if method == 'recursive':
         # 方法1: 递归字符分割（原有方法）
-        from langchain.text_splitter import RecursiveCharacterTextSplitter
+        from langchain_text_splitters import RecursiveCharacterTextSplitter
         return RecursiveCharacterTextSplitter(
             chunk_size=chunk_size,
             chunk_overlap=chunk_overlap,
@@ -32,7 +32,7 @@ def get_text_splitter(method='recursive', chunk_size=300, chunk_overlap=50):
 
     elif method == 'semantic':
         # 方法2: 语义分割（基于嵌入模型的语义相似度）
-        from langchain_experimental.text_splitter import SemanticChunker
+        from langchain_text_splitters import SemanticChunker
         return SemanticChunker(
             embeddings=get_embedding_model(),
             buffer_size=1,
@@ -43,7 +43,7 @@ def get_text_splitter(method='recursive', chunk_size=300, chunk_overlap=50):
 
     elif method == 'hybrid':
         # 方法3: 混合分割（先按结构分割，再合并语义相似的块）
-        from langchain.text_splitter import RecursiveCharacterTextSplitter
+        from langchain_text_splitters import RecursiveCharacterTextSplitter
 
         # 第一步：使用较大的递归分割
         base_splitter = RecursiveCharacterTextSplitter(
