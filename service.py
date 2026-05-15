@@ -1,39 +1,35 @@
-from prompt import *
-from utils import *
 from agent import *
+import os
+os.environ['CHROMA_TELEMETRY_IMPL'] = 'none'
+os.environ['ANONYMIZED_TELEMETRY'] = 'False'
 
-from langchain_classic.chains import LLMChain
-from langchain_core.prompts import PromptTemplate
-
-class Service():
+class Service:
     def __init__(self):
-        self.agent = Agent()
+        #测试用例
+        self.thread_id = "user_ZDQNFU"
+        # Agent Manager
+        self.agent_manager = Agent()
+        # 单例 Agent
+        self.agent = self.agent_manager.get_agent()
 
-    def get_summary_message(self, message, history):
-        llm = get_llm_model()
-        prompt = PromptTemplate.from_template(SUMMARY_PROMPT_TPL)
-        llm_chain = LLMChain(llm=llm, prompt=prompt, verbose=os.getenv('VERBOSE'))
-        chat_history = ''
+    def stream_answer(self, query):
+        for token in stream_chat_with_agent(
+            self.agent,
+            query,
+            self.thread_id
+        ):
+            yield token
 
-        # 兼容新旧两种 history 格式
-        for item in history[-2:]:
-            if isinstance(item, dict):
-                # 新格式: {"role": "user", "content": "..."}
-                q = item.get('content', '') if item.get('role') == 'user' else ''
-                a = item.get('content', '') if item.get('role') == 'assistant' else ''
-            elif isinstance(item, (tuple, list)) and len(item) == 2:
-                # 旧格式: (question, answer)
-                q, a = item
-            else:
-                continue
-            chat_history += f'问题:{q}, 答案:{a}\n'
-
-        return llm_chain.invoke({'query': message, 'chat_history': chat_history})['text']
-
-    def answer(self, message, history=""):
-        response = self.agent.query(message)
-        return {"text": response, "role": "assistant"}
-
-if __name__ == '__main__':
-    service = Service()
-    service.answer("肾病综合征有什么症状", "")
+# if __name__ == '__main__':
+#     service = Service()
+#     while True:
+#         user_input = input("\n你: ")
+#         if user_input.lower() in ['quit', 'exit', '退出']:
+#             print("机器人: 拜拜！")
+#             break
+#         if not user_input.strip():
+#             continue
+#
+#         print("机器人: ", end="", flush=True)
+#         service.stream_answer(user_input)
+#         print()
