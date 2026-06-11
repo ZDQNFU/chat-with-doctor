@@ -1,0 +1,1746 @@
+{
+  "name": "@web-types/bootstrap-vue",
+  "versions": {
+    "1.0.0-1": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "1.0.0-1",
+      "description": "Web-types for %PACKAGE_NAME",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@1.0.0-1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-2jjvMmxjYIedkCD6HZNJeEqK6l2C2WmNsSiJM7swgQSisMyBRuCBjuprQrxuB/WMQ2iIJ3kYQBoQA1jfj3+zXQ==",
+        "shasum": "14a01acf414776ebd6586f1df79119f8c70af5db",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-1.0.0-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 145399,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdDKw7CRA9TVsSAnZWagAA6vQP+gMTVqkeBl0/rTApQrDd\n0uBPiskAwuTsjHZaVHr7rkDv2wNiCqaLEkQ0AwpY7oib8epxylpTIVaBZ+cc\nddAP/7qg6RzPiUPnLRwpeYk8Da41qrE/DSyKPocHhmCcz3Ne+m9joq7fyOxr\nouQMuAROr22SZOZP2oZTlZvxC9CulJ9vUeliF9RanGS1zfJK4zou5QbCyR0u\nerVlyOOJNrz86TnwAizkLNe5TtLuNjLAVfQrLC0ld2bofnrrfFEbNSlbPNAw\n0qJm5qxkDETDgAUXeSgg7kEKHRolXNOW+PtyaBhA/7mlJT3cki9yQ/8E0Ctk\ntxSWVfDQWNDZa5BymrIVZtvGNQPDv+z6xH4RpZdp3c7H+z8ciYauxoCf2Ups\nZ4ZVNQk1svUU55ypQzu+EE8qqYlQnq4aCuy9BLQDpu82qbZXgZF1anXwTqFU\njrv2ADWzgWZZUeViuUGwz8F2U7Hit+QJ83GX01DCVGgcN9DgesF2WxAt+TEE\n/5E2+Xs0fXIfSN6G+wLIibZWxbr/4plYpNXbH28si0LG5TwZKSSWDYVT9pQA\nS2SpG6KJEFGwATj3p9x7yz/fx3M2T3irF12IjcGgHnsx8r/jhOSjIpjGUW6B\nLVF4Hrb0+6IwD0QmPiHRRIUNHb2yr420lIk33OSgfxKHPvI94Vroe70oSdCN\ngZ0N\r\n=/XaF\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQCd4vfUiqcx9/N2dgmEE2yC310AP6PWvYxoh1Zj9S7+QwIhAMZveQxghccRda8BEmRheBUww8stnBG5ssWYVOzSW1hN"
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_1.0.0-1_1561111610847_0.31596290312848985"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "1.0.1-1": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "1.0.1-1",
+      "description": "Web-types for %PACKAGE_NAME",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@1.0.1-1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-fPcBJvy4djpEXi7wDvXRdgItmR/0jZUSr1d9R8Wi8LD59BZ8kcmOfo/bONoP6pOUK0V8sKt2kLfhGTmmoSk64Q==",
+        "shasum": "bc552353240b9dbff36b3839f4f0a746954c9383",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-1.0.1-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 140599,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdDKxACRA9TVsSAnZWagAAkxgQAJ2uDfNqRNNcDN+Vtem6\nQZM2qPX011bwyByVSysDiHnUAMLsvmRcst9nQgFyM8Goh57QicIFQnfGfeaF\nHgjxKKtT5SDxZ6pPZgdjAes6zVNyoMeQCc/55mhaHl5/xM6nWiyWG1fKp9gE\n3Y56xDGaKxR36tyty6/r31r8AmIB/IRKjDwZo5BNPGoEwVhv4reqzah7UkyL\nI6HWsYUbLAJ5UsvFzhouFuXtMmbQngU9sP3fZsUOK5MdQ7zz0aWmwluxF1iA\n1gFlLza+ELK5f3XowqzcAaQNemiPO94ecG6B7mmeKiE1PkuCn/rtk5nMkRyx\nvu7KBHTkyMLhDg/QGncyZ1TLsOId12YrJdecr417RFyaPUOCUIm2iULVBlb/\niVO5pKX3MRFuhoew/AEfAgLaG1FghlXzA8ImgtzbarySuQRxu5hE9KoeQKvw\nifdhzl1qEVTxDGWtglLmcwQkATkvZ+gj9QgcE3f5rT3V8PlVTE8qZZwT+d51\nL7kljfAHUL4/MRDiVx31GgGlMCF+BQQXH6UGEceKM4sevgZ2tpcEk7gG0oNX\nEUSJEWH5GM/g0vIA2XhE/vp1qSeAqZPOn4SVXm/o4xnQiNXsVbF+A9deX0y3\nwR/+YpvyhBUnAAE9iHhfYmT2tI29/JM0PZen25+gwsLrh/HpWT0skEj+yJds\neJG5\r\n=P7hp\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCIG6y56Y/lpLeJD5NAR/a3tiilTV1OA/Ks2GZnKb/arEnAiBnf9b2j0MDGQxwKmTsGxR8ZIjPhubw6G7MhZnfsmkgJQ=="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_1.0.1-1_1561111615777_0.5145283972712023"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "1.0.2-1": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "1.0.2-1",
+      "description": "Web-types for %PACKAGE_NAME",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@1.0.2-1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-f2NHAJ5CB+BA2MrM/SZ7u290LdJC39Oy2WLob1EPwOBaA+YVS2iE6vGoSt5yWEXLFegKHeUQP5yAzzy2+wWnQA==",
+        "shasum": "a6cbd8ae6af74146b1e5136bf719c632cf67895f",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-1.0.2-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 140419,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdDKxECRA9TVsSAnZWagAACYsQAI47P0Kq00xoK4Ak3NIV\nOBcpZ4U88EChxCz/coLlnFoqvIWSHZ+nFIhu5BW1dKiirWHeZi2hHqcAd1+i\n5EwX2h+N69CbcRvVv+McEHDkxNPpIH0zCoAPY4xUs7kp0Fg0qoJwPPHzSgH3\npi1L7o6iKjZ+b0MKuwRVetUnE8xEiMm1V/M2rrWS6ydKYWR+MfBllqjl+SSE\nLXt/2icga1N/6C3m7wNxdf2a4Kzdm3Ry6nskYc6lFYkbQJWvnbI/2TLuWGq8\nop7fJsrFToVRpDKU4WFnYkqw5MUaOjdasur9uPcOiTtkuC0gtYVeTnWZvdan\n9v7Ux+AS2mUpxc63HxanD4imUc7A7rJw1wbIMMncgIuYds0JIT8Vv5yd43nl\nm9m8rzEU+IbB597DBGuEI78R1QFpsdmyr354CkUUkGx6SVvWOKVLCRKVJERO\nloi1j7/LdNbcncF3xdH6enXmSXtXXUVwGoGD9nlXpzuaRm2zizKYQoDXAxYn\nmke95pt/7vE77dmj41IWf7r+bq7/wh6MDhUUXSfdyv/W9sTBRszFWO9eE+QF\nVC6BOvNJtbcGAASii5m3V7FC9kbEaPyXhl7yyRFN5SZl0FaGuhMyd0LNWEta\n2QLkT0paBRKTtoV6xPdMFD+zfjZMKSFetUKAEwm1gVKGdUX30bsA/66AvT1k\nA0SB\r\n=m5FE\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCIF14ylFlU7rQjFCjnOfGIuPYsUBFScgVklfLnFu1FL38AiBn+ozci/jR8wYjZE9l3eJwaUbddmfd5ObIswWS53hEDQ=="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_1.0.2-1_1561111620312_0.8176397842832528"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "1.1.0-1": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "1.1.0-1",
+      "description": "Web-types for %PACKAGE_NAME",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@1.1.0-1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-WPvN3I/P5QJxldPXXV7A7JnVxOOCPSYUfdXEABA3vuP7TGbqhv9QVowLKUXlOoPra6anEmBzra6rwLWDmUQ0bg==",
+        "shasum": "bb44a5b5f56f72bcbcfbfc7797032eba0b4477cd",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-1.1.0-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 145563,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdDKxICRA9TVsSAnZWagAA6JQP/jSMUQiXidb0RjirKuKv\nwlpioJm2qQjr5MGJbPTccU2riuVtpnwKViYy1YU1Vn1a0xo7wSSHXXKWZzgo\ndU5WAkChsxcyhbvwlXEzuXH8stj1g3a4w76x69b8UPaUmjKj1VwKIIiLIP9b\n6KJIoQXwAwE3WDHVvwWANgk5GmvRzYQTdPxCEdaIQTZVQLMMaOujwaBchCbG\nBNfy1ccxNa+oi7MLvVc0gp1wsYnmtTlKz55JXMADVmSq5swtrSiYrEFV5BrI\nINZpZtDYNgWO4Qbl2hBv3YP3kQ/V2WoZTuZ22xauF0gdaQupJ9d/76lMKUcl\no+FQ/tdZp3HFKIkFnJ9tNy3Z8OgYMN4If4YasNSB67BAfnUFeQawfAKznja8\nxTIXfjYHuc4hYS0sramnrA49CoeyjwyEnl7H/Bew8i1tkslPczwq56igQfm9\nrTW9N8eOIzn7EkBTB/cXFl0iUC/0lEi2BXAUP9um463p0KnadcSyXDOH75vF\nB156sZT4ZoFKzZAhYMfiFD5j4YCIba0dgG7pfFY4UmjlP+hAKOkK8bVGrTHR\nfTin/08CMLeVbP2tJT/VDW646/vZZmj0sYzOTmsWuUcfZHitFcXugnrE3kYD\nZeUNhxtSKReEzVgfEdd09k9YVFSZpeCmf2JE5Wbt16LlTFM0GS25EiCcwNOV\nDcug\r\n=IRwu\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIHjbBnJhhQW26Y8O5hlITekX8uYvSLwWv/PZF73v1zhnAiEA3hAB3OKNj9qcD0nlAka17rHaOIAsJhcQtaQ5Fr8pI3Y="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_1.1.0-1_1561111624313_0.7209247165638029"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "1.2.0-1": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "1.2.0-1",
+      "description": "Web-types for %PACKAGE_NAME",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@1.2.0-1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-bcMGvWi2mOSNYZ7jrohGh4GBljJn1jPSHMhV32Gdd3DBbjTXdZpRBgUXrXgJBVD5EVkbndlKjDY8t+2ep4Sg3w==",
+        "shasum": "b5f4168bfe2e9df50d48aca208ebbe4d64238a35",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-1.2.0-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 146735,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdDKxMCRA9TVsSAnZWagAAYRwP/1yx3hGk4ceema8C4mGG\noSYySWOhkUXsCTLuzM/F5pZyvRdxUhR7CGOs8sgPRz735sXxYM/YgCArpJoa\nFW4xb05U63fikUp66+kULp5iANHUwCYG/nCLu8QaNUiERXPJfKPG6NzN0Ov/\nga+4ERkkjepZJ8GS8HEwxLZUXpL74GRpyH4PG+X7txBwXQIleU31ueF0W0js\n2oMLjdVUIGE0e4k7ZOEogAz+YFhVfNVz2AfEh+OBPpB5x+0ri+kd9Mce7VUS\nQx/UazouGAewILaUanz1Wn0+iAbpq8YSuB3dFS+Ba0Im41BFFkeTtbDm/0J0\ndQgyIDab7elyCjaAsulawlk40Pm4WU8HqMjVaifmavNU6eib58UD2yiNKlCf\nxPniS9rvFtYcRx3Y9NoTVEsifeDfWlpTyPDniUoonNxvWqwhVyO80G9j4Arl\nhIrQCTWcVoCLODHgJ/OnTBi/M+uZAugoUgfrgCj2vkR8BnzWK4xVh9Huyyhs\nAc8FEYUUwUdYAeCzckxRDIdk0C5DUzW19wOhMmo2IAd+vdSvjDCupIzraw7l\nY2nRsiqrkHV6tii0vhNpOT6BrYIZ0A2diwPy0pXKH7RYAL/EiJOzLzWfZ865\nOAqOruWPUL3eLmIZWckjieP63dKJTuqObWGgQ71S9xJKsv8aobpjJKfLGqSH\nXIps\r\n=ogmf\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIQCGVD4sjFG22SC7+cjYjkYT4BcxxR2+buxZHLrGmuOdSwIgAeheYgIQSO90JRq+9gyvAAMPqEGPdEXrUtX+oWrAz7g="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_1.2.0-1_1561111628162_0.5936097711476851"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "1.3.0-1": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "1.3.0-1",
+      "description": "Web-types for %PACKAGE_NAME",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@1.3.0-1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-X83FzFWF2hwN29UOHE28t3i4pd1bMQKpkO9OIjubIbfRfsjn7hZti8YFCIenc2sDlXwl++diu/I+ZIvT+UlqqA==",
+        "shasum": "d5b20926bfda13dee235401296570f81702d622c",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-1.3.0-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 148763,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdDKxQCRA9TVsSAnZWagAAAdEQAJ9lZLXSqQJCOoWUy6lf\nKy9YoImDQtgZcmL79mbz1uzGB93BaeVMoXv/IUA60xpCffpj+VmflB3bvmXQ\nOFw2GWmMAjbuIC7HfTdsnlsRfYbkig0Z7TzcsFDHX6REPfS8tup0P1aO3s1O\nGuA/EHWv79UcIRKOhaLPnFqCaO5lmIo7IsACrx2BpKaZnYBS3WAat4yT9Zhv\nKLeskeuctvasXJc7Z9JOHoU3hl//vBg3PivKKdKN6kMuJ/QUQpnxc+pBc2kf\nYMnj5upPEv0X/1RbSrxqZ6m0KxTa+//2FmLvVJVDjbtxZhqgEpUJr5z+mN8M\nObtMkTGG/3qsAbqGcwX9YmFb3RQxLhmF1zPlIMhYttUmEjzk6BLFj1R81f0+\nknz5NSM+7wZuZ/YXSdEkwtHBZ2T72JvD021/e07Zs9fRQtqPuiy8jiIVTBba\nDHDdWctFqqLE2D3EClwG2Rfj0haFvWtEkDrg4VzGdDv9pfH4PG00LGWvWxY0\ngprV/pQRWsn5Hbz7GJZuSsJtTOXy0b0NfQKDBuQ4KKk44OOJRi2bV/sCiEvV\nXUxsk4R9h4FU0IjndO7qAby+lob2SogOkENDDy5osZ8RC/e8m7TArz+qzhoO\nBp/GXCgrqRdSyn1FzRz6h+/FwQxmKLNBZ94oWQ1Zc3TaWKrz7HDZ4ODzGK5j\nPXbW\r\n=tW3q\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIFAgS2pCeCXbkXTl3azHsfwqPNMiGK3doVfEaVescQqpAiEAv8dgzscxueQYIS4NIld4U2kTjlbU2D1Vjq2h/CwuHp8="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_1.3.0-1_1561111631961_0.6448463839561454"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "1.4.0-1": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "1.4.0-1",
+      "description": "Web-types for %PACKAGE_NAME",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@1.4.0-1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-pGJkB427IVBXsCCEq+Gp1blW3RCeUWuSJOeDzMVzZFfpCCso3zmDlFc7gcuno6KOVfK3hRDW9HesM7p14N4zlA==",
+        "shasum": "279e80219913cd545555ec2d743c0aa1099185d2",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-1.4.0-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 150858,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdDKxVCRA9TVsSAnZWagAADGsP+gK9Ak7pBixueQ/k6Eb5\nqUK0O5P48f70UzMN/2bvUAhvLZVDpqlhyutdQfLPz8eG21APPqH6NQcEC66T\nSQnsfoA+Hfy6nCoi456hvh5mzOtHanlj6ikk0vXn3KPiSGOjIkbJYWHZnuae\n53I5tZ3jLYH3yX8mykOJ7CKloHWM7/O6Ref0dN/2w4VgPp2vS7H2G6akKSvA\n763VQLdJJt9N5iI9RMMhFZbxFyqT4OD/Lz6HaZKQ4qjNCf/iq8vPtYJHK/2C\nI1GeSc0MzCpnQL877E7HjSB6zt7rL38UOf4xVvgUGPCKT8Qwaf3kf40Q2ls/\n3dE6ERqa0pmcK8WAvzBv6aboVeVghRqAWmeXAwnsba6LrXDa9f2bxQmdwDzX\n+4qJ5PRd2qIWfyc/9JaLWu0i43AUlsrtPhcUuHS+8FLSsA9uoJENuKWbLnUH\nQZHKmQ3Yu7THCDq15uFrTnxFlGZ7HThFE01kOXDxYK00As9xI97WrZccmAqj\nyPQSmIiWUJgWdXn7h0juHQTaEPUQKG44fztKiennGXLkHWGRu0Wpu6CsAVKD\nM1fIFECqLNFh3X1J3mfff/u/dx8V46s2awca+qJ/pofRARawKwMq23EuM4D2\nIALFdH2j50/V37Qwh8HHqXWoflpplfNCICUgjguqTmKUtnNaVONgc73C3Ey7\n4QRv\r\n=G6L7\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQDqse6vU2Jfl0HezSmkdyz9BRJ9eYbJW9a+Ge43FoIpKwIhAKjBceTDHvL5zUHBWfLHxfVitZLFbRz0dbowEyc6gn1n"
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_1.4.0-1_1561111637416_0.15276425166350793"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "1.5.0-1": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "1.5.0-1",
+      "description": "Web-types for %PACKAGE_NAME",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@1.5.0-1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-eDORY92teqe7Gw4Z9dEBNolEK3mHsU2k5kd4xUJujWCqCzcOevdOgICJC1jMznepj0FmgG7Es77qE0SDk/lC0Q==",
+        "shasum": "2967728f1c2089c78daaa8931b5fdb5b1262a08d",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-1.5.0-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 151718,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdDKxaCRA9TVsSAnZWagAAsTsP/1cGPDjJievjAEZaLbTR\nd+oQXjH5prvfVHaiW4x4kJY82AzcHgWbQDESk8DJbVo9gSuXSboJRdxtRI3s\nJMs7/kfaBcICUxHlgCjePal+YSbf6vXD++qiMbhj3VuchHEv74VGs4BxiCr5\nGEBjQ19lxp/PqRZi2LtN0UdZiLxLtSEo67mwtGsaM66rKl75g0qe45purBvH\n4+3FFRQAI4a5npP52/kMpkjQAADDSUG2WQ7BkTeKjrm24lGXOIfiMJ5M9nh5\nluyiNoWm/5aVhpiZsq36jyDGzAGnDG/Zx3eckBhncfB2gotGcnSAOEyf7Aa9\ni3unihX0WacPE5ZDve0PcUwODxGPSdVahk1MP/25EFLG/yKn0/GKhW+sJP7C\nQnVYJfTKMN3uqOLnie7NdzQ4Uvq2s9fXtFzYT2Lm+qBKUma7xyPfcdZXPzzv\nTPQHsrHtnQdJGu1xMEAiMH5ltgHkGOWmv28mgUQJ51/KvEWxBP9q+Q6MTkuU\nFn39QliHZ9ZnINmjUcmdnDSpZfQb2AfKWchIuPblcvWtErfWgjXyk2vwN3mH\nTGIKsqG0iuFp5nSENg/Y33VueFx5AO/0fnqqcIpgh/MJCeQdSIn4Yby5l5u1\nyIFBWpmorwvKgtLvR5p79D08905QR+H5W7FoEQyx5/UKOAi0KcJw09HJDvnH\nsefN\r\n=YoNw\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIF2u+gOumxDANH+FIRdUtoCRAE4dQngrxwTO2AS9jELPAiEAlpV4+cLfU4toH0dNggHGNIlCanEizAx3WCRAPZt9vRg="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_1.5.0-1_1561111641744_0.23367664006253808"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.0.0-rc.20.1": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "2.0.0-rc.20.1",
+      "description": "Web-types for %PACKAGE_NAME",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@2.0.0-rc.20.1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-VqGVuRsrAJrSpQCLGHp4hGCi49hEsvwfbM3wQxZU/oqnr+95wrqwvdrmE3ErYmd9Cto7r/wtmSoosfLISmN0+A==",
+        "shasum": "eef4402d40d1b90442b074494d351d59bfd4151f",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-2.0.0-rc.20.1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 205080,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdDKxeCRA9TVsSAnZWagAAYu4QAJtxvZ/z9o+9p4GfkKde\n9hFof0jfL3kbsTKfxbPNHWSWnXO28q5aDlCgLVB3K2N1RW07Drj2TgNotiCQ\na2pbrTGG3j1LhtN+qRpMynx+bHRu7VFUFgVRob0U/1Srk+trmszvCATpI+jL\nAzMb5xrZGepburGjgNxJDI+3fSoPaDRAGCf134H1ojuWX09R4oQAqn04pQzh\n7jYuzNTIyx/s2H2cm2CsPgslClt7Bc2Z8rEPrGKULETz1x/vuc3w6Xs+kTEB\nKc3Kmzn+tRnfT6wTvuLkYSIT6gAVx/ASXcKSQvNdcULr6QAaHkxyj5ZRwlJR\njDz/QL2kc3Nglkrz/1ex2gUYY2DNUSqhrvhfqWcRneQ1XCxRUhtr8qqOpgSN\n4bl+hO1a3KtVQ9tJT8OKh+4HQ2pgOgwYMTOxOJ5heMBGGjjFukkCorTYdfjg\nSAO+aWeN30wRF/4ty1J8Mu1Zq1aa5bfUyiPmM4Vkiw39S4P9zc4jPwOPlMGU\n+D+zycURySmgT9tRHvJQFpYkj3OefxQwC3nrUnN1N2QPICFjAWVttLWinDe9\n+5N9NIaUIDBtypfxKxkwLPxezEkgNp1zxfj7FN/XmSg2LDlv4jXIIWPk8aqR\n3OZmoBZGvkdSy1Ro5IGBIeSCHnZKLL+BTlYepr7jVLWP9/3nGDeZhUndLrcJ\nZB5e\r\n=93dT\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCICgb0m57ZRPMbNkFzlm3DA2H/X78SYYMVivSr2M9ibbZAiEA4oTN7BEAbqwOp5OVmL1zYbKM3/J8JtUInCqxn7a4OMk="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_2.0.0-rc.20.1_1561111645835_0.04285615961461753"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.0.0-rc.21.1": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "2.0.0-rc.21.1",
+      "description": "Web-types for %PACKAGE_NAME",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@2.0.0-rc.21.1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-n6YGn2iYy5DQCmkVdntH+z8NE3+xQSaxueBS4z6UShi2EyBihu8vqgb6QWX37gKsqWoAAiXQSNgOA8AyvxuKfA==",
+        "shasum": "82ec9dd10d2b77cedfbd87b21f3b5076acba92f8",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-2.0.0-rc.21.1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 207742,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdDKxiCRA9TVsSAnZWagAA2O0P/jWiGlWqVhCeVvaDyzEf\nErj1PfV0RWYRHEjfCTbhojEycCTW1PH21jpaoSaamC1gziD97grC/VxpH7br\nXXBj2kTGdb1Z60btDN9dhC+sUIqXHYqFxdZWJXZEDfxSpyNDazLhVrS1X1yf\nT8Qz3R8DIemmlxX7YBRRwa5XBfFLUGUNVL8FZiBtdwAqGbNfwq9kKQN1eZYQ\nU7qqs4tnxUzrDWB7GnwAwPAO3ZclYN2/osU5YApBMt7v/rr+vwO3GulyQS3a\nVWmPrNf/F9sPiP0BoMgbTylV+ZwM+Tolnrz+eoN0fGReMbDUNnRCCab8DSZC\ngZ+vevm4eUMXoyDNq+Yh2ZYlHH+fF5AX2vBNEE3abMZdrvy7Lw2ABPOI6fMr\njxxJXrcUDL3hlK5JZSoFFJSPrGVytVbcokxsUYN42Bm3Od9trGoLGkYvMltv\nhxFjupMGh9eA9mptnktwkDBPx8jeaglq6D6oKwNZaNj9OLW1qMsCrVuRQPSK\nVUXez6ko9t5gPwjydLOjKkrOs9/7n7OaZjkZ1miKYVGL6eZRforRTdEwGlq5\nCqy4IXtJhmkGpJ9Dztr5kkf8Y62kEMLMrhdtcpp64+0kyWW6vwVNx00Ywjq+\n56ryGJ8+qFrwNjNu9ysfThD6yexVwB+XN4LbgwIiuCrhSkI6FfmYzR+xmGz3\nGMkJ\r\n=BVCi\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIFueWYMtvq3LXU8yHNxE93gonJsX+dQrKmXXof/1Y+hLAiEAvOLK/Hrepi+5lXDwRMJcsPEsLTCL86iF1O9OnhYvt04="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_2.0.0-rc.21.1_1561111650175_0.10667091190690825"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.0.0-rc.22.1": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "2.0.0-rc.22.1",
+      "description": "Web-types for %PACKAGE_NAME",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@2.0.0-rc.22.1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-VbAXqp3R1MhCj8H/CGl5Vl+V/O07vsfYoYyGtX52xrqqxtZ4fOd1bx4UFURDLTnr/yUCSj8u7g5R3RjmzgYv1g==",
+        "shasum": "2221fa8af5bb5130a357facf7b3ef71874107de1",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-2.0.0-rc.22.1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 208119,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdDKxmCRA9TVsSAnZWagAAhjEP+wX/+U52yvxEym69BwzJ\nFsJl29S2jTvMqjHrvuzi2oLYt71ZkzCaT7RrBMDEqkXmhrP8ojtpNUgZeANm\nqs+WjnvLKRT2pWlopCdWSmJHtEL9gHtJgTL3WH3RA2XTwUNMKHgTcNA5/JHE\n9Xv7ksrgjBPBJmrlKpliRbnSJtKintp6r8F2GcGp2QK+PLMTaBxOWS0fTPCt\nMPK3cn0ZjRaQo3Kk4B1IVVoojGKXKV9zw6rReUXE6QTq1H+DZ358FgwpC48n\nYNCbNL/BEr0HsMw3Kp5RATbs+j+fIeJxKGDfjpBt+3mRgOPVySDdEMBiI5Iy\nRwRKO2hAuZhBRdBmd2NNmtwH+1/pfkqnlTf3IhXpWwFv/pdPBvkH29ny5RE4\nlziXF7yBAXiz1FQTCyiwNdA4Eqr4ZRMgk03csGlEzAcgL2CdBc8tec16FmPx\nmzcRZBozCrY1Ms7OOYYng4iXT2s7KcP8jTkKEQEjEYy6rrOqsBP8CgOcYqzO\nO13EyevMltZig0akUoWRhQAg2ol2CsCRldY3UNqNqvAq9m+9Iq5nYvGbwwCc\nGnWx85rKirBavl0pvOmG8yygHbHhfCYwPnoP2hOIE2yKDqiLWBkJcowNO7+3\nqSwdC3A5EVA1ccOJI3W0AONW3V1xBEv8VIXYpr78gnnLc75K3qQKdmQXFTFL\nnABT\r\n=lG4r\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCIHF6930kePbcaKEV+IxoXgOLUEJjFOUnojG78nBBvFakAiB1LugoGcgvl9ml0crwQriyfxWX1cEQoOP9F5YGJmI4Jg=="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_2.0.0-rc.22.1_1561111654158_0.9301982725536628"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.0.0-rc.23.1": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "2.0.0-rc.23.1",
+      "description": "Web-types for %PACKAGE_NAME",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@2.0.0-rc.23.1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-i9TNlbu88BBR1uu3NjREBRIlS/2+SLCpbqQMVNWb3vnKH6Adp7RlW+RaOjjcGyjjqS6ovIF4tD83LXCnJCj8Ow==",
+        "shasum": "9b87c33d9b6be4f700f1115d0edcfe3db1045a4a",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-2.0.0-rc.23.1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 212947,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdDKxqCRA9TVsSAnZWagAA+1QP/01zeeRGNiqWs4W586uE\nz/x1h8W0gMGcIgeVxveB/uOV0ToBDpvDOs20SUCraBGDqUZyu23Ghc8axU3Q\nS1CMQDzr2RW4WdMPJK3yVek9pg94/YC2onWeV4J30CTnHaFxYn6agvZbaZ5M\nGNxH1zo3w769Eg7R1BYDmu7ynj4vfWulQcbXDNOJCvacO4iLhLJ/oGBSVfth\nfeqAmIE9JIvSXIDKZ853U0Zo20PeDnVaStQrfjzuzy7ePRzbxQsQ6L8oGln0\nDGtUqXvDsk9Cnb43/8k872JFQRlrcdHNdNwpQOB3ayYrCNYedR3osBJTVjgr\nQS+Yu54D3FJb4BBUDre/N16lx7g076asK1wWE+vSsa8DyV5oCAuGLoigQbvc\nNdXIvxXXUqiN6hWW86uLfl//Wf2OXZDuUXYZ52jV+ckkxveZCd94teDwlEje\ndk4OvSNOS0B1BEDRnZc9UsmUf++uNQGv9sLl6XFxBjNgxYmbD/DufPlrNZwE\nC1T59bDNBcfx3+xy3gdKJEql7QuGwOIVXAimy1GDSapoUqwbqIGL7h9bJ5wq\nKD4lU3RhwT0YV8dAu3lhQN78gIiHa2XYKRy/MbvAqMmpL1DKBEDJI6U3nOcm\njL/5aGeHQFTAxsWfw5ulPrXgKZfOCFDWXWtTHy58S/G2oaHfKtc3G+41QB8P\nXjuM\r\n=UxEk\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIBVJbQxoD6x88Kb3z4idzEZL7KkiABxsyd7/o+BAHQM0AiEA/VQ0yhb4mKr2IH0IV7MwW74lza+Gn19Ti1FQCaglDTo="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_2.0.0-rc.23.1_1561111658049_0.004114218510737011"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.0.0-rc.24.1": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "2.0.0-rc.24.1",
+      "description": "Web-types for %PACKAGE_NAME",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@2.0.0-rc.24.1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-utahosXJIKe8awKR196s5crPXLekEqYdV7rkg06VhhDhKMwXWH79FufxEYSv7nLw2D+k3p6Mi1gul0KC4+x2Hw==",
+        "shasum": "91a607c9c5dd84d65375cb61f7f56a4d4c5cf71b",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-2.0.0-rc.24.1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 212980,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdDKxuCRA9TVsSAnZWagAAskAP/iJcBq6YbofcUJJ6dcDb\n1oHpIx0M+7bypAXdwSbu/92S/DtCKzomVS/iswZq41yWoZfz/A8OMJGUIwyT\nlGovyckY9UpoCIlOXdVut7As33CC6m8789e6rRrr4VopAeWN403G6eyjhlBD\nVgJI5jc5Yr/a6iuoJxg8sQsCITTn43b2x5ZOQjyZAiwI9/92JXfGPaM02z0J\nR1t8UiVSIdZ0IzSCrqbefGJ5bkDN1iTn3CpPwNOcNLjY8svzLWrWWRAmVbu+\nYXCSKmr4zcbFKxrpFFcRhfzBW65+KuuAKzkI83KajmOiDs8NhK9LeBc2r3Yk\nDQjLpXzVTxPrHxNb5TD5ra9qSoi0SIbyxCkau7LgbFeXp5bDeA7ME1sFbP7J\nvMvwsMNE7mnpGUJGjdTu6u/bxyhFeUNlebTpPljOnnTklwt/PfKNK/tDpm3I\nbCJvdTtApSt+XaKpxRbJ7F7mvTLaBkEKfxpAdyt1EHWmevCZd9RXtSgYLrBy\nD5FFNSM9F2+ONXvGNSyGszZa08P8JZRcUwQyPaSSMhnh6jqgZp8DKk+9Wwe3\nU7O2KYLwvuBEFDY8PLMOBt+WCtUW/0yiIbRqsPdE6/7dIRC+d6t0+gUlEZHA\ne73C8QlTtCfRTwu/SxHWhhqAE9FhK2qeGcCcjgdCBvgHy2n8GK/odqLsRAnk\n73iy\r\n=y5Tv\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCIEVNsoNV/b0Icr7JXAAF814neLuQz2E6IFbnW7NNPFkqAiByieZj0N2HT5f/NPckYmT7gmdJJHcTZi29qg0la+i/JA=="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_2.0.0-rc.24.1_1561111662158_0.628559290263434"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.0.0-rc.0.1": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "2.0.0-rc.0.1",
+      "description": "Web-types for %PACKAGE_NAME",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@2.0.0-rc.0.1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-2UrJxhOUXsHbaHuuyJIySWj8s7ZVxyrpvgO3fLFvyF0In3teHo3HBmbn1XUBN8CoEbpPKJLW73t48+prONrcoA==",
+        "shasum": "53a68f156b39adb42ba35c6112edb1da1bdeb52e",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-2.0.0-rc.0.1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 151987,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdDKzUCRA9TVsSAnZWagAA/1cP/0tssXHGOsKPV4Z6itp0\nDf5vMd/kQukOjrcyDb9mkOjn7C7U2KepRvz/qcfCV5Z3AvdvugXgik379ULs\ntxSy6PAxuENvi18daEWMlGhxBU0GjJc7QC0/AVpm+v/YnmLDXNVqk8sGogFD\n9mIf0RZHPbrdHVgxbWba5ps7r9C2DIlaQ4JWhrBnYRNd03N6DVisBdJhSv1S\nX8B5nVrAUDykmRDnFAjkkRBc/qGkKmwwGgM35qmKpPp+hAk7i5NNa4XZ1hf2\neotnJq62+4VY5jaVtX48hCqLO4KXmfTU0Z1zmiZfxu3sqKJ49Xp8HQU0LoLY\nV0KhlfqTgQfcshH33qlSA5iRY4j/dhcSJkz0vbWqRuOaFhgtC/t08tvw7I4m\nLslWwtmXrcQokOHv49ErivUT7mOIOfxshFe1NVJdRWluB+JMkVLszDZX/NuH\nOk7miiruZPh8c/nlfe3V1tmGP+psjFvN2ND84QRedXUQZWFdqVnRMGapBZcC\noJHY0RQX9kvuRiBXe544TwXGHPbSbicIzkrePR5xRVfARUu/VuKHCH2tdCP+\nBXd3lTwPsPac19ab7LGEFq1cAkBUYoDr5Hml3lUtqUT82zZz2ZhF5sSHvzSy\nu7OZfCYLERs2KJP6O71BsvhxuFbqVjzX44CcsVHfjbCP8f4l/L6psn4j53yX\naemY\r\n=lMcS\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCIHw+dC3ljMFEr2UyFdKwq8QKovsYJ44XwuwyTBIuJE74AiAcuVJLaLWZJDZxuXbpDc567Y56Uiz7hE+Uff/S3PuoOA=="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_2.0.0-rc.0.1_1561111763405_0.049489821402968426"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "1.0.0-2": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "1.0.0-2",
+      "description": "Web-types for bootstrap-vue",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@1.0.0-2",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-nMAAcebCLRSnQTJF2kyXziEXMKIyU77VR682DPABjHh7PbHD4MpZ/lFRYht4IklvsHlNIp11EZ7FrC1Y1/sjOg==",
+        "shasum": "0c839c7bffea9040fca8dab610f3315bfae2ca8b",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-1.0.0-2.tgz",
+        "fileCount": 3,
+        "unpackedSize": 220186,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdTD0ACRA9TVsSAnZWagAAbkAP/j0ZCvwdW9qEmk4BdEtV\nVTz6iqaRokT6gahaU9WgBOEWNxMdb8ODOvFMv2hmO8307B36FYgmx+/550ez\n64tsL85WVuLS0131q5cPM8fQdMLmL1zr0DUoFVbnp4I7/x9EjIrbPBFLFa9A\ndISImpolzHPTNxVvQSnvEsa8zh61CjlMJq8HDoKHzAyuUWV1nRAIl6b+T3P+\nCJHFLJq8L58Xx7qfAwPt+9Lyz7UdjdFNhg+S9H69Vemo6ICzh50fmasth8ZG\nxmIYt0gsRy85cklHOBIhxL1JEj5KeBJj/lcEQUyEHHTra9tTa8COpRXTh6rt\nLogStE24FtdoIZCICQ6//G3IkWYuifOe3qW7inIr/ChFffx8wgwr3gdvTn6D\nI6a2tF+jmC6FDOwCVh5LCIAF3vde44lmok2hzB/01yWs9wFLz2ogIYgiZGE3\na0gNjrozjqbq0jq1GVb+khywET/xhS0idZNJDCjeNI4uy25vbywR8jysqmJb\nZttwJXd4O8G8pyPovHJtyBzJ/rjUfiGRfn7I5r6NWOTNKijAWaIzaHXF9+eT\n9i+xByPVSqnnYmWYy9JCG6WvGMH4iLGpp5ZeuonfpmGhOrJTjU02PbvHQwgn\nXU1ZNNbvRRJGXfDzylKPLYP3hMmtxWl9T3swXpquVcz+H9Y8E2Bo+qWLX1h/\nE4Aa\r\n=rmmF\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIQCEPEboQgKQLtOvEpaE0grkjCOafkP+QEIppJaxGyWt/AIgTYZoMuQ2lsfknsEJekd5S4N6g0bSeZs4g/xzp4hdNeM="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_1.0.0-2_1565277439978_0.9984287769912137"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    },
+    "1.0.1-2": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "1.0.1-2",
+      "description": "Web-types for bootstrap-vue",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@1.0.1-2",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-lr6XIBKCaYeEB9B9MW3w1wbiHHInH2BQcsQ4WlTWWw9wuf58SpS1N4IK9y6o6IUl6KGxH8xZ3oKpqjuFxYHtBA==",
+        "shasum": "d17899f24f8ef4d69a9c056ccd98c8c2ff6054c5",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-1.0.1-2.tgz",
+        "fileCount": 3,
+        "unpackedSize": 220235,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdTD0ICRA9TVsSAnZWagAAx/8P+wc8QmAJrOjklW0JTXtO\ngJvTvFsMaNNV5F7kG1JZattGUUmCnGk2wzOxrcBzk8YKsIWKyUd3ZZ5R+rlH\ng4bhD//AU48KK3V+o8oVefqwUOM7iaOuDYuRrnbD9Kw9cFbEQFqyY94Bxx51\nUu0mvQvhViGj/zaKwuCHbMMHLvO0Ore+6tJUCXiHtrMpCm2jxltLEd6ViWrY\n5UA4F1CKxOk+JAfrQExxVSTev8iLkJTbGk2a+n0/K2MxYMop2UUM63jrYJuM\n6IkkZsQtfVdkfQoxqCup2UwI6+Z39wXgahvW2epqJitBw9aHV6LkAR/xeFlL\nRLnzyvS6kzOjyqxKa9A+qUOJBXYuX4kINvfrQbQseu/9s8vcXKuhMDjnWDYj\nJArkPCoIuNEpYXkaHQNzILTUOZdGeDTh9cHBrG3AYJsxXwhq0GDy8BnkHLt3\ngJQWuorSUcKHU/jr5g0yuMT8GCce4aE5x7kBw4NEr5t7xJGgscKbwUJKlvdG\ndp97ahQY5vE71ScmSGsEhJLIHnj2wQdeufkhDRoYArzBnB/JlWJpydNCb4al\ne2QiX6JyPFUHJBxzxizGpMbf9qPTOuSTeGPdJEcgfdrrvUThYDshd+YTRLpN\nDRBlXtKfY+GWAIzv5Em/azerbSI2zo9Bp/9ATABiVQI5l22pYgzcXq2so2pG\n7rQG\r\n=jGNK\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQDamT7PyN0ECLc/sa3n8p/UVHQMoDurSUWxzbenLv5k/AIhAMbGl29/BD4oJxxC6mYIXVq3LLfx2nTnDES7drrp8P+p"
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_1.0.1-2_1565277448028_0.12115614473690006"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    },
+    "1.0.2-2": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "1.0.2-2",
+      "description": "Web-types for bootstrap-vue",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@1.0.2-2",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-Kn8dMSb9xdeQ2sN33lU2z42k+4Q9W5iu07kRGznMEcP/zm71ee0OfzWJ0G984F7a9KKk0eAiZjFzJmZsTKnbow==",
+        "shasum": "69d97d77b519b3bb9c1087147c7979ee4da8cbd0",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-1.0.2-2.tgz",
+        "fileCount": 3,
+        "unpackedSize": 219893,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdTD0SCRA9TVsSAnZWagAA7Y0QAKUSO4aS+ked49hzWn0e\nNzZBOvHOQhkUjgKJGFYoREdmoA+qN+xeRuwahPThoNQceFdcXP1nc4WT/GLX\nScFnk+mcnjKu3i1He8YJB1xWmzhn3IO89lOi5jFt1FgUghJksyrVNMpu1qqr\no+Kk51PUNDcRtdYreIHcmwP055Mt/jteyk+D4BnCIdKjfwafPq0Ej4CcSiDT\nAMu2H34Pt4O07Lhn+qSxgbtRKncLGEXSuFvpHJvyH7vcGKNP8tOheoBy0Qn+\nY/tGxPcb1Fs6xXqKmLv6oROpcOK5fe5Rg4CXS8CzSiFzh3Mg68S+NDYgRony\nh9TBFx/PuD5qAIh0NhGPh0YQRdWp4bP+kY5t8rAH+yrlrV/ck7D5zYd6xOYq\nuqSggvfIB98CDbei8oIkzarbJGGG6zdY33lesNSiJwBc1DA/wcX++HZn2G3n\n2EhEvU3io734vAEEk4i2xeLtc4/jUv9Dp3cqmt8VxAcMHV2wAhZksXrqUDZ9\njXFeOre8AJs8Fa9a9sEuVxaU5Obx/3b3kQvplI16ArL9wu70WicPX1aBfjcj\nqw2p/VIpcsZmnCDzPN2+BWEvxCISPmiUyF+nkQ62y/qXsHKSvMx0iq2wUfsg\nU+6geba4gV7IFzuz+uRbepI0TbVWGgOV6jROnhZQ92N1vzzXk2ZWHnApc6Wj\nhMJo\r\n=dNDU\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQCrReWxbv4an1bkOtLflJqcs5NQ8eKKW4909GvvQoUdLAIhAJcsVMSIFtkNZw2IY5SFR15+3JpicWvf8loQRzhWgghv"
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_1.0.2-2_1565277457422_0.11736628329288634"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    },
+    "1.1.0-2": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "1.1.0-2",
+      "description": "Web-types for bootstrap-vue",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@1.1.0-2",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-UCymgvNZna+b1hDXVxeOMwXQEcCIKs2GMC1JP6YiNPCCnHj4We2hJyRsLNmv/ZPrObPktyqjO6H8m/zWWviVrg==",
+        "shasum": "5c576ff2125c9d8d5561414ad67f868434598f72",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-1.1.0-2.tgz",
+        "fileCount": 3,
+        "unpackedSize": 222882,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdTD0WCRA9TVsSAnZWagAAmWkQAI2apMlTFXs+XoSBlyHf\n0BJjEzqVAxjDNDDrFzeh7XoOeJOMU3gVFu8JFMvg0ti9gOmHO8YZUrPrjPpE\nbYrkkVnoYRUbrzzNhit1fojBEQdw1hoHqlAjeLQIQ1Eb38UY62dWedlCO+YG\nzysIsT51CAe8VCZ1ZWR3rVEwJS6uRZ6xg7cUDTF4AAtME9fbGRgYO72qMfkv\nzMAgCKKKtSunlrhS3rSsTyqaaKa7x6YMgE5gS91MYpBLy2CCo6m7qXBIA5MY\nlQKyVk0ChmcanI8E+zBvKir0DzslMfBjSb1E5+eHZWU+0VOwST2hC8QCvmMU\n3F1JF4UlsGE3jBmkCjP01EEYAEROXBrEHYTBe0HoHltATBRMYoeS2WhCid5i\n12oIPqiTzHnInw/CzA8FOqma6intOD6sTxjHj+m0CxkoA+jLn9sfSiw5az5L\n1HebfNsPdfZ0TzWbuxUTSHiFscdKyModsA9YEAZe8XBUSrkY5/CxsUybI7q7\nbcsk8cI6GERxbysi0N67JQsQq5tJYZujq3ThLLzqdiREbRR65jlM4tAzOxMD\naQo83v7BBczIJ8LRMT7G2WHSyJXF3oLPgycR3Htstx42WA4bEYCSsmkM815p\nUgqKIkhzvlBziq/qUPVx3EJadeYLxqZhef0HI5qLIRj8TFe6bt6AvzhfBLaE\nbvqC\r\n=W2Rf\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQDwXZA4hbuDpKMlq3VPsrDpqjd2GsLnMpY/POiynjzswQIhANKBEyJ1Tacdl41cAxUpE6J4bHpCC/YX9hN98YMhrwlI"
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_1.1.0-2_1565277462381_0.11339091400227597"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    },
+    "1.2.0-2": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "1.2.0-2",
+      "description": "Web-types for bootstrap-vue",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@1.2.0-2",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-vCY2D2KFNUyoGXgjKg6u5eJdKTfNZydtvZg4CAi0t3g9xrDYcxbNOeMjt8tJ4/DpmWMP03XAuYJDCL1iZ8wx6Q==",
+        "shasum": "dfc55939d7b6a312be7943748faff67e6210e28b",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-1.2.0-2.tgz",
+        "fileCount": 3,
+        "unpackedSize": 224403,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdTD0dCRA9TVsSAnZWagAAQy8P/i3R7P0WM2nNAba3+5f8\nLpegvzRs7vZj5SOHKHOSaBCPJ1vqCEoP7gV5JZTIsQK1tQK3ddkA7/tPGznj\nkRFJGYz4uW/v4GVFJ/gql79yLK4p/qdYnxh9JQ83Bb0jsHCQb/OLWdOWpaYo\nehv/J1tTvwA37e6HmRQGM3UMwuOQzpXjJCrTC4teWutQU+1EMT5bEqAnpm/2\nyPOneE9beUB8OBm8bpspsxRzQ8BN55oh0DcIRPN6GiP6ponC2AxwnJZ7VARL\nIY5u6VmTRAA6AHjcJdYnV6+E2ItD9wfRWHL1rjgBFZlBjC86FS/hKSmhIXuu\nM7BbbOtzNT1UR5PcIAeUW/y59hL+U7q5DakFkgkl6y7FsRN32yqHeinXc1sV\n54RacbAv6+sBa3x3G/Tv+yaFKxijJwabDPud9f4BsvxxU03ghT/NNqBEj6SH\nQOUbBidTo7DGplvgUxa6HNdIhg8P/C+7xubDAcXjdelUubtYIAR2QcWG4Bvn\nyewLbOI3FyUg3WMvi1M5b57Z31JTR/ZTVUpeqR4n9Feqw3nqvilZmWbFKOyo\niJ6SJ38j/UnwOQSXm2YN3RcOo3aY9vOjYaNmRQtOEgTGO7md0zK2KlqEZAN6\na0Lpw6uRhjOCVzjiBe2yvfd3exEghRVltZo1HqJqlM3oYo3P4G/doWy3NVMX\nNEIR\r\n=2bG1\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIQDMouk97b/cggCZcP3b/VbSsu2T+haP/PBVudMWgPd/QwIgcZBiRbKtyRs7fafF+fAb/D0QE8tIlQIlyxLGCs5ZaRs="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_1.2.0-2_1565277469232_0.32571655543188105"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    },
+    "1.3.0-2": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "1.3.0-2",
+      "description": "Web-types for bootstrap-vue",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@1.3.0-2",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-zWsq0+hmIAgFmiuARnP/DP5uJaGSR0PLJYxrbfpeRRmwiKEupH17k+j7myKnSJYhDBzATzPZLzsjjW7P/w5d/g==",
+        "shasum": "2e099d158e3a54636c19aa83073781737202cfd2",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-1.3.0-2.tgz",
+        "fileCount": 3,
+        "unpackedSize": 229594,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdTD0jCRA9TVsSAnZWagAAljQQAIboaUNxZrASi8mcQRji\nK+kYHJL15QuboEZPAozBVbUhrmiaJWE/wNzj7YODxplxCkjb1DZgP7386DtL\nyr4dt/nL51I9+l5G0Lkx/zcNaPdFRjd7E4cLdQ+mZqMcIkdjWz5pC58kAlnx\nUmM90DJ5EZJwAXPXyXArY96t9j1GtOnKQRPK7qz0GFfZHPtcG4jw2ZZeBduF\ny2OnHvGmXXUmPZRR3YIYkMA621gOKIlJ181BmoygaaqGeMYOoBjThPjf9nn6\nf4aHZCoJl7pTCSJO8AjISKvHQ7wlDCL/woRLQy+g195tmzriaWZDAsCTncZC\n6idE8t7gQMpa0bLkksOztGY6YDEAUmsvU0RX2aYjedGvz0fkxBwlmsvM+2Gn\n0p3Ngxt986YwRMzxqXFY/eKtHQs8avEeN0pcqV+eBImmE1OTjJc0kwS51Nby\nZUy4dKVsfM0LBDfvMtE2yK4a7fFXWflplwc4CwWu6iqpkXvbc/4yBttOREtP\nVl40b6hsEAnm9wCmJguQa4CSw6NBEe1Se6df2ATd6EpvppLrqridbhkNHCIN\nF0G28JBgZDuKsxZrWxs6RuSaDJ+CA9BTzwTvRTtC0TC4Tpl9/g8vw86awyTJ\n4dGsadrHYYd0+LCcfO8X5G+G7tyXSJoPXEJoLg1nV3AZtZ+NRPcFZiXoj+Js\nUUIB\r\n=vug7\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIAey5gwqphf0IYoURNJBUPtsbBLXBJoM9cdQU5qwClBvAiEAry8qCiNN2GfA7hSbk/sUXkGrYCU5tmQeftIPnc3s0MY="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_1.3.0-2_1565277474482_0.4340419008502925"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    },
+    "1.4.0-2": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "1.4.0-2",
+      "description": "Web-types for bootstrap-vue",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@1.4.0-2",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-PiDy5IMPF1OZGccLOLTpLjgJiHnV/YEqazt0OPtv9YTIwDQfGSzXA9W363yhsUtC0DeQC4b0KKQ+Xos8uo97yA==",
+        "shasum": "7c88b66e35c41d678935aa3fda7dc4d5d3da6dc7",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-1.4.0-2.tgz",
+        "fileCount": 3,
+        "unpackedSize": 233338,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdTD0qCRA9TVsSAnZWagAAokEP/iG/tBa/vMqtcMhX2pNZ\nlnu3dKNvsMO94lDqnkm+5YPLaVkdXFWmOmd3WDBH8qI4UpArViQvXIuPM/7G\niZtRRoPy3T+M6vl4TGjJxK1pW3pNmyBQ9jIs4zYw3GFmzZwy2RPTeTt8Pxbw\nNN3Ax9645emxnuJ24IiVTgHBS6e4zgK7c4dFiN3HMwJsLuc3tq2fP/g3v5Fm\nuc0FBs6B0bIgVIcTbFdjH4VyErINpigrBnNmoVuE0fRollFy8WsLfJtHajBI\nZrZLcuV8XuBfQcB60ZjhKMDlk1Qm9PxynQIdAMCeLN1t1kJnoVnfUoQN/FZ7\nvVJNBZVQgjC8B18g++ic1NrVUQ9IdRWSVpwjdIjTQ+EAwYLimuAMh7GDkbiR\nYV4gMouysu0NGDTS0SAt1nsyjBL4wgYMEO8I2Bl4cWFWhtGd1Z0dxhT73/1U\n8wcl+b81LjqgaYUKXm9mQescNef8Mzfr28FSnZWSTnGZT/LutXgMrJEuhwUl\nwgvVyjMQgEmQNojvTBOnzNSReQIcOsuCXfRBWN1jrnXfzudR7MT2AGEkagow\nCqAsVeGV+qi65Dn0KuRo7QrVcujgZNJtPuuYQgi1Xy5r+FujnCvel8MLCkbF\n7em1EB+mZaaRRfrAiOa0Q68IGzNHmXlGLHalE6MhJfWbaDazs8UV0bQ9M3Xh\nYfGw\r\n=zVGr\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIQC/ujeQTFL2ukvgT3rQjPHE9kJGVAd6ULfiMo4NvGXcpAIgYPQEIEnz0HEbRsLthiXDeurIrOccnX7Ylj2aXOg+tlE="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_1.4.0-2_1565277481607_0.8644151865269587"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    },
+    "1.4.1-1": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "1.4.1-1",
+      "description": "Web-types for bootstrap-vue",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@1.4.1-1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-SfHroj6qVy0FAYhRsVih/7J9UG6YNGqPyv/MP0G36llhMtzNsd9+yEV28o44Zg38EQfzOJe/xhJR2s7x2Sl4FA==",
+        "shasum": "fbcfdcfd03b336ccc49d80a271670e5a4935f936",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-1.4.1-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 233721,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdTD0wCRA9TVsSAnZWagAAqdIQAI1y6oESrXY5jKJzf2JK\nK4OM9MkRg/2ruMi64aXC8c+wFUFNIzx0PnvXExK1qPsp3vIrEtTpca2lxY6K\nTrrs/uU/84AIOAfzbpws/vF6RfI7JaDXMr2XDAxE/BYzHW08GVV6viSE7ffa\nXQ/oZ4q2NNtV2763XWhZmQqzLE2ZbeVqQUtVmXpkN326FSWgc9Itl91kVUfO\nOza80Ujt+6hcW4noO4ZmRkru1ZkaLI/r1q8Bz7dDnoULN+A6bl1VpzHiDCc8\nyP8ucUXMFg6dJFFbTrS5DcJIWsp6bxrerxf6IaVpXvE4v8bVJ1msHh9GxJNW\n+FaXXxbsqrzdvLFmIg7IhklHk6dy2Bz02/I4D4I1FsDNKXWht27WitXc0Xc+\nnZ2YVMDMnGk4vVOCZTD9bxMvBHxGfp80mRss+q2+ElMwyc4bcAmuZbIsu2jn\nL8/mC0DXTmb+PIULjw+jfaSwmlZtW8gh95+D/1HwaCkBciNzKw4vx/of4Z3H\nU1R5KB/3GLqmvjjt4Zf71xDceZUNUPtEElpoOLzzQkX07t7xyDmHQ0Q94C/H\nln/4Ww/menbb2ZO6CLa4ezIm7Y7l+MGN/D/obCvReIc4qOevi8ff5K6HzwNn\n9inNZgndHjqBaIY6cXc+RNK495yJZiUBPyWRAk8hn2cU5Z743J08oZLMmdsg\nKFct\r\n=ksDW\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIQDb7ORfy5B5NuARUT07jijnvtkhlEAGGKobKNl88XjvSAIgGVJaejvnaNu0B3vsP6ZL/MvYEx45kXJ42/lJkCb2cHU="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_1.4.1-1_1565277487996_0.47233859458120087"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    },
+    "1.5.0-2": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "1.5.0-2",
+      "description": "Web-types for bootstrap-vue",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@1.5.0-2",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-NjngBYCFzihduqdzY/DWbdbQbkjyKJYulWbUt917vapFNJNEdXC+ZVkN/ZMEEoU+p9+tu28umjM2ET+lS2Rndw==",
+        "shasum": "6da08095020026f9bf0a0ab4c6b74f0647baa40e",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-1.5.0-2.tgz",
+        "fileCount": 3,
+        "unpackedSize": 234696,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdTD02CRA9TVsSAnZWagAAeMQP/RPqy0+Dxndiu/9tKBJS\n7a+aNNpcexlBmpoVqmpmRCrJxua1Ot8W1jCWC3m6uH1ghJKjOpRJgBzl8G42\nOyGj4nPZK9YEhMcAa/f7m7Vhst1cjiX/KQL4y3hxt0wc7lX3utcOnHf0QXo3\nov2ShXl2Q2FgfVWC4lkt5He7IoqZa6k2KIVZ4tckvdOfmGYL7It3FgbKQOK/\nam2zgHAVIc0bX5pNp3LvOeu+qb+BTiC9YFT30dLHGHGiMlBS0ttsowm4nADb\nODACKojAOw4dz8ePv227GmXBSyhhYB1O1Inh7XHHpYPgMyDHEwArhaTRShru\nWQFm3IBCoWzafQJ8Tcr3RlHAaaod4/FLFrsFwrSUJ3uHx9Yo3HIcbRFKf/Kd\nK0ftA52pKmKQ50tRmj+UIwe45+fksPQRGDyv1+WiE65IpONe0DrZ51c9qtiI\nKGkfCWqtmiXF2zkb0wczrdiWXr/IPJdYEFKFOF5SiI7w3xsS02RNdC4wYsIX\nJy2FphrTKI3duaVsA9IePA1Hso43WjHBplMOaRTjFkhyGvL058YsThG4dlg8\n+Mc+Cl6KABUSW10I7VIN5/MRV1uA/rzuVJxpDfEkMxqgA71r0riJlj3qxTdB\ndqVvvhMC5V9VzpR4vGAiUXUSTXI6NSnTS2qS/LVc5+qYA5VUiojjV/e5ABeP\nrtTo\r\n=c+QD\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQDzymp6+x3/hmKnbB/MflZZydEgtvzChNi0202DQQHfUQIhAPR2MuL8mgdtpDetBxd/bf/wrkOcEblVk61LmOYyNwaj"
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_1.5.0-2_1565277493981_0.5916209598901672"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    },
+    "2.0.0-rc.0.2": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "2.0.0-rc.0.2",
+      "description": "Web-types for bootstrap-vue",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@2.0.0-rc.0.2",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-YFPr1bbW3JLyF/jlAEN5pC2Bfwu/+LXLFnjuE7XznTwRAj3pkVGliqHlkPjdfOoDXhTIM3hTU3l1ANL2WaK1ow==",
+        "shasum": "94270d75bec836c03fb10e0dffb6536e0deeaef1",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-2.0.0-rc.0.2.tgz",
+        "fileCount": 3,
+        "unpackedSize": 235204,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdTD08CRA9TVsSAnZWagAAN9QP/1bCE6KlFCk4saBFBdXU\nGnlb6uO6aEmh/VeIryzjni6FyFrb5nogDn2LLuZJu0kVd+BV9BAvU+g/Tp64\nR8egW+81npELtLOXoBuAPRS2hAY1wytP9N4XyFXHoboxbj0NOzLjcK/9eiiJ\nfDvLH5HCKuKL6XRZTpdTAje1URJyp048QVVdBLIFeztP5/fKEmAhZrV3+ZJ/\ne3RAlHf91kWUQPj4rp2XwTqWoTDhfy9K3omEyVjr6psa9w5z77JGxVZr2Jrx\nwChoWJPJRsxYw9WeGh9nH3mYVIGExKPsACVA7cVNchdRxtednZwzwDrDbTyk\nAle0+0+eeF+5lhPNgTp4QlnVuEWHF2gMZVKMi67YxQfokpLznIx5jwbttsTS\nZ7K1zbpFDaTgrLbhKEsw/Thesd7+2Oiwx6tILgmDyQAyu0cT/+8kkvrtM6wb\ntu0ykAWfiAAUnIPS/d3nwOxio0ySZzNieMaycXzlYrLXWaKa9v0kkDXKPkXV\nhVB5296QLNhBRzpUth/PdZYjbtvRs/dr7Lisq/cN5JKr4HVYTV1f3tnJrsi9\nj5X8ABMFKInUXFxuTZ6OEHQ9mGsVFVxOb2ybJcASAavkC3xWguRVwgoJsS0g\n+8aYGoYdVhIul6/qK5RoIpNe9vdbhKPprlIvJAxKBRRwnmkU6IdqXhTJ7Jqk\nC+vC\r\n=ZwER\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIQCYIADSsooMzTq+gjPVDCL2Jsi/0s7rTjRC2DvPwlJIzwIgJe0XEj8CkytJdlto4UumKhgtOYUAlAAktxnQR/DslkI="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_2.0.0-rc.0.2_1565277499399_0.6983489311118751"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.0.0-rc.20.2": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "2.0.0-rc.20.2",
+      "description": "Web-types for bootstrap-vue",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@2.0.0-rc.20.2",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-+ehnF5wAUAwzyeVmBtV4PhBRuKd+s9b8ilEIb+8vAdcM9rpPty/nMKcWWv7Z5inS9wnA60vjxecaK/g3PcFnsg==",
+        "shasum": "adc9f592cb34afc7741ec72358beea7f998a18b9",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-2.0.0-rc.20.2.tgz",
+        "fileCount": 3,
+        "unpackedSize": 317634,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdTD1CCRA9TVsSAnZWagAAC2MP/2A5005iXGHsYBXh0ZC7\nDXDWpf06ZVYIG417cYjPgrXsYMiyw6TT+KVjMRsfFl3FFxnAaHgF0dILPEaZ\nPidzhl1i+888e+h07m/6a3xQASfFyZ9cOpBIZtWEBnuzKhmKdF7tgYZc1u8k\nyJsCSbuF1D/qBe5oSRyL+t0ddBb6NnCCmCh8QY6f9lI698YM6HLCm8g5758q\nt+41zs43QMUKIu34wSz0sgUhS01fEss3nOtbZAQl3yseuW5gFXVIeHiw8kVy\nhQgahM3DTgkdbSatwvJFcK6JVhbNSRhwqNcgZ2lXhP1zBl/IIJc50RTHl8qg\nh2SKwQY5hPWtVXXJL7q5kZGxu8nhxzR40ClQxolfoKvs5lYYB02qPi/V1ijd\nYFdjD1jpOFaVVIvFZifAHcZ/YU2p9r/mBRFKry6HHuZlLDukZ+fGVExI4OoE\nE4DiDkTW3l0xbJ9ekH5ToLYmWqo+tZqEeoU7BK2EhGdImuksGPGKLACjmCq+\n2Ltv1ffD8Va3q1Uwl1flGyff+QWnuLBLKgvHwws+ro3mj0C47O49YT6BR5ee\nzr6qYUF72dbwDCQth+BRPz7hfNIEXn4UuSNR3G/CF8Fn0G9W641qXei+y4ji\nPq8pRu6fqEh3wufcpi3pPFueMuWMIoxjpG8X7IO2ayaOqQ/dLFYYUers1ijR\ny0K7\r\n=O6i9\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCIC3b177XMSwWELg7vGOysJrSCRlks+AkIw29KiTa7b2qAiA9YzwiIsLWMlGK7f1K4+GvWz9yCXAYHvXqTMOxNSWWKg=="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_2.0.0-rc.20.2_1565277505419_0.08997798290423886"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    },
+    "2.0.0-rc.24.2": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "2.0.0-rc.24.2",
+      "description": "Web-types for bootstrap-vue",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@2.0.0-rc.24.2",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-xTXY0aSMmL7p3nW6PKZUL7by1VjdhLptJU/31B9HxFtK+39rEZyo0PIopQPsXIdTjdgPBE7b676Y33GBKPMOSw==",
+        "shasum": "dd89d70dbc510552b4b6ce73c9bd866d94f215c1",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-2.0.0-rc.24.2.tgz",
+        "fileCount": 3,
+        "unpackedSize": 337089,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdTD1GCRA9TVsSAnZWagAALt0P/3tDkkbum188cGvV0qKn\nKyy2c/ux+Vt8qaW3rAw7cakUc3YSydZGlXdUtAkNGMTTJy3ob+qLVI0cs0NW\n5XCbvab2/Ctvsy1/tedGNfMdv7Q+2RoGMo+9zdICHYvDLTWcNobWqmKiOTSv\nzw/2bf3nMrWnX+qC1Mxe6s1sjjLam1G2hnHlskhD2M5OfUPB278vlX86LoVf\nUnEkpQBPDbppoEyHf5+p+fCpO9adt/NVXx4f1iHGoYyT0R6jrDcnUZQE69v+\nFtdm8cNKgXd9Yl5/w7D7l+X5X6AuFsuTHij98zwSHi6YJ9E1fR8Z2y0GIQdf\nnHj1zmTqbURrpQeULz0jEKtHVlclxMPqexyU6RsldduanDOtHJxkU19HfHZu\nKuRdhABtrc6JN+b/31a9hZs9rOapxUpXeUFmn8s2CHqN8Tx3lRQu9FHGu/xW\ngWNyu6NTMgenjQMC6EjTo/VveaoKrmIuwrktP6wEnJrqu+RwG7A8KcFVorb/\n5dOpt73ozQLMZqRV6UqKWKKHiRqvYKXq+vAzCdKq0TQ99FCzV8FBIz38VhF8\nzcPjTkMXAmkTvkSMIpRWPUxdUWvoASVMBRnOyNzTioIRCqH75vU8Rl166cPk\n2hJFZuweiObSGk+/6kHuK0fhMAfBoQI93whYYIrgf14Ex5KH6mHZvlFBlrvc\n71T9\r\n=VrQ0\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQDngeiGzeAaobiASqsH6Or5TS7Bq8/H/nyu7IzZPKchOgIhAM5U37n/vth4xa+OadfSNVKxfctRZdiH61657nSCKOQQ"
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_2.0.0-rc.24.2_1565277510423_0.6508859743511921"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.0.0-rc.25.1": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "2.0.0-rc.25.1",
+      "description": "Web-types for bootstrap-vue",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@2.0.0-rc.25.1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-VnQ0yLFzufwS4VAwyW16uTvR1FTs0zGIKx9wsEoN3cIK6b+kprJs9SMxnkrphzq9cQxpGJqhftBZmh7iNZOykg==",
+        "shasum": "cb595dbbde0a7c06463ea5f053ba7527f6cb96e8",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-2.0.0-rc.25.1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 337505,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdTD1MCRA9TVsSAnZWagAA7dsP/R7S8o8SNBQO6aa/PSWH\nx3zbzPgITR/+xMN2QvOMuGwb49wIzuyXpiSxfJ8sTcIFNRFl/fx1E2D7ZErS\n8Ohzw3L0+sBDoy3c8Gc0H4KoIkTDjGPbokwS2wY2gCfTkoxl49gCWx8zqtMg\nnqU6XsWCWS463N0Gr09Y4DWbhR69uA8wHw1uutCWfeJDBIAd8GNgu4i4eHZ3\n5XmSy472LdwhqvopflK+YVoOmiPDEvjqv/xDWV0JS9AXTnEorlNxvCFo7Qwy\nrZRldh+710MGbEp04O9+XEHn6QC6DlftF0qNtkFeJVBvHyfN3ay5xrRLYYsx\ni5wEbhyKub7Gy8Z5eTmBCY8feUByEZAtDD/imK8/r4fQCR+S5HVOAnougbWC\nHE//gwZZa00W3scWjBs/UEvrKgrQP0AhnYLMTQpXSEPVjK6nkMjwY9i2a51V\nzJOLFkXmMKndiTwrQ9/NXjV3pyRBx/6BrFe5mH2gBBPwPWV1e3kw0JNz0Xrh\n1KVle1jADLqquCR/GXiSjf3pAsasznJZA1XraIGlY+DB9mu4vTct4R7bktCP\nMhfK3hrxAXhsDNs9LTcjz7vaVJMK8HVog5G8wsdl8WBjMM5MTTmGjzq7oTHm\nz4LmdR/squGN34gkdyFOTwO6opa1T+hW0IjUkzgW+/NItkf6RDuHE3smQGfo\n44EK\r\n=GnV8\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIQCZp5qbD0qYo93urCuymqTYTaPYwJe7IL+Q/WCvfxAAdAIgbsNiLnB+OEFv/cFwVUfj6LMw9DZYeNCdS1zuoP+yMzw="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_2.0.0-rc.25.1_1565277516318_0.30034369845752873"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.0.0-rc.26.1": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "2.0.0-rc.26.1",
+      "description": "Web-types for bootstrap-vue",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@2.0.0-rc.26.1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-EO6ZMxGW0/d8eoTv6i7n9FTGurIvI3IhZ1yEbZhP6yVUctUdRGRJ6QjPIwfIHWAaN96FsOLHrUmG//bv8YdGTQ==",
+        "shasum": "c01f773a421d6544085bd6b86bdcbe13c44d2134",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-2.0.0-rc.26.1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 339643,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdTD1SCRA9TVsSAnZWagAArxIP/jgzrhoZt3UVibom7xk4\nf7f2cJKkkz3kRHC9GcIYxmQZreRaWYnE+I+S8cecngzMkFjuoXCFDadjUReb\nidoZAk5tx5Y7opTKjdQblNqvWL4CLshRS+XHt2dSeTY+IfiwMkuODEZ6HwQM\na2eofNnGXLeScO5hH27wgylyFPwRyv7Qgl0tSejISQK0d6YqdFV1abluLLvY\nj+wsGk23Pa8A83iZQ2B60oWoFQHVwwXvUkuuQRWO0rCrw1RgddU5hx4J+GhA\nUvSBskOHD/E1nF+fWgML6USO4bJMJpqooF+IdFPgEkdTE5oQTRxn+uT8PMcY\nZFcZHHlAHkdJK6gJirjhHuf0np1DnUDUAyHn6Pli5DF3B/56KAjDpr/I4F9e\n4g+Tx6Ug9JHBEJJHJhzYQMUtes55/rFoAmMjd+TbkezTfyKsGdyQsL0vqoSO\nnXbsIauYTpN+xxgwLQ7buiUhnPtUHVSggZEzU3QCfDpZ9JoFX6/wYmABfitz\nRz92EzPINEZGN4IMa3zp6twfOWtb79luAIMwOkiCIMQuaCkGC5o5gYV+g+Dr\n9lx8gRC4peUpK1xKERuCRXC5fNSAK9E18lz/h4XLgVb1CJ2cQNFBbaJHDTEf\nP1z4YihS+0Mbq6/0W0U/rE144PtaaUIKMzClWID3K2LYE/6Kr6vuK9lCoJ6L\nFDXZ\r\n=v4ci\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQDMC6B/Ri/XyGilZeCX2n95f9YC69+5VqWZ6sEglss8JAIhAJYfwBE1cIZvt23twyq7JUmnz14nGNb2Z2af1vjNCQAD"
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_2.0.0-rc.26.1_1565277521879_0.951383535042768"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.0.0-rc.27.1": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "2.0.0-rc.27.1",
+      "description": "Web-types for bootstrap-vue",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@2.0.0-rc.27.1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-RRcy5QhuiXmi3YCR52NfVlkLC/MTUZPe4ygKZmqb4VEQosmMMU6HUFEIvZPhdwdloAF46tQvhy7sYbG5ctDBog==",
+        "shasum": "5bed6336191e6981a03cf283fb19b2f7ae87c230",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-2.0.0-rc.27.1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 340914,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdTD1WCRA9TVsSAnZWagAAlGIP/ifctM+35atTaaedmCiE\nIdbjMVOMrc/XsopKTAJ2tlPzHm1fXIz/NOT2SaDYeEhcNgJ/RM2Z2p3AdZf5\nFPB8KGyDhWQP9DpPnZqdthMjnf+2z0NL8jRUGm9kpFF/KEMxBjiBLrZNFWJp\nVydM8uoRXsfAYDoSXgwAJA2pghdZMuf0jfiRVP8YcuDfaGTcl5RVVC9o8Utj\n2OrEU2vcVGhXrKZ1tisFWuDXVDMOvr7KNoGTDK+lUMWMrtJ3QOlRcTVYEG7O\niLQgoeHEJiMMkZiOhogNTuD/Kp0kGHtjFYceJjLpAQu8Etac+5a6o2wLhRER\n1KIv3jYsbpEfnlcNwqldzXRyXGxe+AZbKZpZ7rBelOwIJ4/7u325ZuRcqxEn\npNWxZAj920BfKh9je16pOCXJBU5UjbwkN1inEmACpMGDpaUUZLJbtI+SHc8p\nt7mplSbSu9TpyuGqHP0xgT3GGH3xAP/WsYxm86jZ0wCqcZKo7VcK+5DCOHz1\nABmaOeungq23BVdLQIJvhJYT7SOe3lYO9e0TCJu6XZTupBwP6rq/MlpWWVir\nOpwEA3J/MsP4wfBo3+rUjEGRFof3XhbtDRLkGTfw2SXl7Q8SRJI/iA30hvCB\n1Wl8cvRse4bigKko+6UIk1ZvMgJ8yMTvd97qrMoR646BqUcVJei1kzG08aEc\n4cQN\r\n=M1vW\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCIEtS1jDf4ZM4HuhV3nsdCSyFhMFZX3O6RVdDIggP7kqKAiBYozyWNmwA3sc09AqtMKC8nS/HUkyrIjaM7irt+7jaUg=="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_2.0.0-rc.27.1_1565277525927_0.21775197723687634"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.0.0-1": {
+      "name": "@web-types/bootstrap-vue",
+      "version": "2.0.0-1",
+      "description": "Web-types for bootstrap-vue",
+      "keywords": [
+        "web-types",
+        "bootstrap-vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "bootstrap-vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/bootstrap-vue@2.0.0-1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-j3qxL+Ba5siYppyUbyiW3qcMy4c0Qa+YYhkwr26GHxR8wPEoJQhN7vsEfRpix81OOr0fLtWNYtL6ilrctf7EFA==",
+        "shasum": "8a856ad6a2ca4ae7d1be698d0c10b18412d354ab",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/bootstrap-vue/-/bootstrap-vue-2.0.0-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 347801,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdgMBHCRA9TVsSAnZWagAAxj4QAJXWinF/cUm8G7Lf9R45\nHRuYk4/u3i/eekON5N4jYPMMPnS5DnVOFoNJq5XuW9BLa8DqjjTSoh4Iqfx3\nvMObl5ZFT1AnbAVpyLaHhavo+EXE3k3hP7XLoodXYevL24Ab0OUCipuh0/wU\nQvriZIidAPPzP2ppskr2nkgCNYpeBUdOcQh7R4hdXUqi6dHGx7sPJt3gi+KO\nPcksE5qIWDmkFk9nC7FIRdmMVsuY7LfVcn+MGLs/xOa7jpdMXlOjAXmwpgNx\n1UagnFEXM17Zg5EWOp79J7IcXuCDshW8mo3nn4LpgKIdNtM2aVBL2R0upm71\n8n3+DZCSAjJllZOQmsnwfjr41kMAwq35/aUfQZQiY/1EkskLGWc7Ldxb3utN\n6MHp0CbQgGue1j03dUlPrAIBD4PVtL+Fbua6KSqS9mmxkAf+suBLgaKy0KUy\nH+6p9B6AW/Tso/uB43ZeG2xX4i8gvix0q/Mifvu/6DNzBE8J+OJfNPLXvbms\nibnlH1c67NXSBrvuT8fZblHPp+zj+eqR+kqtiZ835JpRzCDgg8EIQT760Zlc\nHaiy6yvPmE4z5CUT2diOhs7JLwbAOtWSKbBdW2isvh6lUPJUmOmZ6DkkGWwp\nBWyaKY8Ngelqxq2WRtlnu6Rx6SyAt6aBU9kkklF0aWTJSSUJ0IM2aV2Iky3G\nSayi\r\n=rvXC\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCIHIY/K0ODLkHUQyfapQJ9BsaRcqp3steI79xxtrIbHi0AiBS6HA5R/1UAKTGJJKMGHl4zbuFpA0lwsJgWBkXRZgvOg=="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/bootstrap-vue_2.0.0-1_1568718919230_0.673886249438931"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    }
+  },
+  "time": {
+    "created": "2019-06-21T10:06:50.642Z",
+    "1.0.0-1": "2019-06-21T10:06:50.986Z",
+    "modified": "2022-04-07T12:10:45.690Z",
+    "1.0.1-1": "2019-06-21T10:06:55.870Z",
+    "1.0.2-1": "2019-06-21T10:07:00.437Z",
+    "1.1.0-1": "2019-06-21T10:07:04.483Z",
+    "1.2.0-1": "2019-06-21T10:07:08.254Z",
+    "1.3.0-1": "2019-06-21T10:07:12.135Z",
+    "1.4.0-1": "2019-06-21T10:07:17.551Z",
+    "1.5.0-1": "2019-06-21T10:07:21.842Z",
+    "2.0.0-rc.20.1": "2019-06-21T10:07:25.979Z",
+    "2.0.0-rc.21.1": "2019-06-21T10:07:30.342Z",
+    "2.0.0-rc.22.1": "2019-06-21T10:07:34.283Z",
+    "2.0.0-rc.23.1": "2019-06-21T10:07:38.258Z",
+    "2.0.0-rc.24.1": "2019-06-21T10:07:42.445Z",
+    "2.0.0-rc.0.1": "2019-06-21T10:09:23.567Z",
+    "1.0.0-2": "2019-08-08T15:17:20.108Z",
+    "1.0.1-2": "2019-08-08T15:17:28.142Z",
+    "1.0.2-2": "2019-08-08T15:17:37.569Z",
+    "1.1.0-2": "2019-08-08T15:17:42.501Z",
+    "1.2.0-2": "2019-08-08T15:17:49.410Z",
+    "1.3.0-2": "2019-08-08T15:17:54.642Z",
+    "1.4.0-2": "2019-08-08T15:18:01.800Z",
+    "1.4.1-1": "2019-08-08T15:18:08.179Z",
+    "1.5.0-2": "2019-08-08T15:18:14.177Z",
+    "2.0.0-rc.0.2": "2019-08-08T15:18:19.537Z",
+    "2.0.0-rc.20.2": "2019-08-08T15:18:25.553Z",
+    "2.0.0-rc.24.2": "2019-08-08T15:18:30.552Z",
+    "2.0.0-rc.25.1": "2019-08-08T15:18:36.450Z",
+    "2.0.0-rc.26.1": "2019-08-08T15:18:42.002Z",
+    "2.0.0-rc.27.1": "2019-08-08T15:18:46.065Z",
+    "2.0.0-1": "2019-09-17T11:15:19.381Z"
+  },
+  "users": {},
+  "dist-tags": {
+    "latest": "2.0.0-1"
+  },
+  "_rev": "1608-4aaf54583c6acb26",
+  "_id": "@web-types/bootstrap-vue",
+  "readme": "README.MD",
+  "_attachments": {}
+}

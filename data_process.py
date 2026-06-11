@@ -6,6 +6,9 @@ from pathlib import Path
 from utils import *
 
 from langchain_community.vectorstores import Chroma
+from logger_config import get_logger
+
+logger = get_logger(__name__)
 
 
 def get_text_splitter(method='recursive', chunk_size=300, chunk_overlap=50):
@@ -97,6 +100,9 @@ def doc2vec(method='hybrid', chunk_size=300, chunk_overlap=50):
         chunk_size: 分块大小
         chunk_overlap: 分块重叠
     """
+    logger.info("开始构建向量数据库 | method=%s chunk_size=%d chunk_overlap=%d",
+                method, chunk_size, chunk_overlap)
+
     # 获取文本分割器
     text_splitter = get_text_splitter(method, chunk_size, chunk_overlap)
 
@@ -126,11 +132,12 @@ def doc2vec(method='hybrid', chunk_size=300, chunk_overlap=50):
                     split_docs = merge_semantic_chunks(split_docs)
 
                 documents.extend(split_docs)
-                print(f"处理文件: {os.path.basename(file_path)}, 生成 {len(split_docs)} 个chunks")
-            except Exception as e:
-                print(f"处理文件 {file_path} 时出错: {e}")
+                logger.info("处理文件: %s | 生成 %d 个 chunks",
+                           os.path.basename(file_path), len(split_docs))
+            except Exception:
+                logger.exception("处理文件 %s 时出错", file_path)
 
-    print(f"\n总共生成 {len(documents)} 个文档chunks")
+    logger.info("文件处理完成 | 总计 %d 个 chunks", len(documents))
 
     # 向量化并存储
     if documents:
@@ -139,17 +146,20 @@ def doc2vec(method='hybrid', chunk_size=300, chunk_overlap=50):
             embedding = get_embedding_model(),
             persist_directory = os.path.join(os.path.dirname(__file__), './data/db'),
         )
-        print("向量数据库构建完成！")
+        logger.info("向量数据库构建完成 | chunks=%d", len(documents))
         return vdb
     else:
-        print("警告: 没有生成任何文档chunks")
+        logger.warning("没有生成任何文档chunks，向量数据库为空")
         return None
 
 
 if __name__ == '__main__':
+    from logger_config import setup_logging
+    setup_logging()
+
     # 可以选择不同的分割方法:
     # method='recursive'  - 传统的递归字符分割
     # method='semantic'   - 基于语义的分割（langchain-experimental）
     # method='hybrid'     - 混合分割（推荐）
 
-    doc2vec(method='hybrid', chunk_size=300, chunk_overlap=50)
+    doc2vec(method='hybrid', chunk_size=500, chunk_overlap=100)

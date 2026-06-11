@@ -1,0 +1,188 @@
+{
+  "name": "@web-types/at-nuxt-vue-app",
+  "versions": {
+    "2.0.0-1": {
+      "name": "@web-types/at-nuxt-vue-app",
+      "version": "2.0.0-1",
+      "description": "Web-types for at-nuxt-vue-app",
+      "keywords": [
+        "web-types",
+        "at-nuxt-vue-app"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "at-nuxt-vue-app.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/at-nuxt-vue-app@2.0.0-1",
+      "_nodeVersion": "12.14.1",
+      "_npmVersion": "6.13.4",
+      "dist": {
+        "integrity": "sha512-xKA0ameHIHe8ZiMviZblDmhU3POnDE0ForurmA7fvkIFHyLRnbTG8kuCNHM6xnDtQV0SYXQj+CNldr/iUFGRxA==",
+        "shasum": "b7d5618f03208b1e4875725f03e658d71abf1437",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/at-nuxt-vue-app/-/at-nuxt-vue-app-2.0.0-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 8879,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe9bg2CRA9TVsSAnZWagAA6x0P/iSfo8jYAA6uHW+kkxf8\nekRyrPnvTklqr2AI5fz6k9R0e17KTL+SFjlL17Q5/yECYrnAmWbaONeUPVCc\nD6uXhxbDtRmxkU/V0UcE6yp94Jex4AQBEPDWRAm+tI5P/UPTWjYnkiK9cVJS\nBa9rHk3DsR6iA5/Zt+kDc45271axoZbtH4YDlAqhgN3StNMOSP+K0kA8iN3B\nKnFYzPxx049uBmUq0A3t3bCsd4PuwCeeKe0lLSkWnDb5jhabXL7zz56Ym2mQ\nvRy65WzE/rdIqTeAtlu9Hr8BqHlDA35FN1ngQCwQR+tp/p2C8bEwZXR7wx7r\n42DPlsJRjSzAYP0N4EHMGySEUtni8spRnZvljJPv/I7ro9GsBYQ0UyShedL+\n1LU64R2aPwZGHd45JjiFXUgwDLo73n/oiUFm0tkLSK8epxyz1zeunstSx+Ps\nURfuHbhQg2gQraf2ZtouJaVGxslHVS5iKTVvbMoADEkKrIqU8sDfNZcqfHOR\naPwGVHm3ssxX0DGy6L1x614EXkidvdSZ0fa0dw+tnwOIfF7lpv02PnEilYO/\nE1kABsaVUKxORcce0SFj46mQQO8h1o4dJfHuK7SgaPaI52l+TPHb+RvYRuXe\nx7qvDirfORdRiIDX7wpZQHu9Yi/S4LkYWuPCCLdD8SmvzlfCoI3Q4zw4V/16\nmDh9\r\n=I8Cc\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIDA2+QRwdugvdLJZGbbcEcwMPbJ7r/rAXjlvFOLjaomRAiEAxwbzQU3g1kvTdHgmlp7yNda8BdDrInItV6GhAKVA4Ls="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/at-nuxt-vue-app_2.0.0-1_1593161782497_0.8159307508314462"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    },
+    "2.4.0-1": {
+      "name": "@web-types/at-nuxt-vue-app",
+      "version": "2.4.0-1",
+      "description": "Web-types for at-nuxt-vue-app",
+      "keywords": [
+        "web-types",
+        "at-nuxt-vue-app"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "at-nuxt-vue-app.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/at-nuxt-vue-app@2.4.0-1",
+      "_nodeVersion": "12.14.1",
+      "_npmVersion": "6.13.4",
+      "dist": {
+        "integrity": "sha512-ejmJKcfppIEkenv2lEcEq1BmYtWIuWWndgXWWC6/XvqWuL7OELml3nYB+BSROpCJPpFQbvkzGs1hTyI/Rdjnuw==",
+        "shasum": "60d685695b7b3d1e6d4606ae076a9e9c08fc8344",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/at-nuxt-vue-app/-/at-nuxt-vue-app-2.4.0-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 9861,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe9bg7CRA9TVsSAnZWagAARJwP/0iYbxcdBCQWBUgd92XO\n76MB+i5WxYYhFRRa0hm/CldKcxVfQanilzdfUkjoH1adxZF3bRtWQ7WMTzA6\nRSxYu3IkAX51kQxSVjYYjGaHRjbHi/W9vLKUHzaVX1cduW2XexcwTrKNVMYi\n6kT+emMXFQun2OpeXflMAkpWyT7ZRLzt4MWUphuKoTVxOg6VO5btqUgtzVsZ\nEwTLx/G/oPgGbzce5aXqQQxxwd3jWd3LvQ+HoemOzkmKFYYz5DzpQK+nIorV\nhLrEjtUa/TPexqtFqcznQyIpYwElCVKtMr8U7FtZ9O5wlCk3u/rAvxlgmq8I\nMqXz2DzadFzHwYNvlVQHglLgS1eAkGCwO6ZEzXAiauHr1ZKMmfetEBYjvL54\nKY88Jjqqzi0y4RNVJLutNuFQFWiA94ppXGiRawq8WXqQYV+KAADo6Pt3Wz3X\nCgRZ+hBfPLDt7rl7tMTvGI6NlkG4VIeOSZc3as7xvsmB5mwcJtUEGzj8q0/3\nUTSPpvajsmnf7O1iWNbzrHHjLM8q0ilm25VRvakkSfJdxmJfQTzK1uBs7xXn\n4QmxRhYT9nJYvLzGwyBSsoLL4PrLC9794hVRkLAppnEuaSIX2aQ6GIktX3et\nr08o8ZtnkUBz6dA3kSD1rbPSiL04TM+dDY/sSf1f6qlKDCV76ZOwLbDmI4oR\nTm2t\r\n=K51s\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCIDddaGcKLJKteA9iDBAt2N92JN8OAKiRsaH19QBWeqDKAiAkElsLohLm9szXCl4GjV/ua7C48Q6fLtoCUPfAyp7IrQ=="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/at-nuxt-vue-app_2.4.0-1_1593161787107_0.5996860427569808"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    },
+    "2.10.0-1": {
+      "name": "@web-types/at-nuxt-vue-app",
+      "version": "2.10.0-1",
+      "description": "Web-types for at-nuxt-vue-app",
+      "keywords": [
+        "web-types",
+        "at-nuxt-vue-app"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "at-nuxt-vue-app.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/at-nuxt-vue-app@2.10.0-1",
+      "_nodeVersion": "12.14.1",
+      "_npmVersion": "6.13.4",
+      "dist": {
+        "integrity": "sha512-CrfmoP97Q90xC+8Eis/6ZMvoOYjmYqLN8tzv9VyaHNr2CjN6DlMvYIQtcJn95Wv3sKDRRc/jvSvsB6MyKbo4AQ==",
+        "shasum": "f8fb21666202a763cac5a4f7882645ed3a8704df",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/at-nuxt-vue-app/-/at-nuxt-vue-app-2.10.0-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 10039,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe9bg/CRA9TVsSAnZWagAAGF0P/j2MM1oU5QR1Llc5dKx3\ngGex9zSk9seMKKm0itO5v2ylP0ewy9yoEEQDds1R6mzOc+2ogyx1SZXAGyLY\nSoCfXqSFpKPCin0qJkTzNUVbMQrz/Sdyc5qwnQfazrPO5tKiXoecBUpQVBI6\nimdOyqvS8gY1Mha7xGE1e8UbeZMwB4Z5evwfCPU9EgxMs62YBRVHwBXItN7v\nGs6xfDVZdK6qMBiKzxjwPqOZEJ32Cl6AllO3HOYMh62H/tNGJbn1/+T1elS7\nC3CdHn2Q6S82VqLjqgVPO/gKibhHHy7Mt+WOqkoLO+CdZWgdetOTywhq3Jec\nQjme1n8nQihXGotHtTrYcTROXGZZP+SV5z43zSF7K4/Hw3yPZdA+AKsKc6Wl\nuimwQTNEY19e4v/yHwTJysAJeCvTiTP9TOecPPH8Tqc3z91dkcX4GfgeTCuB\n3x58cEqTkyRL15pzXc/2WmHhhhWWnCNX2ft/NO/8Zpxbph4KzJbvTfOhpTjA\nGjDCw5iHPs/oSWG853DowY7UwOpTEzZjQ1x27k53vTznLNRrfceGuZ4nrJBQ\nfvAxQcc2QQifxsJtFpUm45QJi3DCGf+gQYz7x2QxduJJXSzy/eti7oBTQmOO\nzSdz/GwIhXZFE+7qcsnxFD9QCZhntvSNBwBUcb1EHn3LKRQkHulWVy6RB0p5\nuGC5\r\n=vLeI\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIQCc4FRwribz941ENdwxpNlOiDIoIu+lMGrHgBcXy00c/AIgYLrXSRBCo09AYIn7fPjicDhfWvrQpSbkgsLan/J8QnA="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/at-nuxt-vue-app_2.10.0-1_1593161790612_0.3860581612755545"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    }
+  },
+  "time": {
+    "created": "2020-06-26T08:56:22.288Z",
+    "2.0.0-1": "2020-06-26T08:56:22.590Z",
+    "modified": "2022-04-07T12:10:44.739Z",
+    "2.4.0-1": "2020-06-26T08:56:27.237Z",
+    "2.10.0-1": "2020-06-26T08:56:30.767Z"
+  },
+  "users": {},
+  "dist-tags": {
+    "latest": "2.10.0-1"
+  },
+  "_rev": "5303-448f6080cc1222c7",
+  "_id": "@web-types/at-nuxt-vue-app",
+  "readme": "README.MD",
+  "_attachments": {}
+}

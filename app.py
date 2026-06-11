@@ -1,7 +1,12 @@
 import gradio as gr
 from service import Service
 from file_watcher import start_file_watcher
+from logger_config import setup_logging, get_logger
 import threading
+
+# ── 初始化日志系统 ──
+setup_logging()
+logger = get_logger(__name__)
 
 # 后台监控文件改动（可选）
 watcher_thread = threading.Thread(target=start_file_watcher, daemon=True)
@@ -11,11 +16,14 @@ service = Service()
 
 def doctor_bot(message, history):
     """生成器函数：逐 token 输出，支持流式显示"""
+    logger.info("Gradio 请求 | query=%s | history_rounds=%d",
+                message[:80], len(history) if history else 0)
     response = service.stream_answer(message)
     partial_text = ""
     for token in response:
         partial_text += token
         yield partial_text
+    logger.info("Gradio 响应完成 | answer_len=%d", len(partial_text))
 
 demo = gr.ChatInterface(
     fn=doctor_bot,
@@ -26,5 +34,6 @@ demo = gr.ChatInterface(
 )
 
 if __name__ == '__main__':
+    logger.info("Gradio 应用启动")
     demo.queue()
     demo.launch(share=False)

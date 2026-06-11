@@ -1,0 +1,38 @@
+# ============================================================
+# 医疗问诊机器人 — Python 依赖
+# 安装: pip install -r requirements.txt
+# ============================================================
+
+# ── LangChain & LangGraph 核心 ──────────────────────────
+langchain>=1.2,<2
+langchain-core>=1.3,<2
+langchain-openai>=1.2,<2
+langchain-community>=0.4,<1
+langchain-chroma>=1.1,<2
+langchain-text-splitters>=1.1,<2
+langchain-experimental>=0.0.6
+langgraph>=1.1,<2
+langgraph-checkpoint>=4.0,<5
+langgraph-prebuilt>=1.0,<2
+
+# ── LLM & Embedding SDK ─────────────────────────────────
+dashscope>=1.25                         # Qwen embedding (DashScope)
+
+# ── Web 框架 ────────────────────────────────────────────
+fastapi>=0.136,<1
+uvicorn>=0.46,<1
+gradio>=6.0,<7
+
+# ── 数据库 & 知识图谱 ───────────────────────────────────
+py2neo>=2021.2.4                        # Neo4j 连接
+chromadb>=1.5,<2                        # Chroma 向量库
+
+# ── 文档处理 ────────────────────────────────────────────
+PyMuPDF>=1.27                           # PDF 解析
+
+# ── 工具库 ──────────────────────────────────────────────
+python-dotenv>=1.2,<2
+pydantic>=2.13,<3
+requests>=2.32,<3
+watchdog>=6.0,<7
+tiktoken>=0.12,<1                       # Token 计数

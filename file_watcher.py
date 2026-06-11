@@ -5,6 +5,9 @@ from pathlib import Path
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 from data_process import doc2vec
+from logger_config import get_logger
+
+logger = get_logger(__name__)
 
 
 class FileChangeHandler(FileSystemEventHandler):
@@ -36,7 +39,8 @@ class FileChangeHandler(FileSystemEventHandler):
                 if file_path.is_file():
                     file_hash = self._calculate_file_hash(str(file_path))
                     self.file_hashes[str(file_path)] = file_hash
-        print(f"已初始化监控 {len(self.file_hashes)} 个文件")
+        logger.info("文件监控初始化完成 | files=%d dir=%s",
+                    len(self.file_hashes), self.watch_dir)
 
     def _calculate_file_hash(self, file_path):
         """计算文件的MD5哈希值"""
@@ -47,7 +51,7 @@ class FileChangeHandler(FileSystemEventHandler):
                     hasher.update(chunk)
             return hasher.hexdigest()
         except Exception as e:
-            print(f"计算文件 {file_path} 哈希值失败: {e}")
+            logger.warning("计算文件哈希失败 | file=%s error=%s", file_path, e)
             return None
 
     def _has_file_changed(self, file_path):
@@ -62,24 +66,18 @@ class FileChangeHandler(FileSystemEventHandler):
 
     def _rebuild_vector_db(self):
         """重建向量数据库"""
-        print("\n" + "=" * 50)
-        print("检测到文件变化，开始重建向量数据库...")
-        print("=" * 50)
+        logger.info("检测到文件变化，开始重建向量数据库...")
 
         try:
             # 使用混合方法进行文档分割和向量化
             vdb = doc2vec(method='hybrid', chunk_size=300, chunk_overlap=50)
 
             if vdb:
-                print("✓ 向量数据库重建成功！")
+                logger.info("向量数据库重建成功")
             else:
-                print("✗ 向量数据库重建失败：没有生成任何文档chunks")
+                logger.warning("向量数据库重建失败：没有生成任何文档chunks")
         except Exception as e:
-            print(f"✗ 向量数据库重建失败: {e}")
-            import traceback
-            traceback.print_exc()
-
-        print("=" * 50 + "\n")
+            logger.exception("向量数据库重建失败 | error=%s", e)
 
     def on_created(self, event):
         """处理文件创建事件"""
@@ -89,7 +87,7 @@ class FileChangeHandler(FileSystemEventHandler):
                 self.last_event_time = current_time
 
                 file_path = event.src_path
-                print(f"\n[新建文件] {os.path.basename(file_path)}")
+                logger.info("[新建文件] %s", os.path.basename(file_path))
 
                 # 延迟执行，避免文件还在写入中
                 time.sleep(self.debounce_seconds)
@@ -105,7 +103,7 @@ class FileChangeHandler(FileSystemEventHandler):
                 self.last_event_time = current_time
 
                 file_path = event.src_path
-                print(f"\n[修改文件] {os.path.basename(file_path)}")
+                logger.info("[修改文件] %s", os.path.basename(file_path))
 
                 # 延迟执行，避免文件还在写入中
                 time.sleep(self.debounce_seconds)
@@ -121,7 +119,7 @@ class FileChangeHandler(FileSystemEventHandler):
                 self.last_event_time = current_time
 
                 file_path = event.src_path
-                print(f"\n[删除文件] {os.path.basename(file_path)}")
+                logger.info("[删除文件] %s", os.path.basename(file_path))
 
                 # 从哈希字典中移除
                 if file_path in self.file_hashes:
@@ -139,7 +137,8 @@ class FileChangeHandler(FileSystemEventHandler):
 
                 old_path = event.src_path
                 new_path = event.dest_path
-                print(f"\n[重命名文件] {os.path.basename(old_path)} -> {os.path.basename(new_path)}")
+                logger.info("[重命名文件] %s -> %s",
+                           os.path.basename(old_path), os.path.basename(new_path))
 
                 # 更新哈希字典
                 if old_path in self.file_hashes:
@@ -169,12 +168,10 @@ def start_file_watcher(watch_dir=None, debounce_seconds=2):
 
     # 确保监控目录存在
     if not os.path.exists(watch_dir):
-        print(f"监控目录不存在，正在创建: {watch_dir}")
+        logger.warning("监控目录不存在，正在创建: %s", watch_dir)
         os.makedirs(watch_dir, exist_ok=True)
 
-    print(f"开始监控目录: {watch_dir}")
-    print("支持的文件类型: .csv, .txt, .pdf")
-    print("按 Ctrl+C 停止监控...\n")
+    logger.info("文件监控启动 | dir=%s debounce=%ds", watch_dir, debounce_seconds)
 
     # 创建事件处理器
     event_handler = FileChangeHandler(watch_dir, debounce_seconds)
@@ -190,13 +187,16 @@ def start_file_watcher(watch_dir=None, debounce_seconds=2):
         while True:
             time.sleep(1)
     except KeyboardInterrupt:
-        print("\n\n停止文件监控...")
+        logger.info("文件监控已手动停止")
         observer.stop()
 
     observer.join()
-    print("文件监控已停止")
+    logger.info("文件监控已退出")
 
 
 if __name__ == '__main__':
+    from logger_config import setup_logging
+    setup_logging()
+
     # 启动文件监控
     start_file_watcher()

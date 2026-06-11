@@ -2,13 +2,17 @@ from utils import *
 from prompt import *
 from langgraph.checkpoint.memory import InMemorySaver
 from langchain.agents import create_agent
-from langchain.agents.middleware import SummarizationMiddleware
 from tools import retrival_func, graph_func, search_func
+
+from logger_config import get_logger
+
+logger = get_logger(__name__)
 
 
 class Agent:
     def __init__(self):
         self.checkpointer = InMemorySaver()
+        logger.info("Agent 管理器初始化完成")
 
     def get_agent(self):
         agent = create_agent(
@@ -28,4 +32,5 @@ class Agent:
             # ],
             checkpointer=self.checkpointer,
         )
+        logger.info("Agent 实例创建完成 | tools=%d", 3)
         return agent

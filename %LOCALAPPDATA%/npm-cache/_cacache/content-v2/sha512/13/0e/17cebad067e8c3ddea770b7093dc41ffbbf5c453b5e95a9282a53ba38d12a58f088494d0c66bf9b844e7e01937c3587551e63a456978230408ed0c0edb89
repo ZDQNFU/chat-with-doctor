@@ -1,0 +1,476 @@
+{
+  "name": "@web-types/quasar",
+  "versions": {
+    "1.0.0-beta.0.1": {
+      "name": "@web-types/quasar",
+      "version": "1.0.0-beta.0.1",
+      "description": "Web-types for %PACKAGE_NAME",
+      "keywords": [
+        "web-types",
+        "quasar"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "quasar.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/quasar@1.0.0-beta.0.1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-s6UOkc4MgflNvHJSCJSqM/3yeVdoBho1S6/gUg6oc+RjRWkafv12H3okODZflNQJj21JJX12YXcOC6C1P1vDyQ==",
+        "shasum": "659319a9aa9f95be427097597c85a092d9272ab7",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/quasar/-/quasar-1.0.0-beta.0.1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 133602,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdDPiRCRA9TVsSAnZWagAAW5gP/3YzBXreFb3B8oS8n8gv\n6DPVV8Mx7kAepKXeV9jdnwhdmyknVqP0I6pBpgwxXKCDxXTnIdrbW0d9rVS4\nZ9ndgA4jWalr9vSnSWOIA2t837hX0Yn9RtvUh8aRKKAzrUhokmUC6fRDvGaw\nzB0ulcmzbVGDd6HBiLoB65TFexOix5UIusqgmbunuKqH2BJM+6mSUenAHYAs\nCGDQcw69KoNJHL02QWUGhRhMESSg5+j9IoBVQsDwS7sL2xO7O8oSBGAd+XmK\nSyrLY/xRQmrmBMRoN3WI8d0e7MLPVwdaXSzYFjZH8uEUGs6KjpaUi8xAMYgy\n6tPc0bBi9ocXuloMG1M1p3BeTNkVdqqmZiANy5u76isvjfxNbQok95SFnvm8\n1OG2iKFv7VYnFZKvOXGvwrppw2lq5YU+pg9BPyJXafjy/ltWB03YWIdRSr7Z\n9+vtpaSVprDVEhoFQGBDisrIeGp7A3PpYr4GK5HPeJhsHeb5u/RRuY3F1tqI\nimridsd92lz3ZdlLO88sbXaNTJvqCo/LyJaiuG51HNTjOjfZsR45XyQpJbbU\nB0KwDHwtrdC8yA8cNqxTU2M1K3DYDt7Gk+pAedmtt39gq/G5ZQh2GpdxM5eq\nGWCDrGu/aelMnFjH7AWsecMjbRz/cPHlrWZIUysEq64GSNja5Q2hZWYMS7wU\n956T\r\n=49d2\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCIG1HDw75VzKuNS2os2c2Xkw4SPvNDj6A8B1QDCPXTBTDAiBHAjxbxcIYzfFPwKW5JwdAVsBHo3zdIc4evgcp1SDxAg=="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/quasar_1.0.0-beta.0.1_1561131152906_0.019467510329171933"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "1.0.0-rc.1.1": {
+      "name": "@web-types/quasar",
+      "version": "1.0.0-rc.1.1",
+      "description": "Web-types for %PACKAGE_NAME",
+      "keywords": [
+        "web-types",
+        "quasar"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "quasar.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/quasar@1.0.0-rc.1.1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-HV/bPYdQRYSEmg66sG2s53EiCgxp3D1iLNbdvzhiLNZkksYiNjfLRNdJhR1GwUglo/U4jAnZE3E0GaD9T0BU/A==",
+        "shasum": "5a5b98d4876e0dadb7d8a0d3706e4ccc13313ac3",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/quasar/-/quasar-1.0.0-rc.1.1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 148319,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdDPiYCRA9TVsSAnZWagAA57EQAJmxJEXSdAYKNa/gKf9W\nDch1pWkldkS5zfKu8upnYUD3Ocyvz40AlqqpsF8P1WL99q8q9i9jP1dxlOhS\nXuUexYaq9T0eTVqYW1CYmVXmE5rMyjxVD06i4v1c2dYTctzUYmwu0gWSJ7Z0\ndrYB5LMQFbK02hXJvuk6aO7hsrbC1e4NGQosQG3+lRIgoR5IlKrI7zLtDaXN\nxKs0Cfu6X3mFX0hyvcnwVTwpCemHQI3MYGtO9xDbCCf+jKmOo6wJFFtafdCq\nZxGUdm7Q4xaWsR1kqjgSdpncY/5T5zcuvSAInoQ0MTwUZTX+iR4+7sFxwt9i\n3g0LoZFRq6v2ewqhXpGvIrNTDua3ACw5875N6MhYnPjqwRcBnNfXcUZdXx5m\nVTv0ijnX7cfywTeDLxIFjzuYljebkch57sLKOXvLIyLpJlSQ2tKVCA5P80bu\nUmz+M5r60jP2LlsYR0c7p9sIhxGldVFKU4/LTeeLZXOpl4RejbLRwoDPDIuJ\nrxI6s9jGAyh18rH5z0IaBCd1nz0Qu0yHX4RgCqV5T2pj16OzyxeAFQfsAwe8\nBEzrVUhG0xGqYYE6JwoZYNnhnn06weR7pCTNb0ieTbP2KmouamkRDgK+vlD9\nTJFRAlwG1jmHjWXWtF/NoAEmJom8qNESsq4Ix7Q8fQoQn9/h8em5wZoCGSal\n+/80\r\n=yhiW\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIB9bIce4SnYGu4Rs2m+VadEZCJp1vo5X66Vn2XdIcXqcAiEAsvCUwCPgAxJu+VEYiOHkXyrIZJ8j/iBXzXiNLIkTH+8="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/quasar_1.0.0-rc.1.1_1561131159388_0.28672333437990916"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "1.0.0-rc.5.1": {
+      "name": "@web-types/quasar",
+      "version": "1.0.0-rc.5.1",
+      "description": "Web-types for %PACKAGE_NAME",
+      "keywords": [
+        "web-types",
+        "quasar"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "quasar.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/quasar@1.0.0-rc.5.1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-nsx0lEtj67g9PfwV2gBQqKUSUNx5v88IM/MFN0fMW/Tk2CibiS9juKCCQq6uCwrcrp96hBeJk0RT2WJCzeWXAQ==",
+        "shasum": "d9d01e6a6cc4e9852d1a063a1beb2f0daa51a6ca",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/quasar/-/quasar-1.0.0-rc.5.1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 148522,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdDPifCRA9TVsSAnZWagAANbEP/RhJ2YlJ/m1XXT/5qH7z\nW+QM0GhhPKC0VKdMpPbd/uz6avM7Zr+WOyAhWWcBZMng/7Rr48lundn2+hE3\n2AkKservOVcXlwYFdkTNB7GfFbF++bUwI43zrgcqGbxKS7N8k8cbw8gP3lZn\naJrPtYUMPlGb3JmPWYgxCRUtQ/ib8DSgPp1+QxdgrdwEjNjxis9ZvZ/4K859\nWr/+AHN6eOR3NhgCyXl0Ej/iglxf+JA/CFb7MIf2WGqzvM812Tihy7uJlE2C\nxXgoILsTSNBYC3EmUvb2chFgqPfe4blAz7ZuK0VQOCiJC3DKj4frJO6OvZDc\nx4GXeKptQvX/zXoDEtXFR3/qZoLwPd3YX2kjQ9TPvBns7graZ3q/6WziwWjS\nBVHonxaAHeJu/4mbIgyfw6Wxk4eNWuPx/pZwBFA/LvHPgWZtaSbSjnX6VwS1\nVNRIzoh/v+AtXZeaFPuclrYTs/GqnyCJKeaUpMeUWuI5W99vOERSI8rYPJB0\nkmtWpJ60CKbBYvT5oDPbg1GibCSad5Stw3G6vhSXUb1EqqctxBEyCX4YLf14\nq+xEiTGi4e7VMzyNdOLJWQQAYIArR5OIv50ud2mveZI8eAgLM8rZBbSW9FCi\n/1wT1gI9xE2DcjRylE7BqhYX8iItFTe2qCxDy9P6/SnudeY3Cl/GyPkwDME7\nJMjr\r\n=oQ5x\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIQD8CbUAU3HRfsPw2OgtdKLsTe1p1cdlzIDwuXOQZpv1owIge9epg9yirc4AmFlKzOeF+6ddg36dqfoPcwNsjJEki/8="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/quasar_1.0.0-rc.5.1_1561131166621_0.19385025501507402"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "1.0.0-1": {
+      "name": "@web-types/quasar",
+      "version": "1.0.0-1",
+      "description": "Web-types for quasar",
+      "keywords": [
+        "web-types",
+        "quasar"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "quasar.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/quasar@1.0.0-1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-UqK/BQYiE0Reh1niiRGCboTMcMCxX+mCpT3r44Mp7H0YQ0wjDA9jvMXyHdf+qPiyqu6hKtDI2uLrR88GV/strw==",
+        "shasum": "06405494f71814b2de15b9a87addbc709e69e8a9",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/quasar/-/quasar-1.0.0-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 244040,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdTENbCRA9TVsSAnZWagAAeDMP+wYHx/ffq14jS+ccpDaY\nWrSpQvhxViAgCg20pxps+EhKSTGuaN7C1YkhwdH+EascMywbSOd4SjcIXbNr\n3kn/CY0y9ru7Kc5lr0eep/si0LjsKsmK4IoHRTBOau0whXSOLBMF9WHs82aP\nFqdy8nSTnki8oQQJQqTr/OqirUctYaosRLxAAu6cxvm5lahyKI0oK9pNYUf8\nF7BwF6vkUj/IXvZ11Nfs4N8/WPwsMiUEmwbod3VTavdUlSkZBSqsU+4jubve\n827OjWu3XNbeeJK7p29XsrT14LpCffKi1sc/UysAEMX103kQGyQG4UjWQ9dA\n+LJU9ha93qreFbCl7NoYSGzioDTYxjOFpVWmA8JlECoGkZCUGVsLqtE/kpcE\n5e6UX/YYrtcDl8ExD0AJul/K8f9eWh6JISzfBfrps2Gx3uwl6WKcEPAEeKE2\n4WPJ7RrF6ZAyySz+ZPzACXkHbV6BVr4tLKhnoE16JOdt1HQKSxlcbgDH/9xj\n1McOmbVNbap+K0wTJSXlL5nEunqRZ4UV6RbSQemAc7jGjui0InAT5Ezb9SWW\njv5rJXXyFCke09nYK9CCrh3BNKU693Sz2D5AX2Se0ODsjWfV6aBzKTg7J4OQ\nagt2Z1TZwxCDDjB2LGKhoUaHGLqAhacNgEoh1//Qfm8k9DqIepw8M1l/kX2z\nXQvG\r\n=48PU\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCID07PrbXRyQ+69ED038WbeeIEkRdhIUjC9IRe3YQiTFaAiAyODvOidiOkGXxeJdAELysugQZ4dAvNlwcDulfvWrkjA=="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/quasar_1.0.0-1_1565279066208_0.5710837683867127"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    },
+    "1.0.0-rc.1.2": {
+      "name": "@web-types/quasar",
+      "version": "1.0.0-rc.1.2",
+      "description": "Web-types for quasar",
+      "keywords": [
+        "web-types",
+        "quasar"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "quasar.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/quasar@1.0.0-rc.1.2",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-o/ZWu8FrJVoXyfqmgTjFDoFmqBOu2hCQ7iS9eHlWJO/4GvbJwmZCLagju+RxBqvEg5gAaqCmKuaTN5spwsgM0g==",
+        "shasum": "27f48b90e78901018a5aa4385203d5cdb91b9c65",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/quasar/-/quasar-1.0.0-rc.1.2.tgz",
+        "fileCount": 3,
+        "unpackedSize": 242751,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdTENgCRA9TVsSAnZWagAAlfEQAIhTAowL+/WItHhmK0hE\nYrtCNE7lDrTnY5CSTd6WDQO0h2xig0FPTdlzc0I8FeR4QI2y9Jla/7Obn98+\np0z95bE/IQfQb3Jsn8JsZdpfIEhAdAfFdrPCYPBAdBf6A7R+YJ8xWzBQtI1L\n+G0jTePPOsfvd9q3VsTSybunP5ayDZjnQNOiJNT6CDd8R6KRMD7amXqVPbqK\nJ+kIj+PKPXcwuAKLLRXC8Oc5wLi1T0Y2ELlHBBgK403KGI+9ljYZn8sHSA/a\nXu1tDCNMw/3zl8Mt8bx1USjAgRuVR2LnBvxbwEU3XCbXNRNPyJ/vduxgaQsZ\nId1KgLnwiSa4oxZuKuqWi+jI61dLZPjLwc8X7JBv/G07G6dPH6G8Ss3kTtis\nFWBEdt+rcCbqQJYTW1RkKxWKE7MeUazE48IH9xVhURVkjakfsSeqJDRnPRCg\nc/KmGZKezyKOKEyVcDKequXUgpJ7z+DVvHTNBTYKO3RHn0wUsD4+/ORTQ8eT\nIIr6ZAAAuA1ObjDU+4vuylhWprkIMjsd1033bcoWQMAn7HKFNczpPgmpj7gO\nUZPKUXLZ20nn+K9+nGfdeiUZmb8F/ltEO+UJxqo12gmXv0CrGe8ymY1TnyXm\nFnS+KiCTnUOzdEzoNcBC7iacxqtue+z+kNzPh+YZ6ia3yzYOCwRiAlBzmmEE\noaq2\r\n=LtoO\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQCPNVHS0G0yQy3j32CewYmtZuzEW1plBaNPTSLNsBvzrAIhAJgBz2UXh+MlcRQaL/PNAE0jHzgh17Db16plb+/QOq9y"
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/quasar_1.0.0-rc.1.2_1565279071510_0.7334376669694753"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    },
+    "1.0.0-rc.5.2": {
+      "name": "@web-types/quasar",
+      "version": "1.0.0-rc.5.2",
+      "description": "Web-types for quasar",
+      "keywords": [
+        "web-types",
+        "quasar"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "quasar.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/quasar@1.0.0-rc.5.2",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-RvJj2vPsWG0QygRSNGLCnzvncp3rQfMx2QVmhKdG0AGhrL4CCtXo9ZSNyDTZuqcmhuajV4OnZtPSEbPREo+kVw==",
+        "shasum": "d3be55679cb45f97ccee37a0d124b5ce54540c13",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/quasar/-/quasar-1.0.0-rc.5.2.tgz",
+        "fileCount": 3,
+        "unpackedSize": 243217,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdTENlCRA9TVsSAnZWagAAN6wP/jodVhwixEwLgakTtJ5/\neYc8XmrngoQ9CLO1gf5pkklDzqnw4newnSsw1kkFU6iKZgSvD+Th+3lPbM2n\nqPDkGGHN/Qd2opgSz+ZOJjT9R+NGJJ7IeRGsUFBao8B8n6cBvouNMDGYzwsf\ntjIoy71xuxaV92Hrjrq0O48oKrkr6EkgQLwM2SZFhyBVUc74kUbGrpxBSmo2\nWSjiPCmCR0j4MnJbCYvisx2kW+J/k7lzr/PWzxcfW3yFFKkoVQP6hPytMmue\nIE0sHvJoaieoc2ygQubtmdLZ5MW/hHBe6jqVb/kHZ0pkDIoxkjvJZDHFhnE2\n/BkEsz4Du1oihMQYrfjv0MLVQrwe27CYo0zyx5GpLC1M1Wweq62S+6a7B5W8\nEOrT9qq6Z0v7d8lCE0Eoisop63H0bAvvRYvS8rFjUQbvvjl+1fE8O5hXhBK3\nyjMb0phtN4CdOR6yUpu96fANm7G746UGvLtX6ggK6/pFFubefBfKVo3YNke6\n2R1LxUq1kZY1SgM/XC4ohQW2xazxQvZopce13gSBOT7Oh79ziurjM4Zq7F83\nV/pHCChAahJmT+uXJQCuRFX/KiHfNiYXjLKVZOmVx2nuy33G/tIhRBRdkq+t\n593bsK72Z0/td2OrTE942b6tfMMUyN8eVDAtvWQtlf+ghicFYQftBGb7EYtk\nxyMz\r\n=ndEF\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIHpgwINmNUsH18+/CCy5HOpnS9OlpKUX0e0fmzmzG3TyAiEA2M2QiBCPNTfVuzwdygUi8LiOL1R29OEXwt3CadxQvic="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/quasar_1.0.0-rc.5.2_1565279077142_0.5717049498790963"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    },
+    "1.0.5-1": {
+      "name": "@web-types/quasar",
+      "version": "1.0.5-1",
+      "description": "Web-types for quasar",
+      "keywords": [
+        "web-types",
+        "quasar"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "quasar.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/quasar@1.0.5-1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-cpJLrQhhiPiyVeyFNOBdR+0LsMrM9akjftRH5m98/fEHOZvCbBYowj2ISWQ17TsRA/4z8UsyneSciSO/eFiuvA==",
+        "shasum": "c7c5cc18adbf92d25ed431b95f1c65ba223b4fc8",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/quasar/-/quasar-1.0.5-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 244168,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdgL8DCRA9TVsSAnZWagAANOsP/2Mx0JpsZYiWvGtf2Co+\nLoxwKluGHBxIgEdiaMqwo2Kvib7Dzcd7+no0PooC53DkaIc9OOZG3grVwaSr\nuHyjG3tKMFovJS0H0vtwsRX8M7I3zjAVrDkN/9kiSZygQSBAa0ZMqMSCkbM8\nc+mpoYoyWVU+ljqvA6vsvYvm3I+J/BDK+gREiSRJSNSggbsz5s9MrHYPMUBC\n+XVuU29hxVvYsBv4gKSIVEM2kpOwmkfy0LKf6y+YrK1onIm3ByR63SrA8BnG\nO3ITkUhqZ24ecDlQproJ7OXwXENMH+J3i9sWiinztixy+IqzA0yW/6qzpN2d\nRWWtpNPljyEbEzu24WPt+aclygkYLxpt6B9jt71lqwAzPuTit/6iZsRCk4/a\nKr+2VNZRbgUn4bvTXpGqe+OMrNC7OKLZ7YKwoqoeU7feyXYUvwnb+kImAYCP\nsJoBuquz1aMv9pS3Vd30E63vt+xXnewyGvUT7sAkBRoaW+KXjjwDaw2uxSfQ\necLdU3ZMHbULxfV9BVAw7tNsqEo+RcpWl+enIfUUPEPqbgWlNe8BoRi/8kbJ\nXqSIJEHT55KUoals1V2+N/5voK3K9QtwAm1gcx4Gbj6b1xHeK0UXf2rEE2nc\nTjlt0akMNK1zfDFKAwJAxlaPE05t5urKT235ySs1j2NHXtv64d91ExFcNXUe\nYrBj\r\n=1e/s\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQD2BFVcmB19gA7TsNXKMcGVo5qTBERdCptMIke+mkKZOAIhAIszTKEHOuh0jH0WS0Ntw1byZJah9BI6kezEX+O56Ov6"
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/quasar_1.0.5-1_1568718594494_0.6276779754925186"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    },
+    "1.1.0-1": {
+      "name": "@web-types/quasar",
+      "version": "1.1.0-1",
+      "description": "Web-types for quasar",
+      "keywords": [
+        "web-types",
+        "quasar"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "quasar.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/quasar@1.1.0-1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-hs6MdfAyr8S9W5k4w66+FgdpJ7uipZ3D/X8T/rBQt7xzQ4OHQ2ebY0VDCeNfCgaTOU/vlnLYFrDYekX+aROw/w==",
+        "shasum": "7f828685e688a702b237d139bf02b6f7362ba83d",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/quasar/-/quasar-1.1.0-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 250395,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdgL8HCRA9TVsSAnZWagAAWo0QAIVgwMLLiBxehXAUgJUt\nz9izKqwEu+DmR0VCLzaOiLQX/f8N9ueG9Z83zNny9z4GtjJoK98P5yIeDti2\nKnlLNnEe2VR3Y9U/lKMHIKW7eCyQrf51p7nK9ikjW7AJBoDDCuotZHXEyO0C\nNHi2LAwnAKtR8SJULlpaAtbZCdZZqWj/tRvHXDpBfv16XygmAfF0rOUkQC2E\n3BGeexJZ/bz+P0nOAo9XysBWxohNFjw7+7EAMrfUzP9/CiApY0aKNINYScWe\nbRDTdLQlGjlKWjHpoTvhhtMwLST9QWud+iWFA6cLDVNpowCbAbdlO7+VeEV5\nwwTzWwdZ+5W8bVRk4JBes4gOsCPVHUjRITelZTVLB9k6SAU6oLOBeaMVsddo\nTvVeRb4/98rqwatQSvXBFwSkyczzzo/RaxLueM59fREzxsWDtuEkCoNuPdIU\nvmiwdJkdW2kweO9CBj6AUeZfsVJmORGuKujV8mT1UnVHDhJSQRcCCTc9eZpn\nNok5hGaksGY6RbXGX1AejTvd2JKnrgI+D+xr905tklYxK/DVG3cWblpbiS79\nyFaH1WH3c6KgGwA9YTm3yUTYhs0LKRXFavZNJ/ozzK6X2k/MJ0OVhOjd2auz\nuwl/RAYAaxPrKlr9tN1WxpLfMCwRO5gcEI71s3bleFNwHq7bxtDcVaAODJuV\nK5p0\r\n=x3fC\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCIHKX5a7vWQ3UyeqV1/xQP+8VzGgxXmyWJmJVMh4bCDI9AiBlkI7aRATvk+2uP+5VB2UwWD7b5tbbGuBkOtNR4NeMlQ=="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/quasar_1.1.0-1_1568718598771_0.31173279118393227"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    }
+  },
+  "time": {
+    "created": "2019-06-21T15:32:32.631Z",
+    "1.0.0-beta.0.1": "2019-06-21T15:32:33.109Z",
+    "modified": "2022-04-07T12:10:45.898Z",
+    "1.0.0-rc.1.1": "2019-06-21T15:32:40.044Z",
+    "1.0.0-rc.5.1": "2019-06-21T15:32:46.733Z",
+    "1.0.0-1": "2019-08-08T15:44:26.659Z",
+    "1.0.0-rc.1.2": "2019-08-08T15:44:31.654Z",
+    "1.0.0-rc.5.2": "2019-08-08T15:44:37.230Z",
+    "1.0.5-1": "2019-09-17T11:09:54.643Z",
+    "1.1.0-1": "2019-09-17T11:09:58.994Z"
+  },
+  "users": {},
+  "dist-tags": {
+    "latest": "1.1.0-1"
+  },
+  "_rev": "5810-ecdf612a374c2a3b",
+  "_id": "@web-types/quasar",
+  "readme": "README.MD",
+  "_attachments": {}
+}

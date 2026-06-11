@@ -1,0 +1,74 @@
+{
+  "name": "@web-types/vue-no-ssr",
+  "versions": {
+    "1.0.0-1": {
+      "name": "@web-types/vue-no-ssr",
+      "version": "1.0.0-1",
+      "description": "Web-types for vue-no-ssr",
+      "keywords": [
+        "web-types",
+        "vue-no-ssr"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue-no-ssr.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue-no-ssr@1.0.0-1",
+      "_nodeVersion": "12.14.1",
+      "_npmVersion": "6.13.4",
+      "dist": {
+        "integrity": "sha512-L7/4z83fo1crS/d4HSM85SSs/EojXoK8XGjN3qxERiQF5lz9H2PYCf2fAioFw/HOlFc1loC9wqKXtOoWbxOG1w==",
+        "shasum": "d8d09f38e1796556714ee3af1471abd1ac94680c",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue-no-ssr/-/vue-no-ssr-1.0.0-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 1547,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe9bgWCRA9TVsSAnZWagAAhZ0P/j2X7btD4vPF1lLM89lA\nGzQOc5uyaA8WFmorn1JC2fEpidreNVM1hUJnWZwl3OP/Nc2XLnGLEiipYKLy\n3NWTM8BdjltDOujHMlLLTp2XmJdvqZXNUfi/zfqGpt8EMUkNte8ycPChqxnC\nWvfYml5TwAr6gfXph8Vr9/Manb5cNEv9XeYk1cwjIrX7QA91xBQh0Ex9Kb80\nAay3q8xSoV2Y8q9wmoD61pxU7MM/yranEFukuC5RbmpJGrsKLcr1gLNqGtPV\nF8mEEKSFZwQp1bJ2++/Jxt2wp42rD7ExoxrhGapScqLvLoaYLenzCVK6nTTA\nAz27v6hGYFBym2ksSOGzGLtKl+49Z17wbRZXdi+x+EjdUA4rI6mSjQLSnIFu\n8WhuInK1bM1yPmbtLGSbnPWFpDiG+pa24nk82YMwUh82mMZ2BA1cQfY8u4Qh\nMVlEXXgfeOD7FdeKyuWKhIz6HSQqAX/XS3q4q+wEooDtg4qZ2WEZrDuM2ZM0\n2u5OxIpxBJXn/Co5yYXw+LRIix59DG3tnMkMyoou728HPWvNJIIpBGH4mKNt\nFwcwfJE0FyUM03iIKwWiEKvgWVCkPk/w6ArFrP5e5xNxoshpob0Y5xtYWmrm\nYOxH56rgCn38rBoAskbpXwt7ZMrCPDAlBvtXtvyel3Dz5uF1ffjpF9uspLzh\nmOjh\r\n=iCxV\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIQCkayd1w0qs+rFZHUFvkNfw0Xl+0bBrReKS+Yht8jVn1gIge7ppBxK5GtGoDmq6ULInfq/IkrV6tNMAO/sNqdVsI14="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue-no-ssr_1.0.0-1_1593161749644_0.6573533346523353"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    }
+  },
+  "time": {
+    "created": "2020-06-26T08:55:49.448Z",
+    "1.0.0-1": "2020-06-26T08:55:49.758Z",
+    "modified": "2022-04-07T12:10:47.792Z"
+  },
+  "users": {},
+  "dist-tags": {
+    "latest": "1.0.0-1"
+  },
+  "_rev": "1136-aa6789a00d99790a",
+  "_id": "@web-types/vue-no-ssr",
+  "readme": "README.MD",
+  "_attachments": {}
+}

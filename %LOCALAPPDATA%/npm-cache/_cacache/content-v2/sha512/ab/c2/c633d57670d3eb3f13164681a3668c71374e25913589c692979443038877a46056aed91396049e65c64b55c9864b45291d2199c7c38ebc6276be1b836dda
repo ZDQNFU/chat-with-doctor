@@ -1,0 +1,74 @@
+{
+  "name": "@web-types/vue-client-only",
+  "versions": {
+    "2.0.0-1": {
+      "name": "@web-types/vue-client-only",
+      "version": "2.0.0-1",
+      "description": "Web-types for vue-client-only",
+      "keywords": [
+        "web-types",
+        "vue-client-only"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue-client-only.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue-client-only@2.0.0-1",
+      "_nodeVersion": "12.14.1",
+      "_npmVersion": "6.13.4",
+      "dist": {
+        "integrity": "sha512-zyYDRWoI/74oB5YJEIEH5PAPJVSwBj4vSFMtblS9WOPN3tWEe8frN2VuPSKtv15fOAKMgK9bQ5m+lpqufAZrMg==",
+        "shasum": "8f214614a4d33f995639b1a0395d100e4251a576",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue-client-only/-/vue-client-only-2.0.0-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 1595,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe9bgkCRA9TVsSAnZWagAAwDMP/2eHCta1RQCEO0A7y55l\n09bgqivOETFf8st7Yz6lMQH53uzcqAb44+MwRi2zZS37UZaf8KXawks2+uMb\njldMmIZnmgmldGyxKcOFC3dxfArEDq8nIvEhUtyaJzDBjrWwsh0xHhgdwGzT\nwQq6zQaSWKjFcxtaebYjPjXZHL6iAXS0aFda5QCr54ltN0n9MsEpagkkWw80\nzVXl2W6v5EPHt+5QWu7niJYL+fH+faRVB+TYWIheJLbigrnc5Jjjgu71hmo3\nR7b4gGxwTB7XGS32ZJKftpKOAJ0GThs44qT4ZXpefSom4/UmncG38CFDvcgE\nvWSTo8ScMtyok40gJ8jz1gw4d2G83knxYSkzCUmEcUDSaP+RFhKjRfOhZfzi\nfxpYvF5aefltOqFC7i89tpiOKwm4PUavI00PWkW9nU1s/tUIgXRuqqlIMjvi\nvkOOUfx+OybzqhjHMtnDSHSRobNpTCW9BRFAlVC3hrU49O6zPBJ/juJeUxM2\nU4Jf/9FbXUNP8rNQApEkurHWMwQPnP3HfIhDo1K7YAt1N5B0HkZ81Ns03Fjx\nwL+v/RN4ZCX9iadc5SL3bq/XKhjPdbIMrnuhGS/Zg3/vX4pqGHWPWBPU+D7H\nJ7sapd/32a+ID4/jk/KPH+8IvKkf58Ew1VdGm0/Ag3Be+XgPEWzsr43UF+mh\nHDoR\r\n=qL9D\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCICTv/rIcyCeWZUjHaoyONZ76oqpVQPexs6XNRwVX7GdaAiB1nMhn4X1TW3qjJ745cgvpNPU9i1o9IGvl10e4dCMtUg=="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue-client-only_2.0.0-1_1593161764478_0.6039863490042712"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    }
+  },
+  "time": {
+    "created": "2020-06-26T08:56:04.108Z",
+    "2.0.0-1": "2020-06-26T08:56:04.709Z",
+    "modified": "2022-04-07T12:10:47.651Z"
+  },
+  "users": {},
+  "dist-tags": {
+    "latest": "2.0.0-1"
+  },
+  "_rev": "1634-bbed7e1a7676d370",
+  "_id": "@web-types/vue-client-only",
+  "readme": "README.MD",
+  "_attachments": {}
+}

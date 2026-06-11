@@ -1,0 +1,193 @@
+{
+  "name": "@web-types/lit",
+  "versions": {
+    "2.0.0-1": {
+      "name": "@web-types/lit",
+      "version": "2.0.0-1",
+      "description": "Web-types for lit",
+      "keywords": [
+        "web-types",
+        "lit"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "lit.web-types.json",
+      "gitHead": "e60912e548c758ab29dcd59f246c8607ae847fd2",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/lit@2.0.0-1",
+      "_nodeVersion": "16.13.1",
+      "_npmVersion": "8.1.2",
+      "dist": {
+        "integrity": "sha512-4fiLBb2GOoTgChf4i0xPut5d6pyDKU/fhr8mmuEjj4vMWkVPL4I8f1dZiotw0rrA8cIuSZhHd0btydyAI9+UVw==",
+        "shasum": "0787b4d331f53876890ff5ac484e89f887a10edf",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/lit/-/lit-2.0.0-1.tgz",
+        "fileCount": 4,
+        "unpackedSize": 3544,
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQCqo4S7ye0Jushi6kTDb9tMsa3+rBDSh6pT6yO2gZif9QIhAJhXhko0ZivvxRPyP08rlWQImRJY7XLHxf2WyPrpdWXL"
+          }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiU+V9ACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmrdmxAApAvXCmr/koAT4hrfY0AsICJcdSW65JG4i614sut4Xie1VHIk\r\ny/WXmbkKbqdvDoOc10t/9vwaQi9UNgyKO+87O4E1VLel8MiYf+mwYbmKgj+K\r\nl5YU2KGureQA8tXObwVD0HxmHb85KavlwOhJ7Ei6t3i3Lut6/E3cgmU/WJrc\r\nFcXIHUL1qexsecOkyE1fiJ4DAcxNrK31jcomHS9cMVd0/BSOWEgO4ogkU6XK\r\nm7qo0OyGAGEMv+Mm2E93WFbfMFRokKmIMc9/bnaYCrgc4BIswkDnv/j3Srni\r\nhjwMHwfrvbEgljSTsSydp3OWqSGiDKEgSRIbdrvoy/n8st6anBVcWJcTbySe\r\ne/JdVdq5ZIeSinTMrrSmzr3v/tosr6EC6K6tdGgRVOrO+yznFxYARfHPRUiD\r\nSEsTYCJPHRhKuKElUeOYOggFmUwqqRUI4JEWAgnjcMUPu0sccFH3uPXelGTI\r\nDLOL/Ro3vBalThDJTc/dBdmpRCLO2goh4QNr4N31WhJwbNmib2D3wttbIYHb\r\nCZsIBS9gcley7s1FKz/uzVVfDA/chMqoRbYG7fY0s+64V1HMpK6xBFDrtLA9\r\nc1q4cWgyR5QZdxAO5WBI8+QlFoLerfmIguba9NZUtd3r5Swlf4vs+2g5hT0F\r\nvQ2wtn0EM+hZqzaXDoB+6ruyLLpZ0prhbXM=\r\n=rCTX\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "directories": {},
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/lit_2.0.0-1_1649665404979_0.4066996147698434"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.0.0-2": {
+      "name": "@web-types/lit",
+      "version": "2.0.0-2",
+      "description": "Web-types for lit",
+      "keywords": [
+        "web-types",
+        "lit"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "lit.web-types.json",
+      "gitHead": "e60912e548c758ab29dcd59f246c8607ae847fd2",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/lit@2.0.0-2",
+      "_nodeVersion": "16.13.1",
+      "_npmVersion": "8.1.2",
+      "dist": {
+        "integrity": "sha512-qkWNc8fakdc9szyapkMCGK4Oj6AEQrEkVPnvXlC4f7X4vVkfdFDI9EcGn6O7QDlGDLQScLLVBTcPzhA8ZtF1fw==",
+        "shasum": "9d3ed531344fe9470b1f98f8bb89d0cddec07d51",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/lit/-/lit-2.0.0-2.tgz",
+        "fileCount": 4,
+        "unpackedSize": 6643,
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCICHdbx5JjL/rAMLDsepRuUYrz6cM1nHmC/teg12FcQ5DAiEA9/qS04z5Pg2ZK6kIRRUM7gtGLfVWE2nvb+4hOdrr8p4="
+          }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiVA20ACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmqnBw//Zz42RBkAXi1sZW5DHFaKs+Kg6ToWchCMCs3nw8JMqTu2qjeb\r\nwyo7j60tAi5XomtBTpss0/+1opEOqwSVRjCmfFa1ubyLEqdY1b13EcVik4cC\r\n2g3tpq/9GXbsSgXWcjSOIvMm2uNdj6n6eQ39MXYyAOpFE+YaktROyv9JcHDr\r\n4YEq5viUO6Y7G43p0jMakSg0tcaA2mu90LDjSQEe910ZWSGLgQq+vytGwP+7\r\nAhHcjUVVSujd5hhkhhFgATuY5LVDpa3oKuqOJ65tH+S3zPVC+zUIvTKwUvXI\r\n/pUELn3Atm9LqdtoKZO8f1r+/3w1xfCg44xr9PpfS+ZBX2NY/Q9Fh0g6YxYG\r\nTR2FEhqdTDgHPKFHpu38FTsyfNCy+02JHVccjqJKe7nRIcA+12WuUNObtHWJ\r\n+yx1fGUT5bbcjKPOlk63rKMvysFMJpMBYghcNeyWYlps17RZBsZrBG5eWpNe\r\nQtED44+UBpR2l/6bNw9KXqh5aIj4X5RMmXXWRnb5wZT0TUOwwiDasnda5xak\r\noAnjcjSaYJjhXZLls49Tf2KWrBaUJ+ozHWca0K+40qRKpoI4ulfsjpeIe7j7\r\nKKBnTcKFniSVS8ovhZHzmioAcpXwce7D4z/b50pn8/SV3E7NGwCm3oexjVpY\r\nM51iPUshVQKTq7ii4yAfonJLIfhHaX/y1tg=\r\n=VqaR\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "directories": {},
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/lit_2.0.0-2_1649675700285_0.9010860303099164"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.0.0-3": {
+      "name": "@web-types/lit",
+      "version": "2.0.0-3",
+      "description": "Web-types for lit",
+      "keywords": [
+        "web-types",
+        "lit"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "lit.web-types.json",
+      "gitHead": "971fc5ec1a0bc511c8cde98b66e13beea3d10cba",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/lit@2.0.0-3",
+      "_nodeVersion": "16.13.1",
+      "_npmVersion": "8.1.2",
+      "dist": {
+        "integrity": "sha512-vZG6zfQ8+gM5Qsv0D5k9X8f/cBqk3y8qhgy0y5g+or+hi3PH6UNNMBMd6QRrlBZUoXCXR/cpVvfPTDj9w5FlwQ==",
+        "shasum": "dc7c7d6d3500b1dd298d86fc130ba84670e1d609",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/lit/-/lit-2.0.0-3.tgz",
+        "fileCount": 4,
+        "unpackedSize": 6695,
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIHVPMnM/WU6gH9s0+AaFejYryTRn6VJTR4Mn9x4ONy30AiEA6UxUS2HrBqHkYbhvqMgpd4aPnugOtTeUB/6qNRW7l7s="
+          }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiVBCcACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmokjQ//Sd2XSl3AEKVwyKS8s2fQ/Yv72R6bO83RplG2oAK1BIw6hkTZ\r\nkOh4OSLMlkbWBfZ1oBIGk5QTd7Y94lwoJUtrm1sCJcg1o6A3Ph5rNysmKG0J\r\nUSLMHrNNsHNfbJqUuH/zfEWlTE5JFKYCpFbZUj/+td3usQ8JUTSVeL9ssywT\r\niw//qZS4l1vdmCKzcI7FVPL6CUsuXDRqFVlThaNeEW71D8uOrwZt4+hk3lSs\r\n1VF5qVDyDnrKJwvzJsQnLx6frB3CFyDrIA9FMpbfKjHc6Zb/smWcEKke5o4i\r\nieErMLcAvuEu6GBnDeWtu6fB9hVbW677pmRfiLBTj2NGRqPxAM9pXVnZto9G\r\n+nahrRtOH3sQSKYyYp7li14wNWk5os5xBc7DNF/vhFvE5hQqgWGjYanvvIfg\r\ns4NZegl5dpgrT4JPoe251wZA93QbtThf1pbRo2SgCfTdZrji+wBd61jf4wOY\r\nf/evdhc+qB6ioFJqAZgT2eCwmf2S12/ziFe+BCBaLO4Cm8TE+hG01Ki+SV6p\r\nmDNh7tkJbL4DDIU1wZnlximvBFmf+//1NUXw4wryBirT4zm4Xx+1TiKcG12t\r\n7wWU4FiXhuW2DgoRaapX5heTWrdAgS1rvfAPiHYlcfuzxu3KXxiiOsx6BPPq\r\nRUZODy9XCIaEs2b3Av99ULAvBoxemMmhB4k=\r\n=Hvm6\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "directories": {},
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/lit_2.0.0-3_1649676444185_0.4454335298323493"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    }
+  },
+  "time": {
+    "created": "2022-04-11T08:23:24.882Z",
+    "2.0.0-1": "2022-04-11T08:23:25.104Z",
+    "modified": "2022-04-11T11:27:26.275Z",
+    "2.0.0-2": "2022-04-11T11:15:00.445Z",
+    "2.0.0-3": "2022-04-11T11:27:24.319Z"
+  },
+  "users": {},
+  "dist-tags": {
+    "latest": "2.0.0-3"
+  },
+  "_rev": "1606-a077ab537628d0eb",
+  "_id": "@web-types/lit",
+  "readme": "README.MD",
+  "_attachments": {}
+}

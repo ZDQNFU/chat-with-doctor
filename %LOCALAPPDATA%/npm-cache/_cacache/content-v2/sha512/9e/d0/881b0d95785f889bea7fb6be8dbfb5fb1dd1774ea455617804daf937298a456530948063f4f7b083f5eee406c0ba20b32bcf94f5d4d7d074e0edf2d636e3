@@ -1,0 +1,1806 @@
+{
+  "name": "@web-types/vue",
+  "versions": {
+    "1.0.0-1": {
+      "name": "@web-types/vue",
+      "version": "1.0.0-1",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@1.0.0-1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-gylCeJL7gGM/QQ5QefjZPOw3T8/YaJCSwQuekoEiH9JLa1L8ZK5G4zvLhhALtflCsBplcOEvaX20SufKneymFw==",
+        "shasum": "4b1558665362f03da9d6d4e03023e283aa0fa943",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-1.0.0-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 1607,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdIzP2CRA9TVsSAnZWagAAMrsP/3TNkHpODveRGZa39aRy\nbf1M44OI5hUifZXfVZFaYdHKKaV0nCBofllfEl0F72M9i3bMdBaqV0/Di5SU\n/SyQWXsvFPwtx/ped0fSEnav104TskbaT8htUKvY2/9Hg/sFotwafn6FAwRE\nQdQDOWjTASx3bMWjczEwwvPux+uk4IZrZ/F1Zo3VWtyrZrQpBRYNPhKNeRXG\nK0qomDJAiffjMIiDrCSixvYfowozg7K13hTSwjZxI44MF1OsunMJNrGRbGVO\nZvQrdcLqYyGMdfWJREXi2ARFQ1cdjeibz6WiQKVj7rASUj2ZboUDuTBWKBhe\n5n5aRMfENUGF0O+Th+bXjmwkcpYsia9fB4XsPyZURaoPJ6BFR09179qIq0AT\n6vQK7XhYPeXwXx34pcsv4Tt/09CQNF6Rfq8/JTLaS2Rz33t6caHaHBrK6c5o\nYCldYYflyGE3erq/eX8q5SyY4fkH4fFKaUopdrnhvNbYN04d5SNoEUKuVve3\nY0BVaA6Ey/2LfDM48IBtUmayNXiP1whC9Xm8RNE+MLAWnSHKfLKeu3j8Nlk9\nQPP1R/z9ewe/PiInHbd1jgwPyV8vavMvONz3lgaKiCTDA7e2opJUz/EqQnGq\nHS3dVchir2qSpE+OcZCkjz6kQcL/9ye6XwZYtE2LMQQEzaJ/68PJ1Y/73oHo\nZpzz\r\n=vwVW\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQDDtgKb2LM+4n9IzVDnchGmZDgk66HcCP4mvtUOnxyLbAIhAMQqrLh3SgBLB/lTUMDrp04zGvP4LJMabs7mNqp8hWMi"
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_1.0.0-1_1562588150323_0.05765986969543824"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.0.0-1": {
+      "name": "@web-types/vue",
+      "version": "2.0.0-1",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@2.0.0-1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-RnkHv2/zgzd5FKEwsVygXmqlGNde7YfwEWcXvjdnee3VMmR6ItMR9QV9XiV2K63BTk2ELZ7Xwv8IMCSrVS/VLw==",
+        "shasum": "5fecb110b06e1b826a29e7d869237a0f1ce5d378",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-2.0.0-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 2811,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdIzP7CRA9TVsSAnZWagAAm/wP/jrNbDTdGdwoCeA7z4MB\nKmU8buiWzfCVPbWJl8+VQ9mNkvi+GBBEtEd88JlNqydcG3AAMUvKJCRGau54\nD9/w19Jd/2JKL+bVXQDeo30Mp9b0HomLolv8i3CCMDfsE+giyNziOfYw9J+P\nCOJIYFbfJqC5vL6Mp0Vc7dLqWC03RzLiLEt9zgUTmN6lVFgmCiBmgPbhMdQH\nlRjCiwQ+2CXe4l3np+FNf4sfZ71bi3/uFz3o9Za+0g04lwPu77ALx7qbU/99\nCb1pTXMqsgJ3Bcdv/LgX0lwEfSSg7JLYZ3lB3zyFdQZvY58kspAHZSZk2BWq\n3qMultqJVdDHtDAA2k8t1etS4i69oQkAh360ScG9Mh+ILewq7ZpIECgiUx0h\n1ysv0BS/fcN2hLgf2CQv9a5m9t2YZpApFs7dz+CptznukNbyzP8WQTWQVPJs\nQ8uk+6RMPwVimcPrh0kisivRXSuB9732kOMUHUimv7LoKdPjbf+b0ErhX2tq\nXwpXaDHlPcP86Trn8C4/jsuNFwJnzJEELlDvwzk5wBxZSapg3j4gaT/fqbP3\nWCxOM0rHpFxr3498p+zs0QtNBP1vwehiJBGy/SiGbl5y6qHevfKitAlTC4Gw\nniPJmKbGRHurSSKmE6AomuNOrhQRslF7x6nu9cRVZs2VB8hcI+9KpbWl9Uqy\nr4+8\r\n=ukxh\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCIGDkeAU9at57x+SGdA0SXnq61KGP2DqQyR00xP31QYNSAiA1CcXkF9iS19KrAgiEZ+ujJy4KS5IRWaEApqN60sg1Cg=="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_2.0.0-1_1562588154479_0.37567995136341925"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.1.0-1": {
+      "name": "@web-types/vue",
+      "version": "2.1.0-1",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@2.1.0-1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-6amPOrF697v8KvZbAEyQkQNN+XG+faPUwy1lNTDXeLSEnXjRdTtzv3U2NZ5L6B1CKyCR+pRNXcEihF5ICd1zYQ==",
+        "shasum": "f6b10153363aca7b981553b49b18f26880313830",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-2.1.0-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 3229,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdIzP/CRA9TVsSAnZWagAACFIP/3dkmGjnd2rwm+bSRE9p\n/Qh/v7w2eHhOrTsX1yIstHhynvJzjNsVlbyAK3cbLJBu2s5fwzGCcP6qflZt\noMTqIuwZ65983zVQWoyIrU28BVUp5lSRBvq9g50u92RmJ4QpK+KrzbL2/4a7\nZ8eCWYq/LlvZEZyYVYnZKTdInlpk26Lld2Kkore2WaT/3SI/zgiWkOQFUoY2\nxq+0ir8/41oBatpVGSocrlaRlU8NeVr9DOCP5GjbR13qlHnQtRI931gZkOkP\n7ty8CPUxv4xoYmbSBeoHzsHKzZlRkTQvmlbWfyYfBoXOPP1zaGh6pZ+NH8+I\nzeZL4I0n4eo/iBuWszbuC492ovw4uV4IIxGo+CYQsBqW5VWf7iZW69AiOMQG\nh7lFl9lCAh4xhU6JafB/4gkAEN6wcsldbkQdlsqWL4MRFXjF5jQXLd6BYJRZ\niHoDxKqD7BktmPOSZHxixRiew4uiJGGPm31/3jzHOTkOliGySQRl6ll/NlRY\n9U0H021ymlHR/i9U+NVtHSh51m1P1BgBNLkHrds1i5H9u1I22qD6OeFl1SAN\nn9cfufDG/AwLQ7onYlrxchkx4/022YHqVb+fiSnSIQG1W0Fcy0jZNg96QwH5\nYWdHcUJQ06TUMBz9i8zO8N25jzR5UPWofXGHoYoj1qnIaPTIPUqCAzHpUhwQ\nH+If\r\n=Tu7a\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCID7i7OlDsJ/IPw5nMygtQ+sOd2hRw6Om00EVFyIJumK5AiApaFOIWj99VE65S6oxnD2qefShAt1aJ/0pS90c0IJ1yg=="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_2.1.0-1_1562588158475_0.6112762659257058"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.1.8-1": {
+      "name": "@web-types/vue",
+      "version": "2.1.8-1",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@2.1.8-1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-YBDVi+VVvsvNpkwUom6jEyrrH0TE5EN4gPL4MUg6NwPR/pvyP0CJxut5afY2fk166nV4FM6HSMNCvhA1r0a5aA==",
+        "shasum": "9d6d64372184fed8c1b60bc38acc355a89245681",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-2.1.8-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 3627,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdIzQECRA9TVsSAnZWagAAAesQAKNkPV5+/UZNREuTZb/Q\nDlnrRYCNf1YnMRhd5nNxbhht1VR4hMwBtFedYnzQ5HUa6yi0po5pxTSQv95i\nPiHHBVfYMlwGqqJSaCuorAaRCDaT2Omt5e7H4FIJ2OBPap4NCcUWHzbx9cGR\n4mN+weWRSFZb3cxOtiZb+nsDbLDNv7twdQ3uRNSmyEsbqva6g+Oa+4aiu6CY\ng9pEhi7v2rNR/mZnUrO8wpgkctB972dvK0c2/loGdyqC2RPmmzJONfH5wHuG\nXuKGu5pxlyBtAhY+VEre/DWJfc1Io6D13f+CcEQrjVkIgXHHAWTqF6q3q3fB\npYC8KIJpk9jHT0PuVUSimW5+N02kD3/KMHkcDUel225Zr3pIIDRGWRgRvbjQ\nSUH/lQ/5E9rW66fFKS2QVTtCtyzsFgdjNAKqASXZockARFXEGV5y7hju2QIq\n/crWUpx9ur/mw25DILp6Ap/WGqZrwt5dL9fxB1kZlbtRiBnqGwhLQcYsRE23\nrsdtmwSnqQ/EeR6ZVDNHi0vIVXbnOEfwSTZv4ZQelw77Kmznx1J+FZYyJ9q+\nT4zAL57EbijmBbRAL/+n8l3znBn9BUGQzzTMDma+ZaouBq+IPKajFF84PAOy\nhIivksN4/8hK9ODmzYnNUI9gY5wEeSZGGyT8/mDdOauNvf9ppbiMtiAAWAis\nMX7q\r\n=ENui\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCIHULlRbZzJjU9yNVyaNl0qGQ9l15gdDykM4bK/6v+pUMAiA64cVYfSNVzJBpftmVOT3d7Qh6E4GTYU2kZuuv1uqPJQ=="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_2.1.8-1_1562588164240_0.4778473506326819"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.2.0-1": {
+      "name": "@web-types/vue",
+      "version": "2.2.0-1",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@2.2.0-1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-4TIbxS1PP51PYr2pQhD1g9cNruXP/JpvcpsqJ5TuX+1fLUfbhT8zBuq82F3wEKQ7MqM6YK6jCJU1Dd4QFcrATA==",
+        "shasum": "d80a49c103d371935294af5013f9bedcf37cbc9c",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-2.2.0-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 3751,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdIzQNCRA9TVsSAnZWagAAlP0QAItNXgQsz6tFMB9gXKJF\n7+owgdhGx66pVKT+uMiNLWR8cuVmz9V9YBJvCO2B54yo73S8Mg5fnYh+lp72\naLDT/IlGYqM7K/MUUgcN1mhvBOcfCHRniojUGYeAVUGyeVIRDwRisoxC+opD\nRxrCvNH98kJzbt/yEYoNfk9JpSM1QDnqPdiistuznuKlTtIRC3lNY7enK6Al\nnIl9C4zJbwSdaswliGei/bEiaNc5qtnh+bY6t7xw6kG6mulmFOrZoC66+7y9\nC0ZrmTjiUw8OoTHl4E5eRork/Vu6vJducw9BPCEavPOswfcD45sTJLXRYTPT\nd8i8Qdmqk08m2USR4U4GCDTIsb2TyIuIwuFXXQ70KIwAHzIvzn9rIPx5Az/b\n5nUhNCAj8J13tmIBLKT5GsEvhhzxLayNyfW3BN1MS+wYjmOcgnjNc95Rel6j\nHenJbVdqWpSB4Nc/AtidlkMQqaM7S98BnV8V7d1NVrV296cbKDbkotiW8y6o\nDG0jxR1E7ES9DERvS047yFRl7ocTNyB6xGT0QgP74dNyRX54pMovuj6/wYiQ\nULBQqQe5hYFk1n7EhBQIAJoFZDVgU0H8ECooeU3MVasje15ifYGS6GZuEEEn\n0Wlq2NFfvPTArlalhpnFqosPpQ/qCUIu+ASQ+XRWHOuVs1UY302SxPYwd3H8\nvFZ4\r\n=ZKBQ\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQDDUZYxEYjnEVjdYtc76KPTgSKo1Gpon+XZzsclOQfY+AIhAJJRX/w0eC8K9owayz91xDGAyvoTTGYD0Wh62CdEQ67r"
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_2.2.0-1_1562588172684_0.29294071274730515"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.5.0-1": {
+      "name": "@web-types/vue",
+      "version": "2.5.0-1",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@2.5.0-1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-iFaetbuKwpCePHYMWuKHs60PGqfUHS/xjtQPYYJii/KchI1TmVErQKOB0WlvZWtr33ystJ3EhrTNNKsFkq22bA==",
+        "shasum": "98808b3cab8562173288498c26e0d57540f127d3",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-2.5.0-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 3764,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdIzQSCRA9TVsSAnZWagAAsTwQAIXCTGeU0Zlj5zX3nqvo\ntszNMhEXK1AHKS9GDh2a/0GrLZLEZUQTjtsA+ae9GoJL3P2Rs0CYjUTcxskX\nDr84xhIYKJkdDskjeriMcUGDIwugNnEk4Q9b5FCJ+r9xHZNysP2iGDTttFA8\nv4rHA/q8w4P9Ot7vTTyTZRgCV/RtAM2gxmpzR6kpaFwCYGuSHhsqRI8arb6U\n5ixjeYmO3HqvQpy6fnLtLFs3ZaWkYxNrEsnTJDITtzvvBetpp0dYmGYTEx8A\nXPu/aLhJSO/zjbhIVamqhDJlaNcmr8QKqh5mFuMSxJQSs1tmyXYrI+2laVOB\ny4nP4uLD8om+Z8e30S6lk+LnEflDxO8XBYyYawpb4pq2XzQeo9KpyRslLo9O\n1PdMrLthJwzwpkhoZUt27HFlwLG9atVR2xV4EUW1v6wpf4zWuVxu6XHGNL9b\nNxK92ZoHKHkK+74RpX+paToc19LI2GxSDnbjXT90mlb1FNRHv9HopEEl6nDO\nFiRQz8O0b22N+PRcj/UY+dI56TGaoUkGqlzCOfRo4dYw//wRreXAWvY3YTX9\noPLEiYEGeGXFoHZBzSQUmOsYYHbnTC1JYRWFixbGeibsvxoSvWdxH9RDAPyg\nOqAxePfyhmvQvDFyeEnVDcdo0O5StndLHYH10F0lzCJnOYBT1of+4PyEsjSY\ndzGT\r\n=y3sP\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIQDrtAvnPFrCo03gfJZEp6ff+v5WlxwRWgkmrzatizcOWQIgXl12XoSv7gjb1DBdUE7RmtYKVljDOsszhqEXroGYBmU="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_2.5.0-1_1562588177744_0.6447138767515452"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "1.0.0-2": {
+      "name": "@web-types/vue",
+      "version": "1.0.0-2",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@1.0.0-2",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-pZOxYuxkuEfqecfZZsy5QIPV6ql2BcHm3wD5LRBsB1aOG+rlkvBA6DfKtuCbxh6TPeCWPbfnE5ptUrzAoMQ6Bw==",
+        "shasum": "dc49524dc48f32ff1529339936f5208dacdf8801",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-1.0.0-2.tgz",
+        "fileCount": 3,
+        "unpackedSize": 3530,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdjdVCCRA9TVsSAnZWagAA22oQAI/N/Iuv2QsnDz8UFJrR\nhUm5E8CItzMKvLUmyowHnA1FadbwJv8h9JBygudHB8/wQ7ndT+ycq5pxzwOR\nyfkwAC9NuPsLUK1lMd25UOuGDz+n+P9wBPvJJA7lGj57WJN1t+qkr8vgaSn8\nmiuWV2VOcx2Ze8Uyrjv0mW7sh1AwKVy1QSGc+PpXZ4Y2/yJTmkbvrOrPUY95\n2DsPxtlTkKAlWYk2canqVWQr13F+tDdqlTufjVdGtYhxjMS4jITWS5IT0E9C\nnlC4wfycUUOGRASDRlZ7owy/ZQAL+0tWb+Ixiv6DT+t3QBC7y3k8NYswGAqn\nzcUuM/gzQoLkJKEQD1nZWtAyrmqLVTNNrP/FBSOxfl6zOiWO0Wxdsi0cVcHj\nKztcUtMKRMzwrvE4bUOMJFQiD/8jb4nQOw0LFauV6mx+dociO3yDnyilmsdG\nZq9ewGlN2XoiiTz8Iu8an+ij78Ss+tNDYxtVmPkoexSokavwU+vevOMHjcSb\nC2CZcY99PE6Y4qVV093A7n4UfMoGiGpnnTSngnscGisaxhSo+36zYmv+FxXf\n3QSXYZN89TpTC/JCnoK9IU63jL8N79dWIpuWLGmR72pemCelFaQkS7AJwWJp\nz7dLzk3iUTHiS+lNdIAlWJ3E9lkZGQ/7h4+FO4RCwzJ6YHUkxjLyQbNEH5tw\nIIN9\r\n=v/41\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQCoWQHTdH2bmAscTCcxpTeNNNBGvPxi75GCUoMVQbuIOQIhAPZg0L1DPKagQsg31ioq0On/MAsbeicYhDbRusQyRuIe"
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_1.0.0-2_1569576257413_0.26917720928515076"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.0.0-2": {
+      "name": "@web-types/vue",
+      "version": "2.0.0-2",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@2.0.0-2",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-GyY6q37ZfMw9Ey3ROBLexiYuu7nuG26JpGgUcfouPLc8rUcepRGE5flCiJq7Y+KPGQzOxDySBKqF4qFSMWXwPg==",
+        "shasum": "dd7d3a7975a331b94b5d16e6861626b451ecbad7",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-2.0.0-2.tgz",
+        "fileCount": 3,
+        "unpackedSize": 11151,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdjdVHCRA9TVsSAnZWagAA/7EP/25Yq/RnbjusbTuw8tEz\nOUD8HkRx6+hfkiex9cEoqm/JOxhdS8pus5LgBM6sFxTtKkTEwV59/XUHm4pC\nbS2J0aFj8amn+a5R7M6Kf1Cua6reEaBUTf4WOfT+zquf4n9sigvHcDSbUvx3\n3jrBtpou5NHpQDI0yT8o0Z8lojii9bVfwRvWz+/QJAIkTlsd4WYZNLIjR1Sl\n+rwO3Y7mnVX++ns0J4TTDBOteUU5XfIt3l394t1LuVVxOVCgqP/fXo0A15K1\nG206CU7oyE7B5g5NbjQrbPX2wFsgZeQo2FKohGAmAL+cqUFJE3IeKUMeXNhl\n53D4ThctB6xfFyDHqEA/H8Y56YHCmKUP10xqaHh/vrAm45/lRw9ZWKiNBekd\nZi4j9jt7EY8EVhMstG2f0boV1iZPWkdEZCgs4D7iSE420MrR4PV1kuJksZn7\nZHeJQTOHsQN7PCR+xIlXkE/jFNRRJlbpHSeA8NcSIZ+eivmNgEBTRla/oQZf\nqRCxbBbBzChNXIUomICpqBEC+BbXFQ6pcXkk/zEsYwy/dSW0oQPT11Qdcorg\nhbV6VQrCM9Wj8T30v+ovyLW1sHOP3Xxb0Xe7fsqZteJeKURHrWExYJmUpXZz\n0QAs3nckA0yQVuCKmzsFvUD6tBY8SXrSqsYigRjw6BzPFpRsBdNOStKgBzWA\ngoSt\r\n=QdFS\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIERzpMitqx33wue+yoK8P5L44RtcV3ZywcZtEc9X7tdJAiEAix2pxnZKZFSSnpysCCJBHbDLZiIuHdSvIWRNPACgwMo="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_2.0.0-2_1569576262592_0.7034894798794162"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "1.0.0-3": {
+      "name": "@web-types/vue",
+      "version": "1.0.0-3",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@1.0.0-3",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-lNL36KyXcpJhaFAA3+dLw5js1UkjW/q+8/jwfVTVdmk/vV85CirLKZW5lAQwGC4W/ax2wP/6G/DAxmazn70wOw==",
+        "shasum": "113ae4e2744f15ef1a1ee53a648a4c208120f71f",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-1.0.0-3.tgz",
+        "fileCount": 3,
+        "unpackedSize": 3585,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdjdYNCRA9TVsSAnZWagAAqPUP/0tp9QeyzcgrP9WQr/Yu\nGrU63J7eUIXLtUf9wuaZKSzw/8Vg9sgSXDv9m/1mP2vmyoiacJV6+ifm/i8Y\nNVtPKLJrHEbnAJkVQViM5jDJcllst2ve5XJ2eTfubyIN9BhqAgzZRXN5p8fM\nR3EOwGt0nlbIKgv5fJAZuuOqs/KYA2SvyBqqpe9vRYCgjUw6jGn3y5gTh5+N\nYQpSc1zG0YgTbL9NkHF8KI4b4oo0/MOl5kPhuMzC/l/T2+2b34r3yXEsJzKV\nPfYkLCiUPTiUgGM6GBrP2yJ+1LT4CYIXLVbNtgCVy0adJKcqBoXsP9BM+7A3\n5UCOU2KjOj9lqytqTVFbpD1mQOIk6raTcbAVTmf3e0GwLD+LIbTAsC2bgYDs\nEbICSnB6gQIWPwvMFB7g+A8NzduLm47jRBxHQfMfYtlU67Z2zuSwsrV8dNT4\nJOx7aT7G0t4q0dh2KlJpJiGJJAX9nJxmO5XwuIGWpFmwRSDBdvpM59+4burU\n9sDpx5+Y3hqiPEUL0MUN6yuHzx6O6EOohizadBW1AGDQahDML95KQDot/aOd\nAtkMgw2ozu24deF6JgIJwFA+92SqP59BFda2q/eVrDqZceZQegl67zqQdkfr\nqIuU7izXGdhFtTVTix9ZcmyNhIFUv7M7ofHGRWVhg2Cj/EUPW1YWyL30V5MN\nUBDr\r\n=F07s\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIEAuMhzQYfyNHYQAR0xLtz6kTzULBSb3vLUssOKbh44PAiEAsx6ecvCEAWfaRI4Lh5/FXc2qMImtAZpEtAxQGAMMvIE="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_1.0.0-3_1569576460911_0.8115358823639363"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.0.0-3": {
+      "name": "@web-types/vue",
+      "version": "2.0.0-3",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@2.0.0-3",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-BEZ+IbiPgkKYFO/FsPt0P6CycJBldUxq73IHBgJ0ZDrabU9tCBoOWh6KsKkOEAtNZ4slRobrZZgFHiujawrq4g==",
+        "shasum": "bb4c70fc048c529c6c20a08c1b1079f495a7fc7b",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-2.0.0-3.tgz",
+        "fileCount": 3,
+        "unpackedSize": 11206,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdjdYSCRA9TVsSAnZWagAAo2EP/1LubO3jujT6be7klVAN\nhYKWaLPhXTp7aSeXmVusyRb08ZniWtYISFKvW/8q4OaQYtdcA0DE8iKMHoXg\nnj5m7sW2qvMXLlCw/JoPiZNby6hpBUbEUOOyqWWWFzWiFNLaSAWeVaQDXkh+\nzqKLvjPmAmj/IscoIbRwhVpb05L8MBnTpT+oBTqD2QYNg2z8ZRwRXZcKFx0U\nJSHhfBq/YIoaZ4bQK8ZHaKSLbdaIuT8cwujXtL1A1HSctTIiHokSdX5m+Stz\nVB8H1MNN03pc5ohRpAFdQWERz8XYE0OAGjvn78CG6BholHJc58aEP8dCc+QP\ntLEcpfZhzaxcWg9KWibyZQy7jd/0qDHvgExuvBMojqZmGdhAp4ouxqSDPU9r\nCn+PY02Y6zHE5qxEKEtD/gEOgCuYKpSzOSGBn/N2jcxiVRPro5JrTYL4PZXy\nHRs1qgrx2LtztY+E04Vru5GUM9h1YDrLJ3MCa1pNeg0y3bmNqf3kylt4rNqZ\ntWZ1LAsuFe/6F7R26gp00OqsFc8gjFKktji9jaeVSHU8pnRZwCOQOZ/FNPBF\nfPVsfctmW31GWqwwb0up6dlBI2PWxnrT6uOKjHARuUSKIPWd3KaaW/2dbqhr\nC9NRphklCc4mMUfZndRLT96L4Ps5NWN7O60jRV1sn34umf+vTUK31tc+oBhV\n6TF5\r\n=u23C\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIGAwQNfGh6L9LhTSWSP0iYclfH2tRE7juX8Y6bIS78gyAiEA0F6lUVBUIg1DcRdVYM6Sc/YLB1FQHMtyzxJMmg7GWXs="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_2.0.0-3_1569576466166_0.4919423094425972"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.1.0-2": {
+      "name": "@web-types/vue",
+      "version": "2.1.0-2",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@2.1.0-2",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-bItHX52Qy9YwECakENg9CJTMd/dbO51s/xaYrEjdj2l2vRlxJTl892oQcKa7jwfLTpO6ak1pZogoj836+JHAsQ==",
+        "shasum": "d62ccd58dd5176e93e37b3b400162e144744558f",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-2.1.0-2.tgz",
+        "fileCount": 3,
+        "unpackedSize": 11973,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdjdYbCRA9TVsSAnZWagAAfXoP/2oGaz3jLpwbzmM08IE7\n4wzqM5BWeOMFcHsaYalaU8lQhiqh8vCwTiFU9KrEKgAl1mkR1yDwA65T4N35\n1/3mX0LSK602M9UNoeN4PDMoLduzAG8aDtHr4bHYXOd4bf7dGVbhGh9dCPFt\nsNJcy00slUZdn89RDWkEQgnjmvu9kOrgLl6R7+udC7cQme9+sSCNXazVWDf1\nJ+KSXVZk/h/DBfZsSuBkxIjPLrF6mrMGZJKuY19zKhLxrjSUK6YxZXZ7+dte\ngtzsaeAQJSsNI+98bsNuWONBxqRMaeQ3pDsB+aoErE3BDOIaV8WHohYKfGMt\nDl6oxHHCDR1eeL5NLZPTf6Dh0Oy4+XXul5TW6dcDHwHHtSnNJZaSDtA9shti\nPSsjYR8PAGNx3p5J6OTw0h9GO5fgsZQJ8RCGUYoM0UtOiCCBgQrX0QILt3Dz\noRYOdUZyF4n+CQK03SwYuL1kyKj8IqQuYHrgN7vGCwqZt2Qkg+/06O7aSDWC\n6DFAiENJTa6dsbDZTRepqy2xG5GxcS9BZtviqvzKRFoV4jRlfstDhGJe4kKk\n/HVJgGUW2vpGdlmuyXQSZUMQMEIGQhXWuP9q7k2ZfNfTubqitZMlyDpwDrOb\n2zWT9xleJP2717hlkGFbFrNLIcHhHjm8jlPhVDoLB4OYfgpn/VBU/GIvkIS+\n9v5Q\r\n=mDyA\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIQDERsCUuyIXq7FCP+inHoMY0MmtBWAN57/CUbH+GMN0ogIgMvKPfSGpSRkhJAM2dmyN0p8aglYGTS0uoJFx9dp/aww="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_2.1.0-2_1569576474538_0.3411540700589535"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.1.8-2": {
+      "name": "@web-types/vue",
+      "version": "2.1.8-2",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@2.1.8-2",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-Wfzb6wynHZQ/oeo7T8gSFELWd0SjLOunx8a09vsmJTsSGQ7MEB4wkLsUlLKmp8i/6FaiF15MQ8JD/v5b4GgB5Q==",
+        "shasum": "fde70efd798be07024c793bbc121ed8dcaecb296",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-2.1.8-2.tgz",
+        "fileCount": 3,
+        "unpackedSize": 13049,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdjdYgCRA9TVsSAnZWagAAccgQAI1f+JE+ZE2VVvs64uhw\nlw3jX9DoaLg+jwosx6URFD3LMQS95hjn5LjvhF8bHiYMK1GuFy67hsS1mhhk\nS/Bwku6Dk233Jva+JlnnjevcjtT88/8a//u5mr8MYC+QK40diFO+KPzf5BDP\nOYv+ZXfpI2ZQ7Loc/Kkftix5VbGcvi2HEn5ZHDSwrWoVGvSocnNZx9Ob95Ue\nLwZEyee9i4xDbbhpxRPehcK8AcUslDfzjxkLu+cSTto1iVQDih4m5nRlpX6z\nvQLGsz4zdlYroFZGWLbXpUJgtAz1gzSxZGBumX3496lnYo5k3UqmCgyxm3Pm\ntdWDVI5h1M3ayyZKbYXROE9BUi5rSOG6Jq2/CKPpyVt8AJi/wUEl2CiKmZe5\nnrObqKZhvX2vlfOWJYY5xsToXt2GGYSXW7NHldxWPuKPUr1v7jPrMElfiAuq\njj/EPk2qCNUTuW+a+BBsAN/n5Nhjyd/uqUGl8La08P7G7XCy9AB4wSYdf7Us\nYl7tz94LySUs+4VUEEOiSjoLreaScBAGLd0mQNKtebeXymgulNEOkTwyb/iz\n+2o/KGtKn1aTJorvoRck8J/P8K0L+TGumN8CMbYvWspcZ7k93O9bsq4UL2VR\n6xIJ6rh1PMlYb8cEcmOUvxrg4Bq5aq1dLpARjy0I8MBieks0Ao9kFLPGMLCy\n9Yat\r\n=SkW4\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIB5O7+43JOgcrgPs7qEw7ui0jNR77SC22K/DI/OiRefKAiEA/KCbdNCTwoBcGqpOcGu4hYQzJMwiOTqIl/oM607YdJQ="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_2.1.8-2_1569576479640_0.470161814450744"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.2.0-2": {
+      "name": "@web-types/vue",
+      "version": "2.2.0-2",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@2.2.0-2",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-UOhjh1AyOl4LzUP1omWAl3jpRWZjNKC+Xo2tumvrQXb8SJLDbaeQESalqzlBXkTsXmpe97uslAYbI9Cke+kobA==",
+        "shasum": "6742395b3c9db36ebd914a4b703da900c93bfeb2",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-2.2.0-2.tgz",
+        "fileCount": 3,
+        "unpackedSize": 13939,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdjdYmCRA9TVsSAnZWagAAym4P+QEAGkwAMYK8JxgS0Zt8\n2qFS7bH9uty5nR/YzgQMEMGdxC00/1/6ltw2j8AA019MYpm/KRfbh8guOnQ2\niaiEj4UemKLzihEfpwhoJLE6zxalW58xyT62dldi5Gn6zoJmIaaFX8iho28X\nvaqWKBzkZfRWT18Q9lD4qLoX05kdVPRm2RWWZEbFnf2u5KmBDvL0ASOWLiu1\nxAa2C9EDmuLVozcywmMZqK9sDy9NcGguhC+4J1ijafr+eOLge3QRUM6OWpb9\nwT41yOf4NCOjYSlrI5qJ810kZmMqTSerZb7ZBukNa13ybM2cwJbFfusFik64\n4X77t8lXIjCc3p+wgv6OejnzNHQTGwxXhkpRysicMfXMVZDKMXF6J2w/wC1y\nuPQVVnPRezpYpr0EvOmxrfSgxeKMqCzl/lhvROqmrL1mDrrasHAuH/xeNrwl\npMtRx5q1wxuUUwyFq6TCP8zb+/vdfDw2a/8BAK0LMyvzy+uCZO+0jBrBSjBI\nTCkf8bRia1KsLlT99sJDNaKk628Ldzg14fON6uCBVzYz1d7/ib+y0Gxs8UrF\nqZ4Dnr6fEfhLWnzsi90nzhWVnzNa06WldWqyCnSbH40l8ppajRtDCtTJlUKv\ntGC14bdVdImaRpEU6Uwla/e5i+6SsgxIGLg1QQRaa4uY8kr2hFya9sojAaNc\n8pby\r\n=5xaz\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIAERZnfzQYf+NFPCtmBt2EGrfMebuwCRSFL4E2fotSQ4AiEAuSBmpIwf6F1XVfBAxVylCBV6h/GDu8KJaMIjbdliYF0="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_2.2.0-2_1569576485475_0.7484772680237612"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.5.0-2": {
+      "name": "@web-types/vue",
+      "version": "2.5.0-2",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@2.5.0-2",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-JtDj3n836UCjRMaI/J6CkhNTCIJzXmXEYvfAVzLYNwjwcF6Jlu+UOurMIFCAcvKXfVq1PeHi+T/Z1En1JJO2kw==",
+        "shasum": "97b09788ecffd8b805f84ecc8f3cb92647a4a40a",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-2.5.0-2.tgz",
+        "fileCount": 3,
+        "unpackedSize": 14193,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdjdYsCRA9TVsSAnZWagAAo4gP/2yEeY54oyOxvRfITh1Z\n5I9nkH+WzLLQF46yc05tYhWT7Fxd2IVpLEPshAKSYROsI73vFyk/BGlGCDho\ns29Rc3GdtWOFPPPrLiLlQfKmtKqWtCUaFfZz29s/TlcnZV86THh/fJXyFwaB\nVBvK+I/Zo1lxEUiMfYHJZ+ZdyNjAhm5ev5R8qjFXpWJhkm0kB8f+PjskzO/P\nLNpG6kBI34rXWPQ/GMme7E8Bv3oDUeumCPhFjBseExvHIXVJ0jFOxNJ9MUgW\noAdx0WPqdCsqh9CXIxqfxqLBz+q/hjNeC9qBTQdmbuA0in2+zKXCgLh/Yawk\n+Agr8JGtjOhmEN/6pHaJxSt0EhGRNn83tzObhPQYc7G17xi/THAsKB3mzLp3\nmBK51lT1bR5ZwXl2Wk3/YpSwhdA+Zz7qiAyBKAbTXkNgf0BWFdghsxoysxon\nC+/2Gfhrbo76JFvJFV/8/A1ohA2mWpGU2PHh094lQjJHtonHs3bGiBNdKoUB\nSVDL5YnaaFxbvNb175nKs+8Lxqlp80ckB5pdM9/WO42fsHdHHBIxXqt21YQe\nSBjtiqjfk2CAROmPbww/FK/rPTharspBesDXuMv8PBx/kEIvPmLPOfL+o7Wc\nqF2KE7gYb3tsib2Bws5pYLLR7PVLjzrGuVw1jNKvgsQ0hsZo4hdAz9kY/e1f\n0Un5\r\n=45zu\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQCSerEY+AhY7cJCK/8snX3MxBu+tqr2LLTDFWgNM2+eVQIhAN2U4n51qeB0BLWiBtGVOcgrKh6s7zpZtbVpmSfBWBxJ"
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_2.5.0-2_1569576491793_0.6162336771580312"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "1.0.0-4": {
+      "name": "@web-types/vue",
+      "version": "1.0.0-4",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@1.0.0-4",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-+/UYZGez5N+HSNxmcqbQMK33Ih304v9Kb9rc/Rhn2gcNWUpFDCHl8yMJnSJdwljTNF6JwGgCywyA68ZG5surPg==",
+        "shasum": "6951352183d12e16eee97ca7cc8ca7831ec2abfa",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-1.0.0-4.tgz",
+        "fileCount": 3,
+        "unpackedSize": 11170,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdqZ+uCRA9TVsSAnZWagAAewAP/RV7jQr4rW2b3FInwhq4\n59Qmv2Yd+KCPQhDwQn943CxDtVt30lWraYBOQHpO3zfK2zj5uZNFHM94zG/g\nKggrrNir3TTkgc4CqqGB/yAlVAka5tGg2wEgxpVem2EI+y1PnsHJUxVQ3ysu\nCcYIVj4rmlmBzu3kaMk0yspLw6zAsqDx3RiqUd5RkXKQj0WFmOGHNoqDJee/\nfWER9TrnXhoxbHwixYQWtzmbastnR+vwOyLId7t4W7JIqDhos6beTwqB/O1g\nzLEDkjVSvi6FkyjzlNFzmQVrnWBnV5s4iQBUBYrAGBrpEGNYK6tWjnZEWjoK\nMfgiEa3odnj7gwMBQ5E6UdQogd8LiB/oUYCVgFntMtOeaYniGEIm05PGViiH\nAEfTnNlPYCWfJam99JrBzdmrDWnxJ08HG/AF6yeRert9WbiHJtQnMk57ef9I\nkB2GASJZ6D9mtRoY+JS16zvtIERxdigKQ0v6q3r+iGahCFcNtTBio/FGIbuo\nEHEB6M5q2jcK6ZN+0pCwFj3/e6MYQwDGp/1+V8Szsm5ucM6DcgXiR29hbIqJ\ntHQpM3qQi/5AwpNOZHLmiMGli/m5YHLSs+0izefCq4CmEFA9faohqqfcdehm\nKIoePIkeLiAcQWjpf56/cDhExqUb8E3v5ukXnimh9Siisee7N8pQ/nKGf9Rv\ngubm\r\n=NNxk\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQC8tJZq3qMq99mfnZevWopC4bn3/1Bq1+t31wM5Be1Q4wIhAJhkBR1f09zr42PPjytqKkB0UykYJiRrpOg6Qx4gp0sb"
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_1.0.0-4_1571397549595_0.890280314008207"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.0.0-4": {
+      "name": "@web-types/vue",
+      "version": "2.0.0-4",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@2.0.0-4",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-t+Ki4kWo6IkfnwcySYLTlKU/gzKVRdVemValAdSXW3L5MHz7TIMVsDzWf9B42TthMfzuxsKh1BHgMCwNXvEJ9Q==",
+        "shasum": "53ba47f3d1dfa739e440ec084b3b8ef7372b8379",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-2.0.0-4.tgz",
+        "fileCount": 3,
+        "unpackedSize": 19947,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdqZ+0CRA9TVsSAnZWagAAMa8P/1e3Gx/NVJySVWCCt7Po\nnl+SxQKjBBiD3Ov4bQes6ZfQMYFBMHAUkO39PDk5OJ7cqJ9s/5zkUgGmkBhX\n60Gc/zgQGiU8grLJ/7oUWJ92zthwgOGDZENip44Mk+ymx47pDYBGWoiemyWK\nI7yTXmQ7VYBZHCT+Q4VEFl10geg2M25+8VAPsWZ/Pcwo1U0+Qj/0iPByWTdy\ndIIl6IwOgBVjEA3atYQXjb8Mt2gF6p2cOlOGFLpqOs2eIVUibkUB5v8eU5ms\nAOUt8mfPHkN2Xka6mbBQlqbKfN/FCRVpJLX7hcVdiaRyX+CUcJtNZillbp7U\n8mLQVb6EwMI1mgmxvNrwEN5HUN1EtcajlpI3i79jZ65Vhiwcaj6vLtvOkWID\nWIt6bipdXcIreZP7BifmyNDnygcWlDzX3NA68dNBqPfxB2A7Mx4bApPiyYOc\nwmt3cQ9hB8Vg06lRwV/rPYLODk44PlcwfkntjfEN41DkopYr4aHuT8qyGtDr\nPFZi5uEQO2tzb2cIT8K1STD6wHrOoSnROi36arTAR3wvpX9csZphB9uk5exD\ntQzKIlDw/4DfcCtHup51qtvkd7ReKGV0zCD5lkMbeh/ztKwdJsxGcKbmyVd4\n7e893q0MK/Xn+qxtXVV1YFl+wjX+h+g/kKAN6tYt9Y4UDtwszXlNN2XtuOR9\nPAwr\r\n=18w9\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIQDZ/BQIwk3Re8p0YQO+0Et8fL9ZhSPhi13pEklvplCTTgIgaOP2b249M2W4SbEMqwpzZSy0KPF1dPUnWFleEmErHuo="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_2.0.0-4_1571397555483_0.9440059059742982"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.1.0-3": {
+      "name": "@web-types/vue",
+      "version": "2.1.0-3",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@2.1.0-3",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-YoqBovs/uTk8ttdAILGvQ+RsV4RlkjsrvMhYOW2mjZ4026TWqEpIIqfwd2g34Uk7HJAvwsDUSg5rkGnNs2hNvA==",
+        "shasum": "6a5346053a2d3baad67f418f4ead01257e5e50b4",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-2.1.0-3.tgz",
+        "fileCount": 3,
+        "unpackedSize": 21153,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdqZ+6CRA9TVsSAnZWagAACKAP/1ErI0e1rR6C6ENvqAhy\nOrXvKD4iHhwp4bvJX31OZE3KB3i9Y3JfkkHSsWg9fFkrjr1aMyk4B+wEUu09\nF6WjzwsyjllBkphAny5L/rP1ujFZnVQEWiLe+fi56EOZ5lXlW235xOP5jJtz\nWM6DwLnGMh0pm3jaY7qGcp34L5oXHLY5foHMwpXZc+nxPa6C0nvjrrOgNrsU\nqB2ItWev9Yh0NIB155rR8gqboTTZX4tmpsf1OaJQlNjAaxBcX/JCnQ6q2Ste\nj/iGWbID3K+E5CT86378UODP3NnHwY3zSADJlo5/Mt9vUtkm9ZZdSEN77N+a\n4uzGQJ5Qmzeh00FSfT/b/oKIsaFitTApcxUXsMuzZECGkJhQHHsVkpWSUWVo\nsa5L3/AKaYSrUu6gYv7TVRrtQb9xleToxjo9BAFPyDARV8eohdo8J8Cw1Isx\nSQLfDrVEoTsG5iEExVbcNZW6ezP3BpAhl1iHOMyTupCjDQL1ryZtWURANmjs\nJUtbLQOljPr3AowSvW9TqXD0HtKWeNFkqV4HqOV/gt+76fNZnTSls85svm5n\n+DvRK6b+1MvhefNX2L4z5tif+kurhCbkW6rBcFCTDmAj2Qpsea1aAS/Z7ED+\nYxeIkPfQ5tHgSIe94byudBWXYcHqxR+vgWykRrekOaECL4dD+QDlINsrQMJ0\ntmak\r\n=59WX\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQCkLWitvLuDt/hlsX8Wv6SZ6OES21GhE1CS7aoOhXEUOgIhALANlC4Awq7Ubky1Q0atDroKyauyr7Ouddv+SVoLzVv4"
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_2.1.0-3_1571397562163_0.3277935879943976"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.1.8-3": {
+      "name": "@web-types/vue",
+      "version": "2.1.8-3",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@2.1.8-3",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-Z7LrzoClSDJd0Ypa867Sq5G50FKxArksOjlEPlAJur/MugnwZDhtzAdtvZVHNPhWhYh1VKoB+/nji9jrjgFE5A==",
+        "shasum": "b2d9e99d8ec9a7c1657dca17a24c2a4b6146668a",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-2.1.8-3.tgz",
+        "fileCount": 3,
+        "unpackedSize": 22229,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdqZ/ACRA9TVsSAnZWagAAXQUP/RKCIsuD4u5LLzoMvBy7\ny8PaNc8/zk6sA8KG7K9IIoHnoOnfXc2QkFq3WKw/IJP547+vvLBxaVg442ky\nXatZTa/CHPWMwnhKpPHYPHDKIFKs+/qCEUqhnisjOOm1R7EzBNZoSeeHD1bB\nIIuVeN7ItDtAraaKAHJP6De+/Nn0P+p3iuSMEokd96rUbt5IMrciehknJUvR\nJ5d9GLpzA2zalgkc9OWby0StGKaexaID4mBc18k4sU2kMOT4mOdjCybPxHqv\nq6dnD+YR1o4JICsY98P7BSoJMru4BvzBu5MOtGuTbQUgjmRmc764wT+06LU+\neb+Gxxk6ww9XPQVPVSv1mBhqC4SL+u3YNnk5vi2i30olxDKtBGelpHeU222z\n/d2yfMxHFFBqF0nxzygipbvSBfycHJiDKVJ2GBipZO/MGT0ojqxQO6i+S9/F\nZ0nnEhJ2wtXnN03rhxbjFu4plRFwZb20vV5pZRZJKGXAk3I+fYyBllGEoDgJ\nEh/InxwXkvwfFIPXD1uu96s2O19vMAiWn8koFja8KG3m1X4155P/6jB7WtsG\n4G5JaCVGQ2axhRUJac56orQ5GRmRXUgaVBat1fYdM0AywwtLgnn8ybz9mI6Z\n2wGWZELvJYTZxPqdZU4FpRJ4fzpUqERcMq2z6inURLo3vTKLIfJ9Yz7j4/nX\n+0at\r\n=lLS8\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQDIAuhtTCrFgbBv8Q3LIL3dAl4Uhjcs4qImjtqKMWornwIhAMhP30jTvYzBMEq6NfgR1Z+Y1LE54KMAnX4BC1hSIh7o"
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_2.1.8-3_1571397567790_0.3846778974225653"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.2.0-3": {
+      "name": "@web-types/vue",
+      "version": "2.2.0-3",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@2.2.0-3",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-YjXUfucXj8ugNitOrGpHnFwkEWOgNKqwpG8HxgkfZmlzdDc2mvayqBhiac2cdjVi6nHqB81IYSFSEzMOvS7/bg==",
+        "shasum": "afb0d79b3664fcc7c0d8c12a85d19b76adab040a",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-2.2.0-3.tgz",
+        "fileCount": 3,
+        "unpackedSize": 23548,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdqZ/HCRA9TVsSAnZWagAAhUAQAI2jH50Od74Af6NUTiJe\n7GFLn41y5aKRL4WhNmeE2Vl1el6k8BUV3brjJKup3LAQnY9sh8//fOuuSdMF\n5VnxCEUl2gyi63LFro/0L8oFzToXblXMeNZssq9tC32Wg31Fhq/byvWLmjGq\nZvKx/5Y9Omv6u52YMqbLF01b80oPW6eMq9T0/QiUY8NZUpv8WtQXQ9FUs68j\nLDDZSU8E/6MwYFqiFIpqi2BfQANcxsqazvVWAC2gi1vkLkSDbprqh2EpIY89\nCtFtnNMdY5d/E2km8fwDNBiWrC+9O4TsoPudSuGcAhQSft0XossXkMoQhZhc\netc/kxjRGQoeCsyjqIeg1GhsMnrq5vXFYThZJZpcXgHYv0evomdAgq93v/jL\nvTDySm8bpXVVP+C64viOpEy/IVx8vF8+GzpicPAnALryvGBcFv86L5XXA/MY\nWEx3SL2PMq8i5h/Axyer/uH2gwMOEi0Vp74KRyRFdQEZ0aPuvwQUJKCdVue2\nwPUM/AkZckopt1Z/RsWqoYzNApWwEI1NDzxTILAkK043UILHLzVW2csMqjnY\nGM82I7Bc88QYE1qZCfMr1Hk9xtIdQIEDoQqe1KaKovitcbaZUXCmMb57ey6c\nZsdPcCd/++76aXadTSiu0pKSWc+jO4jESMVhTshQ6lj9MvBFPQAC58AM/avV\ngj4P\r\n=gZBH\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIQD6BWfJiYip2/a4qZc8QOnlzYchpw5hDn/bB05+V3iwXgIgSQYULH4UQ9MugeyC4nbnjG1567xxJAbZS/2orqCybww="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_2.2.0-3_1571397574420_0.5750735992098679"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.3.0-1": {
+      "name": "@web-types/vue",
+      "version": "2.3.0-1",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@2.3.0-1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-1ktfRNoeyflQGLhm89qxgTrp/r+mC75HlbGX7e1YA7OysM75uxhNzuc+WzTJ8WThc0Dn37EoitDvVRX29M7l+w==",
+        "shasum": "242c7995c40004f2e93d91eab80c2c6ba4607086",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-2.3.0-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 23857,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdqZ/LCRA9TVsSAnZWagAARhQP/2y8pVeufY4O1OpWKHeL\naoM5FzuzN3h+uQO7fa3aQeSflPHvS0Bt8GeHQVLdSwt7hk6Tn2luJZWMaZVm\n08e9gmCFFrit1sOSoKe0wBwqc93Ipf+sA94e1GRXdyxtIRFXbRaED1Eyp1Z8\nm1NtZKNiy7ISBWjOSnNcVZTa1SRH6Cx6YMVVK6ekuctn548GHRDoCV/odX59\njxpI3SeWqQwf/RURBdXzMqNcgbngovN5t9BBCk7dG7N9XvcryFii4C4yXKVI\nbYxhRkSfyv8gTSen4wAO+5wKtaRAxYcDlbX9RqddkDBIq/Godsfloeg+MPHi\nOyZhayDxZe6JzsoE7EpBGJSAhMftlPI992DG7E2Qzn3BlO4oIxxMhgmm8IOR\nZg6D705fJfRCNT4OyW0Z9giSPxyoYc/Oelqo2m4Tj0EJfM4aJajsdG93VRh6\nY0r7Pc8AmF0IieMdS5PTRWRzInqu6m4MDeyRlfElQtO6Lc5VJbDveJ81HlY8\n5uZhOvw95L2ff0Fr+uoxDmSmhPTS3ru7Qm4mdCoJiC4QNqhbjcR4L9j/cfny\neebgEPnkhKYVMZ5rlZWkvEos3mo5JfZWc6KKBYCljnKrXKG7pgIZMAhbLfJU\nihvkPgZOITRoFG1hWBkpdDvO15qhefkcvBeI9eVxJnMbeyIG40yNtHMN8o2X\nD311\r\n=myQI\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEYCIQCitZjo7vb6z8Ame8rXgHSg8aTErIGz6gFt/O/Etp43+AIhAPW/zUcpu/ulY71s2GgLV4hmmGqmrbXENCQUJw4eHqjC"
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_2.3.0-1_1571397578475_0.29460776057874316"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.4.0-1": {
+      "name": "@web-types/vue",
+      "version": "2.4.0-1",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@2.4.0-1",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-lIV58KhbwrlSZ3Vv4vrJbZ6KrnmS3PZHPTkFzv2jx+HtwR/Z4TxzAKJB9tMGAlW6SmgwRMoUbCRPw4JHc1OLEQ==",
+        "shasum": "8591234eeb1e946cea5c0cd7b50e445f0d697e2c",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-2.4.0-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 23867,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdqZ/QCRA9TVsSAnZWagAA7aEQAIgcunKaS9X+eXFFBecZ\n49wIT3luhwntZApgxYwyYYeGiu9Qd5cFevV6RUq0b/EdIolZ4pnTdSeoFp6r\nUnMEC0KvSLHrr9vYe+IOUopzA3UNoqtR9MAILxUe8IJ0XvsLf8VVcdnF+EU1\n/cAI0goOHKAgT3UxQ3R08xzjB4iZAFUUfPgHs//sDvN/0XqJjk3ow4f8sLXZ\nDP3zWBtnaspta8EJIo1jrj6cQYF66uaW64P1ayBAc3Vc7wlCnC7uIp2XgOsV\nTsBlXK3x7mA5t0Sag6qmftCUjgxd2kNwIzDvj9Eq9miig/Zg8YF4GsMsnAdq\nAsRBEfznszXLLV8ptcml0XLI0i/QXEHUkcSqVHJpag+Z/EzLjH6UguTcd+Gu\nEhJC+5Kq9Y3LxLaZocgXupKbeEWBz/do4iFtc+329x5esNR69Wh38fUF1ZR2\nHlJq2PsXw5/htUNUOKh97HmL64UPlbF6vy7bQ11z8NYF47EMpFDB/Fe3ebmG\nb0W9VOnWO4TvtLBQo09iPdc/PEmQiv4vdJPB+HZtdzN+V1gio0oo6PgOgpTv\nkqmmo+sSqJiuRgi09el1BcyLPzc5sZddAvd7ctac3GNf+XucmsH+KnsBPgw2\n1JV5hGIajlLFXrbZNDjH6q9QJerMzW4Un/IHTDR2sG3IFbpCMWobSSF5Ee/H\nm7fr\r\n=SoJx\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIACeYzrb23orgw298L+Ti+8zIMHt7GR1eLXN2xkhYFzcAiEA/ETBU9DhenlWfJkaJsm0aAQAhtOD4AaYdD7n5gmEv0k="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_2.4.0-1_1571397584095_0.21388842340834202"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "2.5.0-3": {
+      "name": "@web-types/vue",
+      "version": "2.5.0-3",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@2.5.0-3",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.1",
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "dist": {
+        "integrity": "sha512-G8FFusrAOoX6TO7U183Wgd4vKo97KCsnjmq7Wq5Meq7SgW6AoVTWWao1LpNuhfResVI7loqz0OwTDgNRXwwP8Q==",
+        "shasum": "943fd893b88e9c89cd7aceb8577c662aa87f284e",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-2.5.0-3.tgz",
+        "fileCount": 3,
+        "unpackedSize": 24121,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdqZ/ZCRA9TVsSAnZWagAAh9AP/2LH8a56AvWpq3Gw23U/\nuBokYCqwvkrQaL0bL0DepqEDkfdh/ZdT962eHzFzGR81XVSfzFjklMUlTCcR\nzHYjbCAesLo8ApQVbVv5Vpy66t+bWrzbvzntuISQFdoytl14+xKySU+gfA5m\nPnUTW3dqRHk7jyNNzskiAsNxagG8KcAxr48SuJmAswU4dY+LHjL4K4dgQFKe\neuSpdXLg1yMuwmdiniYtqFJiWtVw5z0ntm9ojRHk7SEmuiv3SQuu2VcG2Qzp\nIw1h2uGfm7xo146DSBcHD8pWFrfSMm5SSbfqKnFjhmnsVHIE4vxu9NHy/suF\ns0rjMp4ksGr53DNcjlE1fWehrzwRki4v5U2PU+/0gGhPT2FFcYlRUyIMjXWt\nNMJb1fE/pDSDArejpoTDlNiiHViuYeIDeSNy1krRnocsWTLTT4ASZ1s/O07c\np+k+jRzAm+425tVgQ2fxC3MsEJcVPucJxrvdAddA0/rD9+k0O9ycR2LaAN0U\nYMdzyg6XqKNwbRaSr+9fog1Gd4HNvnvizWq52jJcHfgSxBIZ8T6mCT5tePEv\nDHhho+9RN70h44hYrWsnMyhEW6Tvh9oXHndBWQd81Wu9709A8Y+VKfoWh4Su\nDCM+cX9NY+Wa7GT4t84jY6PTppcGfPeqM03prrI5B2or9+9SFn6AvRZt5zbg\ncehO\r\n=Srlo\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIQC/b+SGNl7jindteZrkxfhjt2hZ3mwZYUzRCYdQz/0NkQIgcR/UPvvLcltvc0pHRYNU3YTFJOTfVAJf8kFtHbCr0q8="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_2.5.0-3_1571397592596_0.01356632160853799"
+      },
+      "_hasShrinkwrap": false,
+      "deprecated": "Improved version available",
+      "contributors": []
+    },
+    "1.0.0-5": {
+      "name": "@web-types/vue",
+      "version": "1.0.0-5",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@1.0.0-5",
+      "_nodeVersion": "12.14.1",
+      "_npmVersion": "6.13.4",
+      "dist": {
+        "integrity": "sha512-qp01YFsvAGdKZn5KYqJ3UXv4QWaMP95V638zDGP9Lkq5Q9Qn9TeuZpx0zqwikS8Av2fxX0eVOi3Poj2UjBcgyA==",
+        "shasum": "007bd707f66fbbd17d671dc57cf96ed1652d995e",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-1.0.0-5.tgz",
+        "fileCount": 3,
+        "unpackedSize": 11410,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe51KcCRA9TVsSAnZWagAAKwYP+wQmHx+QT5qLfbXP6o+3\nXp5EVR9m9lrGNMeLo8V8IRNWV1bg2twXldktC/Dv4Sl9yY5s5vtTy0eMKDC+\n587zQbJNBlMYlDR585VkSRfhyu04RaqihofB9ronFftt1FL+UFwZiUbeoysc\n+gURT0MnmMPARAJBj81wkMVEofkzACIt28Ao8fAc7O0nayRjfilMgjQXFQRl\nq1e07tKK6evPTo/S7d/FBb2SufI6aiiu9zAALHD4FkKGW4qg0R2pX8TuYrac\n4vL2k43al28ibVV1s5kQjg/5zezS+IgOkjg6ImAMVcMnGZ9/BBz578LWIqwa\niwF93Y6ssfFKfZNRq9WYTaCf29EEWkx+BkctAOEEeWHg+J/j2hKbILxY9B9L\nnzhdr+msF7B1hruXqoy3znwhGkws23weKsP9k0hI2MUm8DWcqVxDoodwPU0z\neHm2q+KWIEK2TtoyTrR5LyqY8piKrHiFakjoBVKicy0+41/4rxpa9mIMCkCs\nf0VOobFsphTFWinv7U4T9m6JM9/LYMLC1Wg6PmaKlnumov5kt8Da0H0/Gi3T\naq+m5DO49CtsFwJ7wVy7gE/z78KwfKtCm+jT7h5YlTreCVTr3h4ziS2ctG3H\nDZVfN5oO6Y0QfbQ/jc/9vOGJfQLGXNOskFRk3XGk4/83J2ObLJfR+cwm7AOh\nDv7K\r\n=fg9d\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIHl8pIrsbdPp30Dn9LGh2MLSb9lNSrNGtQX+MhOgFy3AAiEAr2QQZqQA3mLuneVRtyqjuykvvFdTgpbJxsxBk24ma1k="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_1.0.0-5_1592218268262_0.0706648963808274"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    },
+    "2.0.0-5": {
+      "name": "@web-types/vue",
+      "version": "2.0.0-5",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@2.0.0-5",
+      "_nodeVersion": "12.14.1",
+      "_npmVersion": "6.13.4",
+      "dist": {
+        "integrity": "sha512-ODIDNMVXJ1GaI7lev5Sjjd9DMV2q7/SwQKZEYy3LRVP4KRzAFY/1r+Hx2j1YddZaKtzijA3GySu0txIeN6lFqQ==",
+        "shasum": "7884e7d46640b3a5d20e9a5fdd4cdaf17eb59490",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-2.0.0-5.tgz",
+        "fileCount": 3,
+        "unpackedSize": 20187,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe51KiCRA9TVsSAnZWagAAaZAQAIKAAMl5Xp2tIDfOl78P\nzCDKCp/FCrFOBgkpi6RW/uzuZGwepjZSvaeECOWlQogdU4AqKPofvfJjhGk2\n75GRqeyU15NYMEnWThnAtwqZmRDWSFVYmlqlmphgVq4CkirpHw7+NsTlzXct\n/PHLrfTJVvme6YpkxNPuwLDfZy2CWmePDdTVKWoJoBtrBGjGGk7hsGIT1llS\nkMMQwGQ+Nor5Gh6Huu6rvO34RO5LIBCczKOzAM0ZBnObty4sVOA3Zju55JZk\nMj/YjtabdROwC8oN1SDYL1PXjOW1m0vPK1i2VJxLEuoYhezL3V0vxRjOR/qq\nNXCVK8Sqeq7S/vcpqq6nSwqlklrDbm7bTzjr6uE73FKhIfgItmWr/E5QFZmt\n+HjCFUNQqMYm/Ky61xEtSXvb/vteLmrDyhOg/7ohYv/J5yiAHQrvx8Nmhoi/\nmqgeZFMAMN0GYthRTclZtjXQH7RyQOkVdxo/9Jh0sReJ7KBLnDCv6ozKxBUj\n0GnTcNMOxXNKOeVp7OagjE/1ERtfok828kdl2WGvJTBtfuS/FyoL4QMEjZW2\nqbb094T+gujBaL+tys3pCJc1hN1zCHtWNTAfLKxmoxQq66FFdfvxdtiKDcR6\nTLzK1aI4Cc9eWsU++fg5vXCUs2cuNeVgFY5yBZSqgZp93Sr+Pdfj/yGOAQ7u\nc42K\r\n=bCjX\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIQCLVULy7jkCM7o2qaXBhyShNsqxzbYRwk58EuNlAdE5AQIgcY0Jui/2IxTOrrHQv//lwLRVqwoNv3JagHvbl0rd5hM="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_2.0.0-5_1592218273854_0.7844764512359428"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    },
+    "2.1.0-4": {
+      "name": "@web-types/vue",
+      "version": "2.1.0-4",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@2.1.0-4",
+      "_nodeVersion": "12.14.1",
+      "_npmVersion": "6.13.4",
+      "dist": {
+        "integrity": "sha512-nhr6x56T9WSE0uia8VY4u4/56PbBTrky6y8OniHwzr+5vlWBrQCQxi4I29VmOXtGmn+o2aQNzgc+is3EMz6NXg==",
+        "shasum": "c7526f0a222f7e9ebb3eec4a1016fdad2c4a06cf",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-2.1.0-4.tgz",
+        "fileCount": 3,
+        "unpackedSize": 21423,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe51KnCRA9TVsSAnZWagAA5pQP/3rYHwAdAG4Bi94QBxbd\nCW7d0e3dbgXZev6WJsqMgJ9bIYSL1gveorF5cEtJdJkAcwMcCohR7z5R3Hk4\nmCt2JcjdAAw3sfZ1M5b9FYQgNA7Qb6/n+k8gYVB/qWKtTJORjnMfwIYtXeno\nFxZTLH/RRVzEUZnw35Tuv9eAID/gPMtILjC+n2nEq3r6olO3mGj6AFPXVmJe\nSmL9pULfnYw/y2oQL0lOvh12/b/bBo5EvVewU4TWeGdp9t8kJGS6tOccdE3m\nwWg4JtgmS9M4yjL0QCUQteODEgSXLYWCegH0YVqKX/5qYv0BmKkBWZcQ94Nf\ndwpU8v03YAYuh2qMFUotbt/qbDQhm2hh9yc8qOrhyT2f+0vxScUCjCEIfCAK\niFg9/BO8lfZxl9der+7c2rYZxGra46cinGK2XV19RXUvF3ylyPk6is1q8MA2\nvq9CBlXaaJ2zTBM8T9KNF5SPeInBaf+I1dAJmgHD9iZsVAgZV3+HexwzRtIz\n8Q40dAIpeeMfPPW1IUPDsaqMymEYobCH7h74uP4upR6qJ1cJB+Pmq/1g9s8m\ngZVILJxFC3C94GTn1rJSmcUGwMviMaZ52jVFqYOViHDnXP7jrgdCWaRpve3G\nCIfOmyY6OvBkXO+2Vvt2xMdZjAxXkwi8zki/3cJWUDNy7yoEK14hnmbgPokA\nu7Pu\r\n=J2VF\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIQDaAFWLIJyweULbtthc+RhjtcMYUPYGDrK0nT233GxNigIgajFUolpl5z1hQJ2qnFhDZppDMxyoWAvdDl6L+jmNcH8="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_2.1.0-4_1592218279172_0.2737833968196317"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    },
+    "2.1.8-4": {
+      "name": "@web-types/vue",
+      "version": "2.1.8-4",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@2.1.8-4",
+      "_nodeVersion": "12.14.1",
+      "_npmVersion": "6.13.4",
+      "dist": {
+        "integrity": "sha512-clUDRYE/czND23b19me0TyeS9OIu+TnJL7LCOPz+8pY/C7+W/WweWhgIhhSFSbRHw6sBzNDrgsY7CQMwpamUag==",
+        "shasum": "b7df9c747df31c799bfd1921c9101297c0306f56",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-2.1.8-4.tgz",
+        "fileCount": 3,
+        "unpackedSize": 22499,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe51KrCRA9TVsSAnZWagAAFSIP/jN0CXREchD4jXA6k+/B\nqV7dg2Jr7mee3cXUv1A1tDEvKpK4+3I1dC5vWOGFOJdC6+bKvvHqAgmIkL4S\nnQcTmWv4BZIX2yGNamQeFTW148qfJdvCc1OOFjVsK4KX3j47lcTP3oAzP8l6\nZpYuYLR1/jZmaYIFWtGk57isDgGveJl4bj9EXbX63bFptUQbexpdyDwWFtWG\nigZYxYLGHnZMs8VGaFDSDJv2BPg5kNAS1zhJvCiLN1MPNzuAlCcIeziQjd2G\noh7XAEv65X/cpODwYMaUh4NEReUMfky9D1F6XGQTP8J0C04hJ9IGPtfd0y5b\n2cgLmBbfDMXKiJaGlbwFF7pI1xbJ6IOvUHeZAftsRN0KNVpLpcMQCfLlL5/W\n0JMLvpnmHcH82XlacWARgkNzqgtvsCa+eSrOHOT64eUlvhtEAoSNoTUHPJKi\npR4mesvdn+CufcvxytgJ/R/XO1zZS7r5+RRuGXcNTG4ilOhsv8RmHZj/7oaN\nW4YGS2a5T+uTY29/zMtCIT5CgMbu6BQ9N+Y7Nr+6+HoKAdaBbG4c6thbfHcU\njS5y0+Hi/DNfG7PksKWLxKS4bxCoPQEVzKSy6SxlDx4hq4jL3mqS4AazGj1R\np107x3UHIF6SoMP0TM5LGLdff0EVf+TJisPjm87Pf2AQbv6uPUfX5SZYTLzX\nDl/A\r\n=nLR3\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCID36YQabfA5JPV+pcV8msET9wlY+kT5BWuKvh7bCLCISAiEAhqkFnfAlncoWi83rw0gF6BQMPk7qLQZ/ZwGr8yfRS+I="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_2.1.8-4_1592218283625_0.23330407014834642"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    },
+    "2.2.0-4": {
+      "name": "@web-types/vue",
+      "version": "2.2.0-4",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@2.2.0-4",
+      "_nodeVersion": "12.14.1",
+      "_npmVersion": "6.13.4",
+      "dist": {
+        "integrity": "sha512-SYNctdwXojIMVvWEs9yGDzEy+Ll+gBso9tLmMlrAeAeIWRPY5lBCJPlFge5KNHwB45+2m6TFhNEoIwr6pXybeA==",
+        "shasum": "845494547600e0ec676d40740a7e897b0396531c",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-2.2.0-4.tgz",
+        "fileCount": 3,
+        "unpackedSize": 23818,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe51KyCRA9TVsSAnZWagAASjAP/jAB0AZNDoGMsHZH828c\n+76dlE2porandEj3MoJSt8R04WUfXolAizm33DivCHM7ExdOfKR6xsTHquXr\n7fm8qh7ed/a0tMpfnvisw+D3vF27ijxf2Iz3YVg7oy5llHUuLhJZIadlD3Mp\nK+6m5Fmrc6wJL+mr2b35cTzt0IX6IcOetd8rQG6Wc0T/Ap/EXqhZQZDxVuTt\nRILm/YLtCp4/vbR8d683fFQ2U8CfJ7Zz7kHJ/rORw38sfhfZOxa5u3fujR3D\noyd59dFfWW2dhTay8uQRd929APqQr13wrACZRRpZ6TcPCov+g4XIJl8O9T67\njeyggoeVSVWtlqDSONb3LBIzIyTIN/mlpdvuI/UM4wuvn2xBpck6ENOYMmjX\nFbGTMSIBuOmcLz4Qtaq3DhP4eE0ygr4+vLOxw1P4JzVd8yPGWHAQo6cwIxdR\nSMn2K5gS6TgMcdNbRrM9BDm77bahQZ0ClDIYxjSeZojYJ1cNoGWOaSCKlTbX\nO38F9r3TctlZ3tEKv1Dx5lN6/LPIX6ahh/7RmUPVNsseCYA7awMgHAn9Ncx6\nioYgO4QTISICh4aEVXOwyRjlHgcO4A6xVYLIlXvC24px4IWqspvC8coMJivN\nW3EcUmCYevpViCR9Js3fDlMeFzH90tQWgOeaPC9jArnGEMFh3awgqN3UT8D0\nnijD\r\n=xAcH\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCIHWlsGgkDJlvCF26MwmV6vAnlQHVU/XVoSEcUXbmwifVAiBYjtuA7uWXlH0rOQkaojznp/jItb08r0jX0WQu1Cz9zg=="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_2.2.0-4_1592218289753_0.9397509769096006"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    },
+    "2.3.0-2": {
+      "name": "@web-types/vue",
+      "version": "2.3.0-2",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@2.3.0-2",
+      "_nodeVersion": "12.14.1",
+      "_npmVersion": "6.13.4",
+      "dist": {
+        "integrity": "sha512-1flalHmzb9Ofor0PNdXlaFOLEtCVxWXLwSrBKBWDcwynPXlvpNZ0Rh2UdtMoaFSgj6XvEb90nOauMwAj4Pg+3Q==",
+        "shasum": "c28b6cc1902249d2af7413c1d8a9ef4bc7242e9b",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-2.3.0-2.tgz",
+        "fileCount": 3,
+        "unpackedSize": 24127,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe51K5CRA9TVsSAnZWagAA1eIP/1PnVOeQOBD1dr1K7Jrj\nPUt+BKCwF2kcySwo2F27yJTqEmAfKPu9kR82rWY1+vNHCiZiXTPyi9U0Wdet\nZPHKWih+a2JoMvrwx/uBTjGYwyyVt9fLorra8ZPZo8o4AqY6K9KCW0XRo9xC\n1u9GNYx4AiqxwDwxBgZTkt2Vgwlo0V8Edym/ymtDdcy5LgLg2MUf1hAqHWKP\nyB7Q187GVpwfJX1NcwMw40kxzjcSvk1CGllDHapEDPwcFhc1OAAisLM0RAoS\naoPEkvWAX3XDWzQvavhqj6uPxE6IbIGFiuafu/RRkxNpnvz0SLhRJRedQ8aS\ngHOU1A0ESUwI4ZRuSgBLXEKx8FL8jJriG33wQSId4cNQFi9GjajwKSjNVwCW\nv5zAJ6cQ+Iih4cj/yTg6ziaeBBhE3qGPLgrg79F9ABudJ3ViNvNZNKcBuRQe\nbpvXsUQKmliAQTCA5swAKl+viRJyhB/HdmuoQlwJCYZ5WlPsiku53SMg6Axi\nGYKEtfmyx9W/n30JZOM8qgybMOyxKMO1sSOsdPBL1O0CWLRdGD841InIgZVV\nBvZRDQ1O6QRTtQ+i7iQOuSGx62+U9fP5Box4IZqPduS8Hlfn7V5qnFWjc9bP\nPFaR9cUylMnNbPRDvxXcz6C9lZASzjZJhzxQGV2k5GA0p5b7MZ/nUIPlCZVC\nhhGR\r\n=b+Dr\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCICLJs+kghqo7ozxe1otdYqoi4mJPCEkJb5vZLEFOxn4VAiEAxn2rKA/a9GCufH4oQoqNukBghNkkqeJHGJXSmFskOHk="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_2.3.0-2_1592218297276_0.9232532777868001"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    },
+    "2.4.0-2": {
+      "name": "@web-types/vue",
+      "version": "2.4.0-2",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@2.4.0-2",
+      "_nodeVersion": "12.14.1",
+      "_npmVersion": "6.13.4",
+      "dist": {
+        "integrity": "sha512-D97fsG9d7tgBsOTvTJP53y1iYSIAq5//5LAJ+0dyIrYwNb63A8Si3tyBktR6qxe1Xwm6tCpj70M0Vd7GHJAAJA==",
+        "shasum": "bd5dbcaead69dea7f9935b89a6fe57ed2ccd7f52",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-2.4.0-2.tgz",
+        "fileCount": 3,
+        "unpackedSize": 24137,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe51LFCRA9TVsSAnZWagAAwjQP/2fHH61FClZGOOS1W8QC\nbUAOw1D3zEUUCs6qF7ocXoCrgm1ZRTBkhWzVUaJnMFSYWCaKbPQebC1ULDIL\npmgWAmsi8VrJjOYdgSoYySvKonULKq0vkdy8zmsKylM1HSQ9JZY9CE6AMeB1\nlllA+c1OPNaFgYG6Kv0nY7du0kRE3zK/rpRji12KTKdQlCh7zu96Oj0iEN82\nwIsrTcE2XJRDll2ZeMUtlp0Wgu0LmjQAryKp3HqrFhxzYpgaRj3w0yWAPGAA\nNo3S+rDC6+eQyCgeexbl1EcCu8/H/iwboOHraASySa/u4QN+qheSULhZGnUO\n5EGBV9m5mIUtGqf3bQVCAX5yd4LxvWPsBvZxF0OcEBkGPIHOmtYw94kdHPBv\nCSlkWYbdFk/H2OUvdM8GGJmUfpMxDi14+WSVCGy6Q+LYk25Z7MiAjxhi661j\n1RhsWd5gWzInkVFiDbAlxm71x6gIq8Pek2hl319Q9YszrK7K6CQVMvRmmwJm\nCueyQl6LSp7xt7PWaW6MdvepraDyiiNuRGhkUby8f/WayWtUKc/OZgdIztGX\n1pQ2irSmvyhPIQy8rcVlf6disFF0jFaWpNTzM4JZKyzSbmSbxCnEz/2UiztU\ntS//3aRAQZqCTXDY06xY/BX0N1xyrZ2kyH0B80OrOSDgib3a3Eh+jEBkuG+I\nxEaf\r\n=ev3G\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIQDu2H/Zk03u/Yc7PTOOMtgy640FkYkKWi12x741Jn+TvwIgIezXwnTyVS3Jq9mtcVEf++PKwUzmMN+9wxYMaUjf6WE="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_2.4.0-2_1592218309413_0.876029546638984"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    },
+    "2.5.0-4": {
+      "name": "@web-types/vue",
+      "version": "2.5.0-4",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@2.5.0-4",
+      "_nodeVersion": "12.14.1",
+      "_npmVersion": "6.13.4",
+      "dist": {
+        "integrity": "sha512-3fDXAZiweiqNiNx5mGQt5RwAoQD+ac6TtoFtbONX0cV3DQK+ur2xCPt18dSAt1UKYyG+2aMmklMJ/YsCzwMepg==",
+        "shasum": "4156d88c855b150c9df5e8c90316a06ad652d534",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-2.5.0-4.tgz",
+        "fileCount": 3,
+        "unpackedSize": 24391,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe51LLCRA9TVsSAnZWagAAcWIP/itWTGt8CL/6k5vKgHQI\nz5e9UW2tcGAMWrGjAahD4QGbbJ4R+UitfQzMKF8zYwwXTrxEXaI9yi/Yv2da\nQ9WxI3uEQM4QbguWpAOuh9jlTEoLzh/54oqsnUnx+0mCdhaI0d62Zvb9R68n\nyVreZzVeNLfeDMIb5flJnqzYjaJJGVd//v0D4Rk6Zf/nn0KoQ2sZ/nMQq0yX\nb0npKODGZAIMQmdgXhuh/w+7b0rsd7F/pAMUv9EahRhd6gNaAGOQKSZSCrp5\nIeNNL8X0Igv+63d49b9ybA0iU4lbFB+fqrAn156zU30OHWm8m+yhmRRQrQL8\n7KyPO041B0Mgq/TtAQuQxoNOEhnR49gURWOrDcJGiyu+6eEmB/JGq6pUXI6S\n2PV4wxHPJBc29jZhRLdZbcKi8lTGAyn70xdYkIv1wi420x9EfZ1+xkEWFzmJ\nshmmSPY061IlEs3Z6BwkEBGwJ0O1TlUbcE2INOYGFFvWMN+zG6/idJlAqqAl\nWA5m+S48YYztBKhbyCxk/f5jVi1B6r+RZ/6/64kkYukVOowwoeViCqKh/PQ0\nL6kSr/UHnJvaBtX3D+1IS3m1gQ2mgSmvzQK8T1P/Tofi/VP0IGbYpMKB9wGP\nhD53Oa7AtmOyqr0Uq5Yvaor3T/7RH4N20JLhE2WgT7OH0XY8cvr/E/951gPi\nmiCN\r\n=04Uu\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEUCIElwiMBV5M2UfqDIh3m9n6qlDCmjn9bY8qWpsi2YryCGAiEAnjI1rnVK1ojU9CHPm6eK8EFgJEY4r6eZ/rd1nJxX8Is="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_2.5.0-4_1592218314705_0.5128829844831477"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    },
+    "3.0.0-1": {
+      "name": "@web-types/vue",
+      "version": "3.0.0-1",
+      "description": "Web-types for vue",
+      "keywords": [
+        "web-types",
+        "vue"
+      ],
+      "author": {
+        "name": "JetBrains"
+      },
+      "license": "Apache-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JetBrains/web-types.git"
+      },
+      "web-types": "vue.web-types.json",
+      "bugs": {
+        "url": "https://github.com/JetBrains/web-types/issues"
+      },
+      "homepage": "https://github.com/JetBrains/web-types#readme",
+      "_id": "@web-types/vue@3.0.0-1",
+      "_nodeVersion": "12.14.1",
+      "_npmVersion": "6.13.4",
+      "dist": {
+        "integrity": "sha512-kT3k7BqgFr6CySF0s8kSvUzX9pq1+iy5bjJ4Gg/IhXfZsly5PudR3bLsiG0MydAXPyg/6aEDJ2Ag6AKvQf0sxw==",
+        "shasum": "77ab8b428201426c919bc195a476aae6024bdc1d",
+        "tarball": "https://mirrors.cloud.tencent.com/npm/@web-types/vue/-/vue-3.0.0-1.tgz",
+        "fileCount": 3,
+        "unpackedSize": 26414,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfmW9YCRA9TVsSAnZWagAAVxYQAKReLFWqD0WLGylqHJA9\nXmQ66yxWBs/ECfrTR4gp7W+ovjlh/9NH3zCuppC0fCigVzhfUZnVKDK3XlS/\nXCF3MlD2PEb1r5XZQOYpm9e+MngJB6x7r5Arq9kLUUeoehVNE/pujvrpSj7Y\noSMhQscNy7vdjJR5clH2xIXoyrDbhU788V8zecaCFkIvnMHemwPSLmTNOVmi\nHTbhB6PnwDdrmmZPqBCVh/pZVJyyWRzdAzc5WzQAvR3H5PFeZxgReoLp1n7d\nBxnFrePa2N+u9E6FHoTwAQIf6ZiWnGhPTOFtU2b/oT7XNHARPmBaHCWMqZQL\nxqWhm3nGNeOXS3m4bmZ1vzH1qIr/W4H9wXsqV3XHE5szDg34iiImQ3fNR0Oy\n8p62LPWp3Zo4MHyVHp/syPYlH3e/rOsxa5PcC6DwGivHwBraYTlj0XlISI3v\nzW+cP0tVUPWjdBBFAc9jRGnkp+ugk+hk0yEEvDkkJg6dfJYV+HeRyiRdxOMU\nFdglwnsLM25+IIMo2dP0s8sOIrpQUIp/Fosr9+9Itx3868K/e2FOwvYO342a\nbc3HZpmQ3yTMvY5TxcQQLWXLjFOBw4lJLHPgZteZcrMVErBADngP5680P0cJ\nvlQN+XO2yPWCWCGaJ+IjCg8IxWtpYGkcfgrZDR+HXc120+odHz/vZCrUlX6d\nJVDV\r\n=+MF+\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+          {
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+            "sig": "MEQCIBhH2Jcss06Gm8E/gLBSsyxrdoxpAz81iWLi3TjP5BHUAiBpLj0vOE8rziLBHm/AeacmJ5EeUAFfwGH7ZxiTQU00Ew=="
+          }
+        ]
+      },
+      "maintainers": [
+        {
+          "name": "piotr.tomiak",
+          "email": "piotr.tomiak@jetbrains.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "piotr.tomiak",
+        "email": "piotr.tomiak@jetbrains.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/vue_3.0.0-1_1603891031553_0.1483461320192918"
+      },
+      "_hasShrinkwrap": false,
+      "contributors": []
+    }
+  },
+  "time": {
+    "created": "2019-07-08T12:15:50.121Z",
+    "1.0.0-1": "2019-07-08T12:15:50.453Z",
+    "modified": "2022-04-07T12:10:47.450Z",
+    "2.0.0-1": "2019-07-08T12:15:54.647Z",
+    "2.1.0-1": "2019-07-08T12:15:58.593Z",
+    "2.1.8-1": "2019-07-08T12:16:04.420Z",
+    "2.2.0-1": "2019-07-08T12:16:12.798Z",
+    "2.5.0-1": "2019-07-08T12:16:17.879Z",
+    "1.0.0-2": "2019-09-27T09:24:17.532Z",
+    "2.0.0-2": "2019-09-27T09:24:22.738Z",
+    "1.0.0-3": "2019-09-27T09:27:41.024Z",
+    "2.0.0-3": "2019-09-27T09:27:46.314Z",
+    "2.1.0-2": "2019-09-27T09:27:54.644Z",
+    "2.1.8-2": "2019-09-27T09:27:59.776Z",
+    "2.2.0-2": "2019-09-27T09:28:05.638Z",
+    "2.5.0-2": "2019-09-27T09:28:12.165Z",
+    "1.0.0-4": "2019-10-18T11:19:09.737Z",
+    "2.0.0-4": "2019-10-18T11:19:15.640Z",
+    "2.1.0-3": "2019-10-18T11:19:22.339Z",
+    "2.1.8-3": "2019-10-18T11:19:27.994Z",
+    "2.2.0-3": "2019-10-18T11:19:34.579Z",
+    "2.3.0-1": "2019-10-18T11:19:38.636Z",
+    "2.4.0-1": "2019-10-18T11:19:44.224Z",
+    "2.5.0-3": "2019-10-18T11:19:52.941Z",
+    "1.0.0-5": "2020-06-15T10:51:08.399Z",
+    "2.0.0-5": "2020-06-15T10:51:13.960Z",
+    "2.1.0-4": "2020-06-15T10:51:19.379Z",
+    "2.1.8-4": "2020-06-15T10:51:23.730Z",
+    "2.2.0-4": "2020-06-15T10:51:29.860Z",
+    "2.3.0-2": "2020-06-15T10:51:37.435Z",
+    "2.4.0-2": "2020-06-15T10:51:49.510Z",
+    "2.5.0-4": "2020-06-15T10:51:54.844Z",
+    "3.0.0-1": "2020-10-28T13:17:11.724Z"
+  },
+  "users": {},
+  "dist-tags": {
+    "latest": "3.0.0-1"
+  },
+  "_rev": "1105-86ecc749f1a8ae97",
+  "_id": "@web-types/vue",
+  "readme": "README.MD",
+  "_attachments": {}
+}
